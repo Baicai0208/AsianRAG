@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "q_001",
+    "query": "What specific events led to a decade-long depression in the Hong Kong culinary scene after 1997?",
+    "gold_answer": "The Asian financial crisis and SARS epidemic.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_8"
+  },
+  {
+    "query_id": "q_002",
+    "query": "According to the JRO, how many Japanese restaurants were there in Thailand as of June 2012?",
+    "gold_answer": "1,676.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_46"
+  },
+  {
+    "query_id": "q_003",
+    "query": "What health risk has been associated with frequent or high consumption of kimchi in some studies?",
+    "gold_answer": "An increased risk of gastric cancer.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_48"
+  },
+  {
+    "query_id": "q_004",
+    "query": "What saying in 1970s Hong Kong manifested the nouveau riche mentality resulting from stock market investments?",
+    "gold_answer": "\"mixing shark fin soup with rice\" (魚翅撈飯).",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_6"
+  },
+  {
+    "query_id": "q_005",
+    "query": "Why did the general population in Asuka period Japan use their hands instead of chopsticks to eat?",
+    "gold_answer": "Because utensils were quite expensive.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_2"
+  },
+  {
+    "query_id": "q_006",
+    "query": "Which type of rice introduced by the Japanese changed farming and eating patterns in Taiwan?",
+    "gold_answer": "Short-grained japonica rice.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Taiwanese_cuisine_chunk_3"
+  },
+  {
+    "query_id": "q_007",
+    "query": "Which ruling class in the Goryeo period forbade the consumption of beef in Korea?",
+    "gold_answer": "The Buddhist ruling class.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_15"
+  },
+  {
+    "query_id": "q_008",
+    "query": "In Korean culture, what are the four big family celebrations where food plays an integral part?",
+    "gold_answer": "Coming-of-age, wedding, funeral, and ancestral rite.",
+    "source_chunk_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_1"
+  },
+  {
+    "query_id": "q_009",
+    "query": "What is the predominant source of food for the Yamis and Thao indigenous tribes in Taiwan?",
+    "gold_answer": "Fish.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Taiwanese_cuisine_chunk_13"
+  },
+  {
+    "query_id": "q_010",
+    "query": "What do the Chinese words 'la' and 'mian' literally mean in the context of the noodle dish Lamian?",
+    "gold_answer": "'la' means to pull or stretch, and 'mian' means noodle.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chinese_Islamic_cuisine_chunk_5"
+  },
+  {
+    "query_id": "q_011",
+    "query": "During which dynasty's court was Korean royal court cuisine traditionally consumed?",
+    "gold_answer": "The Joseon Dynasty.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Korean_royal_court_cuisine_chunk_0"
+  },
+  {
+    "query_id": "q_012",
+    "query": "When did seafood start to become specialized delicacies in Hong Kong?",
+    "gold_answer": "In the 1960s.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_5"
+  },
+  {
+    "query_id": "q_013",
+    "query": "What traditional noodle dish from Beijing is described as having a \"strong feel of homely comfort food\"?",
+    "gold_answer": "Zhajiangmian.",
+    "source_chunk_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/65-northern-china/_chunk_12"
+  },
+  {
+    "query_id": "q_014",
+    "query": "Who introduced shark's fin soup and edible bird's nest to China in the early Ming dynasty?",
+    "gold_answer": "The explorer Zheng He.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chinese_imperial_cuisine_chunk_3"
+  },
+  {
+    "query_id": "q_015",
+    "query": "When was the Chinese practice of rice cultivation introduced to Southeast Asia and Nepal?",
+    "gold_answer": "In the thirtieth century BC.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Indian_Chinese_cuisine_chunk_6"
+  },
+  {
+    "query_id": "q_016",
+    "query": "Which Mongol emperor banned Muslims and Jews from slaughtering animals using their own methods?",
+    "gold_answer": "Genghis Khan.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chinese_Islamic_cuisine_chunk_1"
+  },
+  {
+    "query_id": "q_017",
+    "query": "What perception do some pundits have regarding contemporary Hong Kong's culinary culture?",
+    "gold_answer": "It is in decline and resting on past laurels.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_9"
+  },
+  {
+    "query_id": "q_018",
+    "query": "Why are noodles more commonly consumed in Northern China according to the \"rice theory\"?",
+    "gold_answer": "Because wheat is widely grown in the north.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_9"
+  },
+  {
+    "query_id": "q_019",
+    "query": "What is the Japanese term used to describe the emphasis on the seasonality of food?",
+    "gold_answer": "Shun (旬).",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_11"
+  },
+  {
+    "query_id": "q_020",
+    "query": "Who were the sura sanggung in the Korean royal court and what was their role regarding the king's food?",
+    "gold_answer": "Three palace servant women who ensured dishes were not poisoned before offering them to the king and queen.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_45"
+  },
+  {
+    "query_id": "q_021",
+    "query": "Which Chinese cooking implements were introduced to Southeast Asia and are now embedded in their culinary practices?",
+    "gold_answer": "Spoons, chopsticks, and woks.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Indo-Chinese_cuisine_chunk_6"
+  },
+  {
+    "query_id": "q_022",
+    "query": "In the Joseon period, which board was responsible for attaining rice for the royal family?",
+    "gold_answer": "The Board of Personnel (Ijo).",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_42"
+  },
+  {
+    "query_id": "q_023",
+    "query": "In which city in Northern England did salt and pepper chips originate?",
+    "gold_answer": "Liverpool.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/British_Chinese_cuisine_chunk_3"
+  },
+  {
+    "query_id": "q_024",
+    "query": "What does the Korean term 'naengmyeon' literally mean?",
+    "gold_answer": "Cold noodles.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_3"
+  },
+  {
+    "query_id": "q_025",
+    "query": "What major food crop was introduced to China during the Yuan dynasty through contacts with the West?",
+    "gold_answer": "Sorghum.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_Chinese_cuisine_chunk_18"
+  },
+  {
+    "query_id": "q_026",
+    "query": "What are the most significant ingredients for which Tan family's cuisine is famous?",
+    "gold_answer": "Shark fin, abalone, and sea cucumbers.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chinese_aristocrat_cuisine_chunk_7"
+  },
+  {
+    "query_id": "q_027",
+    "query": "Approximately how much kimchi is consumed annually in modern South Korea?",
+    "gold_answer": "Over 2 million tonnes.",
+    "source_chunk_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_4"
+  },
+  {
+    "query_id": "q_028",
+    "query": "When did air-conditioned supermarkets become standardized in Hong Kong?",
+    "gold_answer": "In the 1980s.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_11"
+  },
+  {
+    "query_id": "q_029",
+    "query": "Where are the most concentrated locations of Chinese restaurants identified in Australia?",
+    "gold_answer": "Chinatowns.",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Australian_Chinese_cuisine_chunk_6"
+  },
+  {
+    "query_id": "q_030",
+    "query": "Which ingredient is mentioned as providing a \"numbing\" sensation in the mouth when eating spicy food?",
+    "gold_answer": "Sichuan pepper.",
+    "source_chunk_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/32-southern-china/_chunk_8"
+  }
+]

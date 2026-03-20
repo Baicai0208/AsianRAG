@@ -1,0 +1,173 @@
+"""
+eval.py — RAG 评估脚本
+
+指标：
+  检索端
+    - Hit Rate @ K : 正确 chunk 是否出现在 Top-K 结果中
+    - MRR          : Mean Reciprocal Rank，命中排名越靠前分越高
+
+  生成端
+    - ROUGE-1/2/L  : n-gram 字面重合度
+    - BLEU         : n-gram 精确率（机器翻译常用）
+    - BERTScore    : 语义相似度，对措辞不同但意思相近的答案更公平
+"""
+
+import json
+import numpy as np
+from tqdm import tqdm
+from rouge_score import rouge_scorer
+from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
+from bert_score import score as bert_score
+
+
+class RAGEvaluator:
+    def __init__(self):
+        self.rouge_scorer = rouge_scorer.RougeScorer(
+            ["rouge1", "rouge2", "rougeL"], use_stemmer=True
+        )
+        self.bleu_smoother = SmoothingFunction().method1
+
+    def _bleu(self, gold, generated):
+        ref   = gold.lower().split()
+        hyp   = generated.lower().split()
+        return sentence_bleu([ref], hyp, smoothing_function=self.bleu_smoother)
+
+    def _mrr(self, retrieved_ids, target_id):
+        for rank, doc_id in enumerate(retrieved_ids, start=1):
+            if doc_id == target_id:
+                return 1.0 / rank
+        return 0.0
+
+    def evaluate(self, inference_output_path, benchmark_path):
+        # ---------- 加载数据 ----------
+        with open(inference_output_path, "r", encoding="utf-8") as f:
+            inference_data = json.load(f)
+        inference_map = {item["query_id"]: item for item in inference_data["results"]}
+
+        with open(benchmark_path, "r", encoding="utf-8") as f:
+            benchmark_data = json.load(f)
+
+        hits         = 0
+        mrr_scores   = []
+        rouge1_scores = []
+        rouge2_scores = []
+        rougeL_scores = []
+        bleu_scores  = []
+        results      = []
+        missing      = 0
+
+        generated_list = []
+        gold_list      = []
+
+        print(f"Starting evaluation on {len(benchmark_data)} samples...")
+
+        for item in tqdm(benchmark_data):
+            query_id        = item["query_id"]
+            gold_answer     = item["gold_answer"]
+            target_chunk_id = item["source_chunk_id"]
+
+            inferred = inference_map.get(query_id)
+            if inferred is None:
+                print(f"[Warning] query_id '{query_id}' not found, skipping.")
+                missing += 1
+                continue
+
+            retrieved_ids = [ctx["doc_id"] for ctx in inferred["retrieved_context"]]
+            generated_answer = inferred["response"]
+
+            # ---- 检索指标 ----
+            is_hit = 1 if target_chunk_id in retrieved_ids else 0
+            hits += is_hit
+            mrr_scores.append(self._mrr(retrieved_ids, target_chunk_id))
+
+            # ---- 生成指标（字面） ----
+            rouge = self.rouge_scorer.score(gold_answer, generated_answer)
+            rouge1_scores.append(rouge["rouge1"].fmeasure)
+            rouge2_scores.append(rouge["rouge2"].fmeasure)
+            rougeL_scores.append(rouge["rougeL"].fmeasure)
+            bleu_scores.append(self._bleu(gold_answer, generated_answer))
+
+            # 收集用于 BERTScore 的批量计算
+            generated_list.append(generated_answer)
+            gold_list.append(gold_answer)
+
+            results.append({
+                "query_id":  query_id,
+                "hit":       is_hit,
+                "mrr":       mrr_scores[-1],
+                "rouge1":    rouge["rouge1"].fmeasure,
+                "rouge2":    rouge["rouge2"].fmeasure,
+                "rougeL":    rouge["rougeL"].fmeasure,
+                "bleu":      bleu_scores[-1],
+                "generated": generated_answer,
+                "gold":      gold_answer,
+            })
+
+        # ---- BERTScore（批量计算，比逐条快） ----
+        print("\nCalculating BERTScore (this may take a moment)...")
+        P, R, F1 = bert_score(
+            generated_list, gold_list,
+            lang="en",
+            verbose=False,
+        )
+        bert_f1_scores = F1.tolist()
+        for i, r in enumerate(results):
+            r["bertscore"] = bert_f1_scores[i]
+
+        evaluated = len(benchmark_data) - missing
+        return {
+            # 检索
+            "avg_hit_rate": hits / evaluated if evaluated > 0 else 0.0,
+            "avg_mrr":      float(np.mean(mrr_scores)),
+            # 生成
+            "avg_rouge1":   float(np.mean(rouge1_scores)),
+            "avg_rouge2":   float(np.mean(rouge2_scores)),
+            "avg_rougeL":   float(np.mean(rougeL_scores)),
+            "avg_bleu":     float(np.mean(bleu_scores)),
+            "avg_bertscore":float(np.mean(bert_f1_scores)),
+            # 元信息
+            "evaluated_samples": evaluated,
+            "missing_samples":   missing,
+            "detailed_results":  results,
+        }
+
+
+if __name__ == "__main__":
+    evaluator = RAGEvaluator()
+
+    report = evaluator.evaluate(
+        inference_output_path="../outputs/benchmark_output.json",
+        benchmark_path="../data/benchmark/rag_benchmark_dataset.json",
+    )
+
+    top_k = len(report["detailed_results"][0]["generated"]) and 10  # 显示用
+
+    print("\n" + "=" * 35)
+    print("Final Evaluation Report")
+    print("-" * 35)
+    print(f"Evaluated Samples : {report['evaluated_samples']}")
+    print(f"Missing  Samples  : {report['missing_samples']}")
+    print()
+    print("[ Retrieval ]")
+    print(f"  Hit Rate @ 10   : {report['avg_hit_rate']:.4%}")
+    print(f"  MRR             : {report['avg_mrr']:.4f}")
+    print()
+    print("[ Generation ]")
+    print(f"  ROUGE-1         : {report['avg_rouge1']:.4f}")
+    print(f"  ROUGE-2         : {report['avg_rouge2']:.4f}")
+    print(f"  ROUGE-L         : {report['avg_rougeL']:.4f}")
+    print(f"  BLEU            : {report['avg_bleu']:.4f}")
+    print(f"  BERTScore F1    : {report['avg_bertscore']:.4f}")
+    print("=" * 35)
+
+    # 打印未命中的条目
+    missed = [r for r in report["detailed_results"] if r["hit"] == 0]
+    if missed:
+        print(f"\nMissed {len(missed)} samples:")
+        print("-" * 35)
+        for r in missed:
+            print(f"Query ID   : {r['query_id']}")
+            print(f"ROUGE-L    : {r['rougeL']:.4f}  BERTScore: {r['bertscore']:.4f}")
+            print(f"Generated  : {r['generated']}")
+            print(f"Gold       : {r['gold']}")
+            print("-" * 35)

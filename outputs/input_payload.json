@@ -1,0 +1,12 @@
+{
+  "queries": [
+    {
+      "query_id": "test_001",
+      "query": "What are the main flavor characteristics of Sichuan cuisine?"
+    },
+    {
+      "query_id": "test_002",
+      "query": "What is the difference between sushi and sashimi in Japanese cuisine?"
+    }
+  ]
+}
