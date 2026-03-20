@@ -9,9 +9,9 @@ class RAGInferencePipeline:
         self,
         index_path,
         metadata_path,
-        embed_model_name="all-MiniLM-L6-v2",
+        embed_model_name="BAAI/bge-small-en-v1.5",
         llm_model_id="Qwen/Qwen2.5-0.5B-Instruct",
-        top_k=10,
+        top_k=5,
     ):
         # 检索模块
         self.retriever = Retriever(index_path, metadata_path, model_name=embed_model_name)
@@ -94,7 +94,7 @@ class RAGInferencePipeline:
 if __name__ == "__main__":
     pipeline = RAGInferencePipeline(
         "../data/vector_store_word_fixed/vector_store.index",
-        "../data/vector_store_word_fixed//chunk_metadata.json",
+        "../data/vector_store_word_fixed/chunk_metadata.json",
     )
 
     # 评测模式
