@@ -1,4 +1,5 @@
 import gc
+import re
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -32,7 +33,8 @@ class Generator:
             "You are an expert culinary assistant specialized in East Asian cuisine.\n"
             "Answer the question based ONLY on the provided context. "
             "If the answer is not in the context, say 'I do not know'.\n"
-            "Give a concise answer in one short sentence. Do not explain or list.\n\n"
+            "Give a concise answer in one short sentence. Do not explain or list.\n"
+            "Always respond in English only. Do not use any Chinese, Korean, Japanese, or other non-English characters.\n\n"
             f"Context:\n{context}\n\n"
             f"Question: {query}"
         )
@@ -60,6 +62,9 @@ class Generator:
             for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
         ]
         result = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+        # 后处理：强制清除非 ASCII 字符（中文、韩文、日文等）
+        result = re.sub(r'[^\x00-\x7F]+', '', result).strip()
 
         # 每次生成后释放显存碎片，防止批量推理时显存持续累积
         if self.device == "cuda":
