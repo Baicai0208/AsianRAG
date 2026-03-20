@@ -15,10 +15,25 @@ def get_soup(url):
         return None
 
 def clean_text(soup):
-    if not soup: return ""
+    """
+    修复：原版用 ' '.join(...) 把所有段落压成一行，
+    导致 sentence/paragraph chunking 策略无法工作。
+    现在改为用 '\n\n' 连接段落，保留段落边界。
+    同时过滤掉太短的段落（噪声），避免引入无意义碎片。
+    """
+    if not soup:
+        return ""
     for tag in soup(['script', 'style', 'nav', 'footer', 'header', 'aside', 'table']):
         tag.decompose()
-    return " ".join([p.get_text().strip() for p in soup.find_all('p') if p.get_text().strip()])
+
+    paragraphs = []
+    for p in soup.find_all('p'):
+        text = p.get_text().strip()
+        # 过滤掉太短的段落（少于 30 字符，通常是按钮/标签等噪声）
+        if len(text) >= 30:
+            paragraphs.append(text)
+
+    return "\n\n".join(paragraphs)
 
 def get_wiki_links():
     url = "https://en.wikipedia.org/wiki/List_of_Asian_cuisines"

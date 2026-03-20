@@ -67,7 +67,7 @@
     {
       "query_id": "q_003",
       "query": "What health risk has been associated with frequent or high consumption of kimchi in some studies?",
-      "response": "The risk of gastric cancer among subjects with frequent or high consumption of kimchi has been found in some studies.",
+      "response": "The health risk associated with frequent or high consumption of kimchi in some studies has been an increased risk of gastric cancer.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_48",
@@ -99,7 +99,7 @@
     {
       "query_id": "q_004",
       "query": "What saying in 1970s Hong Kong manifested the nouveau riche mentality resulting from stock market investments?",
-      "response": "\"I mix shark fin soup with rice\"",
+      "response": "\"I mix shark fin soup with rice.\"",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_6",
@@ -131,7 +131,7 @@
     {
       "query_id": "q_005",
       "query": "Why did the general population in Asuka period Japan use their hands instead of chopsticks to eat?",
-      "response": "The general population in Asuka period Japan used their hands instead of chopsticks to eat due to the lack of meat products, which led to the banning of all mammals except whale, which were categorized as fish.",
+      "response": "The general population in the Asuka period used their hands instead of chopsticks to eat because utensils were quite expensive.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_2",
@@ -163,7 +163,7 @@
     {
       "query_id": "q_006",
       "query": "Which type of rice introduced by the Japanese changed farming and eating patterns in Taiwan?",
-      "response": "Japanese influence caused the Taiwanese to eat rice that was plump, aromatic, slightly firm, and sweet.",
+      "response": "Japanese influence led to the introduction of **japonica rice** into Taiwan's farming and eating patterns.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Taiwanese_cuisine_chunk_3",
@@ -195,7 +195,7 @@
     {
       "query_id": "q_007",
       "query": "Which ruling class in the Goryeo period forbade the consumption of beef in Korea?",
-      "response": "The ruling class in the Goryeo period forbade the consumption of beef in Korea.",
+      "response": "The Goryeo period ruling class forbade the consumption of beef in Korea.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_15",
@@ -227,7 +227,7 @@
     {
       "query_id": "q_008",
       "query": "In Korean culture, what are the four big family celebrations where food plays an integral part?",
-      "response": "In Korean culture, coming-of-age, wedding, funeral, and ancestral rite play significant roles in food.",
+      "response": "The four big family celebrations in Korean culture where food plays an integral part include coming-of-age, wedding, funeral, and ancestral rite.",
       "retrieved_context": [
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_1",
@@ -291,7 +291,7 @@
     {
       "query_id": "q_010",
       "query": "What do the Chinese words 'la' and 'mian' literally mean in the context of the noodle dish Lamian?",
-      "response": "The Chinese word 'la' literally means 'noodles'.",
+      "response": "The Chinese word 'la' literally means 'noodles', while the word 'mian' means 'noodle'.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Chinese_Indonesian_cuisine_chunk_1",
@@ -323,7 +323,7 @@
     {
       "query_id": "q_011",
       "query": "During which dynasty's court was Korean royal court cuisine traditionally consumed?",
-      "response": "The Korean royal court cuisine was traditionally consumed during the Joseon Dynasty, which ruled Korea from 1392 to 1897.",
+      "response": "The Korean royal court cuisine was traditionally consumed during the Goryeo Dynasty.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Korean_royal_court_cuisine_chunk_0",
@@ -419,7 +419,7 @@
     {
       "query_id": "q_014",
       "query": "Who introduced shark's fin soup and edible bird's nest to China in the early Ming dynasty?",
-      "response": "Maize and chili peppers were introduced to China in the early Ming dynasty by the explorer Zheng He.",
+      "response": "Maize and chili peppers were introduced to China in the early Ming dynasty.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Chinese_imperial_cuisine_chunk_3",
@@ -515,7 +515,7 @@
     {
       "query_id": "q_017",
       "query": "What perception do some pundits have regarding contemporary Hong Kong's culinary culture?",
-      "response": "Some pundits argue that contemporary Hong Kong's economic base is heavily skewed towards real estate development and financial services, while modern Hong Kong's culinary culture is in decline and resting on past laurels.",
+      "response": "Some pundits argue that contemporary Hong Kong's culinary culture is in decline and resting on past laurels.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_9",
@@ -547,7 +547,7 @@
     {
       "query_id": "q_018",
       "query": "Why are noodles more commonly consumed in Northern China according to the \"rice theory\"?",
-      "response": "Noodles are more commonly consumed in Northern China according to the \"rice theory.\"",
+      "response": "Noodles are more commonly consumed in Northern China because they provide a steady supply of food.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_10",
@@ -611,7 +611,7 @@
     {
       "query_id": "q_020",
       "query": "Who were the sura sanggung in the Korean royal court and what was their role regarding the king's food?",
-      "response": "The sura sanggung in the Korean royal court were the royal servants who removed bowl covers and offered the foods to the king and queen after ensuring that the dishes were not poisoned. They were responsible for serving the king and queen during banquets and were part of the royal kitchen staff.",
+      "response": "The sura sanggung in the Korean royal court were the main meals of the day. They were responsible for serving the king and queen the main courses of the day, including breakfast, dinner, and the set of three tables (suraka, 수라간).",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_35",
@@ -643,7 +643,7 @@
     {
       "query_id": "q_021",
       "query": "Which Chinese cooking implements were introduced to Southeast Asia and are now embedded in their culinary practices?",
-      "response": "The Chinese cooking implements introduced to Southeast Asia and now embedded in their culinary practices include spoons, chopsticks, and woks.",
+      "response": "The Chinese cooking implements introduced to Southeast Asia include spoons, chopsticks, and woks.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Indo-Chinese_cuisine_chunk_6",
@@ -803,7 +803,7 @@
     {
       "query_id": "q_026",
       "query": "What are the most significant ingredients for which Tan family's cuisine is famous?",
-      "response": "The most significant ingredient for which Tan family's cuisine is famous is shark fin.",
+      "response": "The most significant ingredients for which Tan family's cuisine is famous are shark fin, abalone, and sea cucumbers.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Chinese_aristocrat_cuisine_chunk_7",
@@ -835,7 +835,7 @@
     {
       "query_id": "q_027",
       "query": "Approximately how much kimchi is consumed annually in modern South Korea?",
-      "response": "According to the given context, approximately 64% of people in South Korea report having knowledge about how to cook Sakhalin Korean cuisine, indicating that kimchi consumption is relatively high among the population. However, the exact amount of kimchi consumed annually in modern South Korea cannot be determined from the information provided.",
+      "response": "According to the information provided, approximately 64% of South Koreans report having knowledge about how to cook Sakhalin Korean cuisine. This translates to around 3.2 million tons of kimchi being consumed annually in modern South Korea.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Sakhalin_Korean_cuisine_chunk_3",
@@ -867,7 +867,7 @@
     {
       "query_id": "q_028",
       "query": "When did air-conditioned supermarkets become standardized in Hong Kong?",
-      "response": "The early 1980s.",
+      "response": "The early 21st century Western environmentalism- or sustainability-inspired food trends, such as natural food, organic food, non-genetically modified food, local food, and farmer's markets, have been ignored by a majority of Hong Kong's populations.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_11",
