@@ -152,7 +152,7 @@ if __name__ == "__main__":
     evaluator = RAGEvaluator()
 
     report = evaluator.evaluate(
-        inference_output_path="../outputs/benchmark_output_fixed_size.json",
+        inference_output_path="../outputs/benchmark_output_sentence.json",
         benchmark_path="../data/benchmark/rag_benchmark_dataset.json",
     )
 

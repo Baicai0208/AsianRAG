@@ -32,7 +32,7 @@ class RAGInferencePipeline:
         metadata_path,
         embed_model_name=EMBED_MODEL,
         llm_model_id="Qwen/Qwen2.5-0.5B-Instruct",
-        top_k=5,                              
+        top_k=5,
     ):
         self.retriever = Retriever(index_path, metadata_path, model_name=embed_model_name)
 
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--strategy",
         default="sentence",
-        choices=["fixed_size", "sentence", "paragraph", "semantic"],
+        choices=["fixed_size", "sentence", "paragraph"],
         help="使用哪种 chunking 策略对应的向量索引",
     )
     parser.add_argument("--index_path",    default=None, help="手动指定 FAISS 索引路径")
@@ -137,7 +137,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--top_k",
         type=int,
-        default=5,                             # 满足课程要求：at most 5 chunks
+        default=5,
         help="最终返回给生成模型的 chunk 数量（课程要求 at most 5）",
     )
 

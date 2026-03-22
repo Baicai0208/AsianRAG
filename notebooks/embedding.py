@@ -10,7 +10,7 @@ embedding.py — 向量化 & 构建 FAISS 索引
 用法：
   python embedding.py                              # 默认用 sentence 策略
   python embedding.py --strategy paragraph         # 指定策略
-  python embedding.py --strategy all               # 依次构建全部四种策略的索引
+  python embedding.py --strategy all               # 依次构建全部三种策略的索引
 """
 
 import json
@@ -20,7 +20,7 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 
-STRATEGIES  = ["fixed_size", "sentence", "paragraph", "semantic"]
+STRATEGIES  = ["fixed_size", "sentence", "paragraph"]
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
 
@@ -75,7 +75,7 @@ if __name__ == "__main__":
         "--strategy",
         default="sentence",
         choices=STRATEGIES + ["all"],
-        help="指定要向量化的策略，'all' 依次处理全部四种",
+        help="指定要向量化的策略，'all' 依次处理全部三种",
     )
     parser.add_argument(
         "--corpus_base",

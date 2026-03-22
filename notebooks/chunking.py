@@ -1,15 +1,14 @@
 """
-chunking.py — 四种 Chunking 策略实现
+chunking.py — 三种 Chunking 策略实现
 
 策略：
   1. fixed_size   固定词数滑动窗口（基线）
   2. sentence     按句子边界分割，积累到目标大小
   3. paragraph    按 \n\n 段落边界分割，过长段落再细分
-  4. semantic     按嵌入相似度动态合并相邻句子
 
 运行方式：
   python chunking.py                      # 默认用 sentence 策略
-  python chunking.py --strategy all       # 生成全部四种，输出到各自子目录
+  python chunking.py --strategy all       # 生成全部三种，输出到各自子目录
   python chunking.py --strategy paragraph # 只生成指定策略
 """
 
@@ -17,7 +16,6 @@ import json
 import re
 import argparse
 import os
-import numpy as np
 
 # ──────────────────────────────────────────────
 # 工具函数
@@ -137,69 +135,6 @@ def chunk_paragraph(text: str, max_chars: int = 1200, min_chars: int = 100) -> l
 
 
 # ──────────────────────────────────────────────
-# 策略 4：Semantic（嵌入相似度动态分块）
-# ──────────────────────────────────────────────
-
-def chunk_semantic(
-    text: str,
-    model=None,
-    similarity_threshold: float = 0.45,
-    max_chars: int = 1000,
-    min_sentences: int = 2,
-) -> list[str]:
-    """
-    按句子嵌入相似度动态合并。
-    当相邻句子的余弦相似度低于阈值时，视为语义边界，开启新块。
-
-    参数：
-        model               SentenceTransformer 实例（外部传入，避免重复加载）
-        similarity_threshold 相似度低于此值时切块（越高切得越细）
-        max_chars           单块字符上限（防止语义相近但过长）
-        min_sentences       每块最少包含的句子数（避免过碎）
-    """
-    sentences = split_sentences(text)
-    if len(sentences) <= min_sentences:
-        return [text.strip()] if text.strip() else []
-
-    # 懒加载：仅在需要时导入
-    if model is None:
-        try:
-            from sentence_transformers import SentenceTransformer
-            model = SentenceTransformer("all-MiniLM-L6-v2")
-        except ImportError:
-            print("[Warning] sentence_transformers 未安装，semantic 策略退回 sentence 策略")
-            return chunk_sentence(text)
-
-    embeddings = model.encode(sentences, show_progress_bar=False)
-
-    # 计算相邻句子的余弦相似度
-    def cosine_sim(a, b):
-        return float(np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b) + 1e-8))
-
-    chunks = []
-    current = [sentences[0]]
-    current_len = len(sentences[0])
-
-    for i in range(1, len(sentences)):
-        sim = cosine_sim(embeddings[i - 1], embeddings[i])
-        new_len = current_len + len(sentences[i])
-
-        # 切块条件：相似度低 或 超出长度限制（且已满足最少句子数）
-        if (sim < similarity_threshold or new_len > max_chars) and len(current) >= min_sentences:
-            chunks.append(" ".join(current))
-            current = [sentences[i]]
-            current_len = len(sentences[i])
-        else:
-            current.append(sentences[i])
-            current_len += len(sentences[i])
-
-    if current:
-        chunks.append(" ".join(current))
-
-    return chunks
-
-
-# ──────────────────────────────────────────────
 # 主流程
 # ──────────────────────────────────────────────
 
@@ -207,7 +142,6 @@ STRATEGY_MAP = {
     "fixed_size": chunk_fixed_size,
     "sentence":   chunk_sentence,
     "paragraph":  chunk_paragraph,
-    "semantic":   chunk_semantic,   # 需要 sentence_transformers
 }
 
 
@@ -215,17 +149,6 @@ def run_chunking(strategy: str, corpus_path: str, output_dir: str):
     """对整个语料库执行指定 chunking 策略，输出 chunked_corpus.json。"""
     with open(corpus_path, "r", encoding="utf-8") as f:
         corpus = json.load(f)
-
-    # semantic 策略预加载模型，避免每篇文章重复加载
-    model = None
-    if strategy == "semantic":
-        try:
-            from sentence_transformers import SentenceTransformer
-            print("[Semantic] 加载嵌入模型...")
-            model = SentenceTransformer("all-MiniLM-L6-v2")
-        except ImportError:
-            print("[Warning] sentence_transformers 未安装，退回 sentence 策略")
-            strategy = "sentence"
 
     chunk_fn = STRATEGY_MAP[strategy]
     chunked_data = []
@@ -235,10 +158,7 @@ def run_chunking(strategy: str, corpus_path: str, output_dir: str):
         if not text:
             continue
 
-        if strategy == "semantic":
-            chunks = chunk_fn(text, model=model)
-        else:
-            chunks = chunk_fn(text)
+        chunks = chunk_fn(text)
 
         for idx, chunk in enumerate(chunks):
             chunked_data.append({
@@ -277,8 +197,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--strategy",
         default="sentence",
-        choices=["fixed_size", "sentence", "paragraph", "semantic", "all"],
-        help="选择 chunking 策略，'all' 会生成全部四种",
+        choices=["fixed_size", "sentence", "paragraph", "all"],
+        help="选择 chunking 策略，'all' 会生成全部三种",
     )
     parser.add_argument(
         "--corpus",
@@ -293,7 +213,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.strategy == "all":
-        for s in ["fixed_size", "sentence", "paragraph", "semantic"]:
+        for s in ["fixed_size", "sentence", "paragraph"]:
             out = os.path.join(args.output_dir, s)
             run_chunking(s, args.corpus, out)
         print("\n✅ 全部策略完成。各策略输出在对应子目录，")
