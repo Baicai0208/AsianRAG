@@ -33,10 +33,10 @@ class Generator:
             "You are an expert culinary assistant specialized in East Asian cuisine.\n"
             "Answer the question based ONLY on the provided context. "
             "If the answer is not in the context, say 'I do not know'.\n"
-            "Give a concise answer in one short sentence. Do not explain or list.\n"
+            "Give a direct, concise answer. "
             "Always respond in English only. Do not use any Chinese, Korean, Japanese, or other non-English characters.\n\n"
             f"Context:\n{context}\n\n"
-            f"Question: {query}"
+            f"Question: {query}\nAnswer:"  # 末尾加 Answer: 引导模型直接输出答案
         )
 
         messages = [
@@ -52,7 +52,7 @@ class Generator:
         with torch.no_grad():
             generated_ids = self.model.generate(
                 **model_inputs,
-                max_new_tokens=256,
+                max_new_tokens=64,
                 temperature=0.3,
                 do_sample=True,
             )

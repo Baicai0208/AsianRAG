@@ -20,7 +20,7 @@
   {
     "query_id": "q_004",
     "query": "What saying in 1970s Hong Kong manifested the nouveau riche mentality resulting from stock market investments?",
-    "gold_answer": "\"mixing shark fin soup with rice\" (魚翅撈飯).",
+    "gold_answer": "\"mixing shark fin soup with rice\"",
     "source_chunk_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_6"
   },
   {

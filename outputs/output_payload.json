@@ -2,55 +2,149 @@
   "results": [
     {
       "query_id": "test_001",
-      "query": "What are the main flavor characteristics of Sichuan cuisine?",
-      "response": "Sichuan cuisine is known for its unique combination of flavors, characterized by:\n\n1. **Caramelized Taste**: Basic ingredients transform into crispy, caramelized textures after cooking.\n\n2. **Strong Spicy Flavor**: Ingredients are seasoned with chili peppers, often accompanied by other spices and herbs.\n\n3. **Freshness and Saltiness**: Ingredients are typically light and lightly seasoned, emphasizing their natural flavors rather than added salt.\n\n4. **Sweetness**: While not prominent, Sichuan cuisine does incorporate sweet elements, particularly in dishes like lotus root and Chinese green beans, though these are not traditionally associated with Sichuan cuisine.\n\nThese distinct flavors set Sichuan cuisine apart from other Chinese cuisines, making it a highly sought-after and flavorful culinary tradition.",
+      "query": "How much kimchi is consumed per person per year in South Korea?",
+      "response": "According to the given context, one simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Based on the information provided:\n\n- Over 2 million tonnes of kimchi is eaten annually in modern South Korea alone.\n- Regular consumption of kimchi was considered so important to Koreans that millions of dollars",
       "retrieved_context": [
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/32-southern-china/_chunk_7",
-          "text": "has skyrocketed in popularity all over the world. In modern China, stir fries can be broadly divided into “chao” which involves a liquid and results in softer ingredients, and “bao” which describes a drier stir fry where the components become crispy. The magical quality of stir fries is described in China as “wok hei” roughly meaning “breath of the wok”. This describes the wonderful caramelised taste that basic ingredients take on, simply from being cooked in the manner, even without any other flavourings. The Sichuan province is located in south western China, and is renowned for its strong, spicy food. One of the most famous flavours from this region is Sichuan pepper, which is a husk from a type of plant that is actually more related to the citrus family than chilli or black pepper, and is famous for causing a tingling, numbing sensation in the mouth, followed by extreme heat. Sichuan chilli chicken, also sometimes called kung pan chicken, is a stir-fry dish where chicken cubes are first coated in Sichuan pepper and five spice, then rolled in corn flour. This process ensures the chicken is tasty, and nicely browned and a little crispy on the outside. These are"
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_9",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air. Kimchi is made from salted and fermented vegetables, most commonly cabbage, although popularly also radish.",
+          "rrf_score": 0.03306010928961749,
+          "ce_score": 8.591086387634277
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_9",
-          "text": "Jiangsu cuisine (specifically Huaiyang cuisine) and Sichuan cuisine.[33][34] These styles are distinctive from one another due to factors such as availability of resources, climate, geography, history, cooking techniques and lifestyle.[35] One style may favour the use of garlic and shallots over chili and spices, while another may favour preparing seafood over other meats and fowl. Jiangsu cuisine favours cooking techniques such as braising and stewing, while Sichuan cuisine employs baking. Zhejiang cuisine focuses more on serving fresh food, Fujian cuisine is famous for its seafood and soups and the use of spices, Hunan cuisine is famous for its hot and salty taste, Anhui cuisine incorporates wild ingredients for an unusual taste.[36] Based on the raw materials and ingredients used, the method of preparation and cultural differences, a variety of foods with different flavors and textures are prepared in different regions of the country. Many traditional regional cuisines rely on basic methods of preservation such as drying, salting, pickling and fermentation.[37] In addition, the \"rice theory\" attempts to describe cultural differences between north and south China; in the north, noodles are more consumed due to wheat being widely grown whereas in the south, rice is more preferred as it has historically"
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_9",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air. Kimchi is made from salted and fermented vegetables, most commonly cabbage, although popularly also radish.",
+          "rrf_score": 0.03252247488101534,
+          "ce_score": 8.591086387634277
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/65-northern-china/_chunk_3",
-          "text": "over the country, and there are regional variations in both the stock and ingredients depending on local availability and preference. The stock can feature any variety of flavours and spices, from a very hot peppery version from the Sichuan province, to plainer salted fragrant stocks in the North. I made my stock with a wide variety of mushrooms, cabbage and vegetable stock, the use of fermented cabbage being particular to the Manchurian region of Northern China. The ingredients to be cooked in the stock are similarly unlimited, with all vegetables, fungi, meats, seafood, noodles and tofu being potential candidates for hot pot cooking. These could be thinly sliced, needing only brief immersion to be cooked (and avoiding the hassle of fishing them out), or chopped into chunks, abandoned in the soup and potentially stolen by a predatory fellow diner later in the evening. I included some traditional options, such as lotus root, Chinese greens, bean sprouts, shrimp, thinly sliced pork, fish balls, thin glass noodles, cabbage, tofu, mixed mushrooms, cress, baby corn, carrot, edamame beans and radishes. Although not pictured, hot pots usually also include bowls of dipping sauce, including combinations of oils, soys, chilli, vinegar etc, which the ingredients"
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_9",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air. Kimchi is made from salted and fermented vegetables, most commonly cabbage, although popularly also radish.",
+          "rrf_score": 0.03200204813108039,
+          "ce_score": 8.591086387634277
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_8",
-          "text": "Portuguese traders began introducing foods from the New World to China through the port cities of Canton and Macau. Mexican chili peppers became essential ingredients in Sichuan cuisine and calorically dense potatoes and corn became staple foods across the northern plains.[citation needed] During the Qing dynasty, Chinese gastronomes such as Yuan Mei focused upon the primary goal of extracting the maximum flavour of each ingredient. As noted in his culinary work the Suiyuan shidan, however, the fashions of cuisine at the time were quite varied and in some cases were flamboyantly ostentatious,[31] especially when the display served also a formal ceremonial purpose, as in the case of the Manchu Han Imperial Feast.[32] As the pace of life increases in modern China, fast food like fried noodles, fried rice and gaifan (dish over rice) become more and more popular.[citation needed] Chinese cuisine exhibits an immense amount of regional diversity. A number of different styles contribute to Chinese cuisine but perhaps the best known and most influential are Cantonese cuisine, Shandong cuisine, Jiangsu cuisine (specifically Huaiyang cuisine) and Sichuan cuisine.[33][34] These styles are distinctive from one another due to factors such as availability of resources, climate, geography, history, cooking techniques and lifestyle.[35]"
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_70",
+          "text": "The same lactobacilli bacteria found in yogurt and other fermented dairy products are also found in kimchi. In 2021, Koreans collectively consumed 1,965,000 tons of Kimchi, with average Korean consuming 88.3 grams of Kimchi daily.",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": 6.403687477111816
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Chinese_aristocrat_cuisine_chunk_8",
-          "text": "successfully restored.[23] Yunlin cuisine is developed from Wuxi cuisine and inherits its characteristic of sweet taste and heavy usage of oil and sauce. However, Yunlin cuisine emphasizes the other characteristic, which is freshness, and the cooking method frequently used includes steam, boil, braise, and fast boil in hot water.[23] To meet the demand of the modern people, such as health concerns such as diabetics, some of the restored dishes have been modified, such as the reduction of sweetness by using less sugar.[24] Another characteristic of Yunlin cuisine is the importance of the adding seasoning in a strict order to obtain the layered tastes.[24] Zhili (Chinese) aristocrat cuisine (直隶官府菜) originated in Baoding in Ming dynasty, matured in Qing dynasty, with a history of approximately six-hundred years. The flavor of dishes of Zhili (Chinese) aristocrat cuisine is generally slightly salty.[25]"
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_25",
+          "text": "The result of this increased meat consumption brought about the rise of bulgogi restaurants, which gave the middle class of South Korea the ability to enjoy meat regularly. Meat eating continued to rise, reaching 40 kg in 1997, with fish consumption at 49.5 kg in 1998. Rice consumption continually decreased through these years, from 128 kg consumed per person in 1985 to 106 kg in 1995 and 83 kg in 2003. The decrease in rice consumption has been accompanied by an increase in the consumption of bread and noodles.",
+          "rrf_score": 0.03205128205128205,
+          "ce_score": 1.6757137775421143
         }
       ]
     },
     {
       "query_id": "test_002",
-      "query": "What is the difference between sushi and sashimi in Japanese cuisine?",
-      "response": "Sushi is thinly sliced raw fish, typically with rice, while sashimi is thinly sliced raw meat, often with rice.",
+      "query": "What does the Japanese term 'nuuhara' mean?",
+      "response": "The Japanese term 'nuuhara' means 'as you like it' or 'what you want'.",
       "retrieved_context": [
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/12-japan/_chunk_6",
-          "text": "There is a specialised sushi bar at my University cafeteria, and there was sushi for sale every day at my high school cafeteria – it’s become a normal day-to-day meal in Australia. Having said that, it’s not the sort of thing that the average person makes themselves, and being a relatively average person in many ways, I too had never made it. Sushi describes preparations of a specially flavoured rice (called “shari” or “sumeshi”) served in a variety of ways, primarily with seafood, but also with meats and vegetables, and almost always in a roll. Sashimi, on the other hand, describes very thinly sliced raw fish, often also with rice. I suppose now is a good time to confess something to you – I’ve never been a big fan of rice. I have always been partial to a decent risotto now and again, and fried rice can be tasty, but I generally regarded rice as a bland, boring substance that dilutes the tasty stuff next to it. You need to know all of this to understand what I mean when I say that freshly made sushi rice is seriously good. I had to stop myself eating it by the handful"
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_66",
+          "text": "The resulting loud slurping noise is considered normal in Japan, although in the 2010s concerns began to be voiced about the slurping being offensive to others, especially tourists. The word nuuhara (ヌーハラ, from \"nuudoru harasumento\", noodle harassment) was coined to describe this.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": 6.408395767211914
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_47",
-          "text": "has been snubbed by some purist sushi chefs,[148] and also likened to the American-born chop suey by one scholar.[149] As of 2015[update] the country has about 4,200 sushi restaurants.[150] It is one of the most popular styles of sushi in the US market. Japanese cuisine is an integral part of food culture in Hawaii as well as in other parts of the United States. Popular items are sushi, sashimi, and teriyaki. Kamaboko, known locally as fish cake, is a staple of saimin, a noodle soup that is a local favorite in Hawaii.[151] Sushi, long regarded as quite exotic in the west until the 1970s, has become a popular health food in parts of North America, Western Europe and Asia. Two of the first Japanese restaurants in the United States were Saito and Nippon. Restaurants such as these popularized dishes such as sukiyaki and tempura, while Nippon was the first restaurant in Manhattan to have a dedicated sushi bar.[152] Nippon was also one of the first Japanese restaurants in the U.S. to grow and process their own soba[153] and responsible for creation of the now standard beef negimayaki dish.[154] In the U.S., teppanyaki \"iron hot plate\" cooking restaurants took foothold. Such"
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Okonomiyaki_chunk_1",
+          "text": "The name means \"as you like it\" or \"what you want\" in Japanese.",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": -0.4040125906467438
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_0",
-          "text": "Japanese cuisine encompasses the regional and traditional foods of Japan, which have developed through centuries of political, economic, and social changes. The traditional cuisine of Japan (Japanese: washoku) is based on rice with miso soup and other dishes with an emphasis on seasonal ingredients. Side dishes often consist of fish, pickled vegetables, tamagoyaki, and vegetables cooked in broth. Common seafood is often grilled, but it is also sometimes served raw as sashimi or as sushi. Seafood and vegetables are also deep-fried in a light batter, as tempura. Apart from rice, a staple includes noodles, such as soba and udon. Japan also has many simmered dishes, such as fish products in broth called oden, or beef in sukiyaki and nikujaga. Historically influenced by Chinese cuisine, Japanese cuisine has also opened up to influence from Western cuisines in the modern era. Dishes inspired by foreign food—in particular Chinese food—like ramen and gyōza, as well as foods like spaghetti, curry and hamburgers, have been adapted to Japanese tastes and ingredients. Traditionally, the Japanese shunned meat as a result of adherence to Buddhism, but with the modernization of Japan in the 1880s, meat-based dishes such as tonkatsu and yakiniku have become common. Since this"
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_17",
+          "text": "The term kappō [ ja ] ( 割烹 ; lit. \"cutting and boiling (meats)\") is synonymous with \"cooking\", but became a reference to mostly Japanese cooking, or restaurants, and was much used in the Meiji and Taishō eras .",
+          "rrf_score": 0.031754032258064516,
+          "ce_score": -2.2706046104431152
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_3",
-          "text": "nation. Fish has influenced many iconic Japanese dishes today. In the 9th century, grilled fish and sliced raw fish were widely popular.[8] Japanese people who could afford it would eat fish at every meal; others would have to make do without animal protein for many of their meals. In traditional Japanese cuisine, oil and fat are usually avoided during the cooking process in order to maintain a healthy lifestyle.[8] Preserving fish became a sensation and sushi originated as a means of preserving fish by fermenting it in boiled rice. Fish that are salted and then placed in rice are preserved by lactic acid fermentation, which helps prevent the proliferation of the bacteria that bring about putrefaction.[9] During the 15th century, advancement and development helped shorten the fermentation of sushi to about one to two weeks. Sushi thus became popular both as a main meal and as a snack food, combining fish with rice. During the late Edo period (early 19th century), sushi without fermentation was introduced. Sushi was still being consumed with and without fermentation till the 19th century when the hand-rolled and nigiri-type sushi was invented.[10] In 1854, Japan started to enter new trade deals with Western countries.[11] The"
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_82",
+          "text": "Different cooking techniques are applied to each of the three okazu ; they may be raw ( sashimi ), grilled , simmered (sometimes called boiled ), steamed , deep-fried , vinegared, or dressed . In ichijū-sansai ( 一汁三菜 , \"one soup, three sides\" ) , the word sai ( 菜 ) has the basic meaning of \"vegetable\", but secondarily means any accompanying dish (whether it uses fish or meat), with the more familiar combined form sōzai [ ja ] ( 惣菜 ) , which is a term for any side dish, such as the vast selections sold at Japanese supermarkets or depachikas [ ja ] . It figures in the Japanese word for appetizer, zensai ( 前菜 ) ; main dish, shusai ( 主菜 ) ; or sōzai ( 惣菜 ) (formal synonym for okazu ), but the latter is considered somewhat of a ladies' term or nyōbō kotoba .",
+          "rrf_score": 0.030309988518943745,
+          "ce_score": -3.1724414825439453
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_38",
-          "text": "Australians are becoming increasingly familiar with traditional Japanese foods.[110] Restaurants serving Japanese cuisine feature prominently in popular rankings, including Gourmet Traveller and The Good Food Guide.[111] Sushi in particular has been described as being \"as popular as sandwiches\", particularly in large cities like Melbourne, Sydney, or Brisbane.[112] As such, sushi bars are a mainstay in shopping centre food courts, and are extremely common in cities and towns all over the country.[112] In Brazil, Japanese food is widespread due to the large Japanese-Brazilian population living in the country, which represents the largest Japanese community living outside Japan. Over the past years, many restaurant chains such as Koni Store[113] have opened, selling typical dishes such as the popular temaki. Yakisoba, which is readily available in all supermarkets, and often included in non-Japanese restaurant menus.[114] In Canada, Japanese cuisine has become quite popular. Sushi, sashimi, and instant ramen are highly popular at opposite ends of the income scale, with instant ramen being a common low-budget meal. Sushi and sashimi takeout began in Vancouver and Toronto, and is now common throughout Canada. The largest supermarket chains all carry basic sushi and sashimi, and Japanese ingredients and instant ramen are readily available in most supermarkets."
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_36",
+          "text": "tatami -mat rooms, for large banquets or at a ryokan type inn. Some restaurants might use the suffix -zen ( 膳 ) as a more sophisticated though dated synonym to the more familiar teishoku ( 定食 ) , since the latter basically is a term for a combo meal served at a taishū-shokudō , akin to a diner . Teishoku means a meal of fixed menu (for example, grilled fish with rice and soup), a dinner à prix fixe served at shokudō ( 食堂 , \"dining hall\") or ryōriten ( 料理店 , \"restaurant\") , which is somewhat vague ( shokudō can mean a diner-type restaurant or a corporate lunch hall); writer on Japanese popular culture Ishikawa Hiroyoshi defines it as fare served at teishoku dining halls ( 定食食堂 , teishoku-shokudō ) , and comparable diner-like establishments.",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -3.706751823425293
+        }
+      ]
+    },
+    {
+      "query_id": "test_003",
+      "query": "What liquid ingredients are used to braise quail eggs in jangjorim?",
+      "response": "In Jangjorim, the liquid ingredients used to braise quail eggs are water.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/_chunk_13",
+          "text": "The second part of this meal consisted of tea eggs, also sometimes called marble eggs for their pattern, which are popular in North-East China, and are made by first soft boiling eggs (in this case quail eggs), then gently cracking their shells all over, without removing them. The eggs are then submerged in a marinade of black tea, soy sauce, rice wine, Szechuan peppercorns and sweet spices such as star anise, cloves and cinnamon.",
+          "rrf_score": 0.03279569892473118,
+          "ce_score": -0.0015714094042778015
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/#comments_chunk_13",
+          "text": "The second part of this meal consisted of tea eggs, also sometimes called marble eggs for their pattern, which are popular in North-East China, and are made by first soft boiling eggs (in this case quail eggs), then gently cracking their shells all over, without removing them. The eggs are then submerged in a marinade of black tea, soy sauce, rice wine, Szechuan peppercorns and sweet spices such as star anise, cloves and cinnamon.",
+          "rrf_score": 0.03278688524590164,
+          "ce_score": -0.0015714094042778015
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/65-northern-china/_chunk_13",
+          "text": "The second part of this meal consisted of tea eggs, also sometimes called marble eggs for their pattern, which are popular in North-East China, and are made by first soft boiling eggs (in this case quail eggs), then gently cracking their shells all over, without removing them. The eggs are then submerged in a marinade of black tea, soy sauce, rice wine, Szechuan peppercorns and sweet spices such as star anise, cloves and cinnamon.",
+          "rrf_score": 0.03200204813108039,
+          "ce_score": -0.0015714094042778015
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_57",
+          "text": "An aemono is tossed with vinegar-white miso mix and uses wakegi scallion and baka-gai ( バカガイ / 馬鹿貝 ; a trough shell , Mactra chinensis ) as standard. Japanese egg dishes include tamagoyaki , onsen tamago , tamago-dōfu ( jp ) and chawanmushi .",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -5.599424362182617
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Egg_chunk_11",
+          "text": "All birds lay eggs, and several domesticated birds regularly lay unfertilized eggs, which we use as food. For example, duck , goose , quail , turkey , and ostrich eggs (the largest edible bird eggs in the world) are all eaten, each with their own particular characteristics. However, the most commonly used egg by far is the chicken egg, and the term \"egg\" without any other qualifiers will refer to chicken eggs in this Cookbook and elsewhere. While whole, fresh eggs are the standard, a variety of processed \"egg products\" are available for purchase. In-shell heat-treated eggs are available to reduce the risk from eating undercooked eggs, though these are not suitable for foaming. Raw eggs can also be pre-shelled and sold as liquid or frozen eggs, yolks, or whites.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -7.018709659576416
+        }
+      ]
+    },
+    {
+      "query_id": "test_003",
+      "query": "What flour is used to make the mochi dough for daifuku?",
+      "response": "Wheat Flour",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_(Sweet_Filled_Mochi)_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nDaifukumochi (大福餅) , or Daifuku (大福) (literally \"great luck\"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko , sweetened red bean paste made from azuki beans. Daifuku comes in many varieties.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": 1.7383098602294922
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nDaifukumochi (大福餅) , or Daifuku (大福) (literally \"great luck\"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko , sweetened red bean paste made from azuki beans. Daifuku comes in many varieties.",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": 1.7383098602294922
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_67",
+          "text": "Traditional Japanese sweets are known as wagashi . Ingredients such as red bean paste and mochi are used.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -2.3914644718170166
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_royal_court_cuisine_chunk_19",
+          "text": "Guksu ( 국수 ) are noodles that are prepared with buckwheat or wheat flour, with the former being preferred. Mandu ( 만두 ) are boiled or steamed dumplings. Mandu dough is made from either wheat flour or buckwheat . The dough is then stuffed with various fillings.",
+          "rrf_score": 0.028006267136701922,
+          "ce_score": -3.4094743728637695
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/21-venezuela/_chunk_9",
+          "text": "I have been through indescribable trials and tribulations sourcing corn meal in Brisbane. The first issue I had was distinguishing what international recipes meant by saying “corn meal” or “corn flour”. For me, corn flour is the white powder that is thinner than icing sugar that can be used to thicken sauces, also sometimes called corn starch. However, I can tell you from tragic personal experience that this sort of corn flour does not make good dough, and that if you try, you will discover a substance that I could only describe as “non-Newtonian”. Very coarsely-ground corn, on the other hand, I know as polenta, which is a bit tricky to find in a “non-instant” format, but still possible, and also unfortunately does not make a bread-like dough… But if you want corn flour ground to a similar consistency to plain wheat flour?",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -6.408010005950928
         }
       ]
     }

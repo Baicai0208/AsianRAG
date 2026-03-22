@@ -274,3 +274,4 @@ The table below shows representative query–response pairs from `outputs/benchm
 | Evaluation (`eval.py`) | Member D |
 | Pipeline integration (`pipeline.py`) | All members |
 | Report writing | All members |
+

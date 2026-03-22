@@ -1,6 +1,12 @@
 """
 embedding.py — 向量化 & 构建 FAISS 索引
 
+嵌入模型：BAAI/bge-small-en-v1.5
+  - 专为信息检索优化，MTEB 检索榜比 all-MiniLM-L6-v2 高约 3-5 个点
+  - 模型体积约 33MB，不影响实验效率
+  - BGE passage 编码时不加前缀（query 前缀在 retriever.py 的检索阶段处理）
+  - normalize_embeddings=True + IndexFlatIP = 余弦相似度检索
+
 用法：
   python embedding.py                              # 默认用 sentence 策略
   python embedding.py --strategy paragraph         # 指定策略
@@ -14,7 +20,8 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 
-STRATEGIES = ["fixed_size", "sentence", "paragraph", "semantic"]
+STRATEGIES  = ["fixed_size", "sentence", "paragraph", "semantic"]
+EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
 
 def build_index(strategy: str, corpus_base: str, vector_store_base: str):
@@ -32,14 +39,20 @@ def build_index(strategy: str, corpus_base: str, vector_store_base: str):
         chunks = json.load(f)
 
     texts = [chunk["text"] for chunk in chunks]
-    print(f"[{strategy}] 共 {len(texts)} 个 chunks，开始编码...")
+    print(f"[{strategy}] 共 {len(texts)} 个 chunks，开始编码（模型: {EMBED_MODEL}）...")
 
-    model = SentenceTransformer("all-MiniLM-L6-v2")
-    embeddings = model.encode(texts, show_progress_bar=True, batch_size=64)
+    # BGE passage 编码：不加前缀，normalize_embeddings=True
+    model = SentenceTransformer(EMBED_MODEL)
+    embeddings = model.encode(
+        texts,
+        show_progress_bar=True,
+        batch_size=64,
+        normalize_embeddings=True,  # BGE 推荐归一化，配合 IndexFlatIP 实现余弦相似度
+    )
 
-    # 构建 FAISS 索引
+    # IndexFlatIP（内积）+ 归一化向量 = 余弦相似度，分数越高越相关
     dimension = embeddings.shape[1]
-    index = faiss.IndexFlatL2(dimension)
+    index = faiss.IndexFlatIP(dimension)
     index.add(np.array(embeddings).astype("float32"))
 
     # 保存

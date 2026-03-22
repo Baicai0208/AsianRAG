@@ -22,15 +22,17 @@ import argparse
 from retriever import Retriever
 from generator import Generator
 
+EMBED_MODEL = "BAAI/bge-small-en-v1.5"
+
 
 class RAGInferencePipeline:
     def __init__(
         self,
         index_path,
         metadata_path,
-        embed_model_name="all-MiniLM-L6-v2",
+        embed_model_name=EMBED_MODEL,
         llm_model_id="Qwen/Qwen2.5-0.5B-Instruct",
-        top_k=10,
+        top_k=5,                              
     ):
         self.retriever = Retriever(index_path, metadata_path, model_name=embed_model_name)
 
@@ -104,15 +106,12 @@ class RAGInferencePipeline:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="RAG Inference Pipeline")
 
-    # 策略选择（与 chunking/embedding 保持一致）
     parser.add_argument(
         "--strategy",
         default="sentence",
         choices=["fixed_size", "sentence", "paragraph", "semantic"],
         help="使用哪种 chunking 策略对应的向量索引",
     )
-
-    # 也可以手动指定路径，覆盖 strategy 自动推导
     parser.add_argument("--index_path",    default=None, help="手动指定 FAISS 索引路径")
     parser.add_argument("--metadata_path", default=None, help="手动指定 chunk metadata 路径")
     parser.add_argument(
@@ -120,36 +119,30 @@ if __name__ == "__main__":
         default="../data/vector_store",
         help="向量索引的父目录（各策略在其子目录下）",
     )
-
-    # 运行模式
     parser.add_argument(
         "--mode",
         default="benchmark",
         choices=["benchmark", "production"],
         help="benchmark: 跑评测集；production: 跑自定义输入",
     )
-
-    # 路径参数
     parser.add_argument(
         "--benchmark",
         default="../data/benchmark/rag_benchmark_dataset.json",
-        help="benchmark 模式：评测集路径",
     )
     parser.add_argument(
         "--input",
         default="../outputs/input_payload.json",
-        help="production 模式：输入文件路径",
     )
+    parser.add_argument("--output", default=None)
     parser.add_argument(
-        "--output",
-        default=None,
-        help="输出文件路径（默认按策略名自动命名）",
+        "--top_k",
+        type=int,
+        default=5,                             # 满足课程要求：at most 5 chunks
+        help="最终返回给生成模型的 chunk 数量（课程要求 at most 5）",
     )
-    parser.add_argument("--top_k", type=int, default=10, help="检索 Top-K")
 
     args = parser.parse_args()
 
-    # 解析索引路径：手动指定优先，否则按 strategy 自动推导
     if args.index_path and args.metadata_path:
         index_path    = args.index_path
         metadata_path = args.metadata_path
@@ -157,7 +150,6 @@ if __name__ == "__main__":
         index_path    = f"{args.vector_store_base}/{args.strategy}/vector_store.index"
         metadata_path = f"{args.vector_store_base}/{args.strategy}/chunk_metadata.json"
 
-    # 默认输出路径按策略命名，避免多次运行互相覆盖
     if args.output:
         output_path = args.output
     elif args.mode == "benchmark":
@@ -165,9 +157,11 @@ if __name__ == "__main__":
     else:
         output_path = f"../outputs/output_payload_{args.strategy}.json"
 
-    print(f"策略: {args.strategy}")
-    print(f"索引: {index_path}")
-    print(f"输出: {output_path}\n")
+    print(f"策略:   {args.strategy}")
+    print(f"模型:   {EMBED_MODEL}")
+    print(f"索引:   {index_path}")
+    print(f"Top-K:  {args.top_k}")
+    print(f"输出:   {output_path}\n")
 
     pipeline = RAGInferencePipeline(
         index_path=index_path,
