@@ -1,0 +1,226 @@
+{
+  "results": [
+    {
+      "query_id": "test_001",
+      "query": "How much kimchi is consumed per person per year in South Korea?",
+      "response": "According to the given context, one simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Based on the information provided:\n\n- Kimchi is described as being consumed annually in modern South Korea, around 18 kilograms per person.\n- This consumption is mentioned alongside other foods like cabbage and rad",
+      "retrieved_context": [
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_6",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air. Kimchi is made from salted and fermented vegetables, most commonly cabbage, although popularly also radish. To the fermenting mixture is added flavourings such as gochugaru (chilli powder), garlic, ginger, scallions, and often some sort of salted seafood, such as anchovies.",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": 8.555373191833496
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_6",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air. Kimchi is made from salted and fermented vegetables, most commonly cabbage, although popularly also radish. To the fermenting mixture is added flavourings such as gochugaru (chilli powder), garlic, ginger, scallions, and often some sort of salted seafood, such as anchovies.",
+          "rrf_score": 0.03252247488101534,
+          "ce_score": 8.555373191833496
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_6",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air. Kimchi is made from salted and fermented vegetables, most commonly cabbage, although popularly also radish. To the fermenting mixture is added flavourings such as gochugaru (chilli powder), garlic, ginger, scallions, and often some sort of salted seafood, such as anchovies.",
+          "rrf_score": 0.03252247488101534,
+          "ce_score": 8.555373191833496
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_28",
+          "text": "It contains vitamins such as vitamin A, vitamin B, vitamin C, and vitamin K and minerals which are calcium, iron, phosphorus, and selenium. The same lactobacilli bacteria found in yogurt and other fermented dairy products are also found in kimchi. In 2021, Koreans collectively consumed 1,965,000 tons of Kimchi, with average Korean consuming 88.3 grams of Kimchi daily.",
+          "rrf_score": 0.015384615384615385,
+          "ce_score": 5.796894073486328
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_8",
+          "text": "Rice consumption continually decreased through these years, from 128 kg consumed per person in 1985 to 106 kg in 1995 and 83 kg in 2003. The decrease in rice consumption has been accompanied by an increase in the consumption of bread and noodles. In 2009, the South Korean government launched a $77-million culinary diplomacy program called \"Korean Cuisine to the World\" to promote its cuisine and subsequently pivoted into the markets in the United States and Muslim countries.",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": 2.5451126098632812
+        }
+      ]
+    },
+    {
+      "query_id": "test_002",
+      "query": "What does the Japanese term 'nuuhara' mean?",
+      "response": "Nuuhara is a Japanese term that refers to the practice of slurping loudly when eating noodles, often described as a loud slurping noise. This term originated in the 2010s due to concerns about the loud slurping sound being offensive to others, particularly tourists.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_6",
+          "text": "The word washoku ( 和食 ) is now the common word for traditional Japanese cooking. The term kappō [ ja ] ( 割烹 ; lit. \"cutting and boiling (meats)\") is synonymous with \"cooking\", but became a reference to mostly Japanese cooking, or restaurants, and was much used in the Meiji and Taishō eras . It has come to connote a certain standard, perhaps even of the highest caliber, a restaurant with the most highly trained chefs. However, kappō is generally seen as an eating establishment which is slightly more casual or informal compared to the kaiseki .\n\nThe kaiseki ( 懐石 , lit. \"warming stone\") is tied with the Japanese tea ceremony . The kaiseki is considered a (simplified) form of honzen-ryōri ( 本膳料理 , lit. \"main tray cooking\") , which was formal banquet dining where several trays of food were served. The homophone term kaiseki ryōri ( 会席料理 , lit. \"gathering + seating\") originally referred to a gathering of composers of haiku or renga , and the simplified version of the honzen dishes served at the poem parties became kaiseki ryōri . However, the meaning of kaiseki ryōri degenerated to become just another term for a sumptuous carousing banquet, or shuen ( 酒宴 ) .",
+          "rrf_score": 0.03306010928961749,
+          "ce_score": -1.8950542211532593
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_24",
+          "text": "Hot noodles are usually served in a bowl already steeped in their broth and are called kakesoba or kakeudon . Cold soba arrive unseasoned and heaped atop a zaru or seiro , and are picked up with a chopstick and dunked in their dipping sauce. The broth can consist of many ingredients but is generally based on dashi; the sauce, called tsuyu, is usually more concentrated and made from soy sauce, dashi and mirin, sake or both.\n\nIn the simple form, yakumi (薬味, condiments and spices) such as shichimi , nori, finely chopped scallions, wasabi, etc. are added to the noodles, besides the broth/dip sauce.\n\nUdon may also be eaten in kama-age style, piping hot straight out of the boiling pot, and eaten with plain soy sauce and sometimes with raw egg also.\n\nJapanese noodles are traditionally eaten by bringing the bowl close to the mouth, and sucking in the noodles with the aid of chopsticks . The resulting loud slurping noise is considered normal in Japan, although in the 2010s concerns began to be voiced about the slurping being offensive to others, especially tourists. The word nuuhara (ヌーハラ, from \"nuudoru harasumento\", noodle harassment) was coined to describe this.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -2.6037404537200928
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_30",
+          "text": "Different cooking techniques are applied to each of the three okazu ; they may be raw ( sashimi ), grilled , simmered (sometimes called boiled ), steamed , deep-fried , vinegared, or dressed .\n\nIn ichijū-sansai ( 一汁三菜 , \"one soup, three sides\" ) , the word sai ( 菜 ) has the basic meaning of \"vegetable\", but secondarily means any accompanying dish (whether it uses fish or meat), with the more familiar combined form sōzai [ ja ] ( 惣菜 ) , which is a term for any side dish, such as the vast selections sold at Japanese supermarkets or depachikas [ ja ] .\n\nIt figures in the Japanese word for appetizer, zensai ( 前菜 ) ; main dish, shusai ( 主菜 ) ; or sōzai ( 惣菜 ) (formal synonym for okazu ), but the latter is considered somewhat of a ladies' term or nyōbō kotoba .\n\nBelow are listed some of the most common categories for prepared food:",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -3.0932888984680176
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_13",
+          "text": "Some restaurants might use the suffix -zen ( 膳 ) as a more sophisticated though dated synonym to the more familiar teishoku ( 定食 ) , since the latter basically is a term for a combo meal served at a taishū-shokudō , akin to a diner . Teishoku means a meal of fixed menu (for example, grilled fish with rice and soup), a dinner à prix fixe served at shokudō ( 食堂 , \"dining hall\") or ryōriten ( 料理店 , \"restaurant\") , which is somewhat vague ( shokudō can mean a diner-type restaurant or a corporate lunch hall); writer on Japanese popular culture Ishikawa Hiroyoshi defines it as fare served at teishoku dining halls ( 定食食堂 , teishoku-shokudō ) , and comparable diner-like establishments.",
+          "rrf_score": 0.02886002886002886,
+          "ce_score": -3.1810312271118164
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_12",
+          "text": "The small rice bowl ( 茶碗 , chawan ) , literally \"tea bowl\", doubles as a word for the large tea bowls in tea ceremonies. Thus in common speech, the drinking cup is referred to as yunomi-jawan or yunomi for the purpose of distinction. Among the nobility, each course of a full-course Japanese meal would be brought on serving napkins called zen ( 膳 ) , which were originally platformed trays or small dining tables. In the modern age, faldstool trays or stackup-type legged trays may still be seen used in zashiki (座敷), i.e. tatami -mat rooms, for large banquets or at a ryokan type inn. Some restaurants might use the suffix -zen ( 膳 ) as a more sophisticated though dated synonym to the more familiar teishoku ( 定食 ) , since the latter basically is a term for a combo meal served at a taishū-shokudō , akin to a diner .",
+          "rrf_score": 0.02946236559139785,
+          "ce_score": -3.658423900604248
+        }
+      ]
+    },
+    {
+      "query_id": "test_003",
+      "query": "What liquid ingredients are used to braise quail eggs in jangjorim?",
+      "response": "In the recipe for Jangjorim, quail eggs are typically braised in a liquid that melts the fat away from the duck entirely, leaving an incredibly crispy skin and leaner meat. The exact liquid used is not explicitly stated in the given context, but it is likely to be a combination of liquids that",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Quail_Egg_and_Chili_Jangjorim_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nJangjorim is Korean dish consisting mainly of boiled or braised beef and soy sauce. This version uses quail eggs.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": 6.12110710144043
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/65-northern-china/_chunk_8",
+          "text": "The second is at a very high heat in an open oven, which melts the fat away from the duck entirely, leaving an incredibly crispy skin and leaner meat. The duck is traditionally served in three steps: first the skin alone, before it gets cold and less crispy. Second is served the choicest parts of meat, usually in pancakes with spring onions, cucumber and sweet bean or hoisin sauce, as I’ve done here. The rest of the duck, including possibly the carcass, can then be cooked into a broth, or sautéed, and served last. The second part of this meal consisted of tea eggs, also sometimes called marble eggs for their pattern, which are popular in North-East China, and are made by first soft boiling eggs (in this case quail eggs), then gently cracking their shells all over, without removing them. The eggs are then submerged in a marinade of black tea, soy sauce, rice wine, Szechuan peppercorns and sweet spices such as star anise, cloves and cinnamon. This preparation is left overnight (or longer) until the dark liquid has made beautiful fractured patterns through the cracks of the shell.",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -5.269959449768066
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/_chunk_8",
+          "text": "The second is at a very high heat in an open oven, which melts the fat away from the duck entirely, leaving an incredibly crispy skin and leaner meat. The duck is traditionally served in three steps: first the skin alone, before it gets cold and less crispy. Second is served the choicest parts of meat, usually in pancakes with spring onions, cucumber and sweet bean or hoisin sauce, as I’ve done here. The rest of the duck, including possibly the carcass, can then be cooked into a broth, or sautéed, and served last. The second part of this meal consisted of tea eggs, also sometimes called marble eggs for their pattern, which are popular in North-East China, and are made by first soft boiling eggs (in this case quail eggs), then gently cracking their shells all over, without removing them. The eggs are then submerged in a marinade of black tea, soy sauce, rice wine, Szechuan peppercorns and sweet spices such as star anise, cloves and cinnamon. This preparation is left overnight (or longer) until the dark liquid has made beautiful fractured patterns through the cracks of the shell.",
+          "rrf_score": 0.015625,
+          "ce_score": -5.269959449768066
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Pickling_chunk_18",
+          "text": "Pickled eggs are common in many regions of the United States. Pickled herring is available in the Upper Midwest . Giardiniera , a mixture of pickled peppers, celery and olives, is a popular condiment in Chicago and other Midwestern cities with large Italian-American populations, and is often consumed with Italian beef sandwiches.\n\nPennsylvania Dutch Country has a strong tradition of pickled foods, including chow-chow and red beet eggs . In the Southern United States, pickled okra and watermelon rind are popular, as are deep-fried pickles and pickled pig's feet , pickled chicken eggs, pickled quail eggs, pickled garden vegetables and pickled sausage.\n\nVarious pickled vegetables, fish, or eggs may make a side dish to a Canadian lunch or dinner. Popular pickles in the Pacific Northwest include pickled asparagus and green beans. Pickled fruits like blueberries and early green strawberries are paired with meat dishes in restaurants.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -9.325421333312988
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Egg_chunk_6",
+          "text": "While whole, fresh eggs are the standard, a variety of processed \"egg products\" are available for purchase. In-shell heat-treated eggs are available to reduce the risk from eating undercooked eggs, though these are not suitable for foaming. Raw eggs can also be pre-shelled and sold as liquid or frozen eggs, yolks, or whites. They can also be dried and powdered, after which stabilizers may be added to help them whip better.\n\nMany countries have a standardized sizing system for chicken eggs, though the terminology used by each system is different and may not agree with the others. So, for normal recipes, it is best to avoid specifying egg size. In general, most recipes use \"standard\" eggs unless otherwise specified, which correspond to USDA size large and EU size M; these standard eggs tend to weigh about 50–60 g each out of shell.\n\nEU eggs are specified as per-egg weight ranges, plus a per-100 minimum.\n\nUSDA eggs are specified as the minimum weight of a dozen.\n\nEggs are most often procured whole, in their shells. When purchasing, inspect the eggs for any cracks in the shells. Do not purchase or use any cracked eggs, as they are easily contaminated.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -9.663592338562012
+        }
+      ]
+    },
+    {
+      "query_id": "test_004",
+      "query": "What flour is used to make the mochi dough for daifuku?",
+      "response": "Rice flour",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_(Sweet_Filled_Mochi)_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nDaifukumochi (大福餅) , or Daifuku (大福) (literally \"great luck\"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko , sweetened red bean paste made from azuki beans.\n\nDaifuku comes in many varieties. The most common is white, pale green or pale pink colored mochi filled with anko. These come in two sizes, one approximately the diameter of a half-dollar coin, the other palm-sized. Some versions contain whole pieces of fruit, mixtures of fruit and anko or crushed melon paste. Nearly all daifuku are covered in a fine layer of potato or taro starch to keep them from sticking to each other, or to the fingers.  Some are covered with confectioner's sugar or cocoa.",
+          "rrf_score": 0.02982456140350877,
+          "ce_score": 1.7499406337738037
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nDaifukumochi (大福餅) , or Daifuku (大福) (literally \"great luck\"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko , sweetened red bean paste made from azuki beans.\n\nDaifuku comes in many varieties. The most common is white, pale green or pale pink colored mochi filled with anko. These come in two sizes, one approximately the diameter of a half-dollar coin, the other palm-sized. Some versions contain whole pieces of fruit, mixtures of fruit and anko or crushed melon paste. Nearly all daifuku are covered in a fine layer of potato or taro starch to keep them from sticking to each other, or to the fingers.  Some are covered with confectioner's sugar or cocoa.",
+          "rrf_score": 0.02938045560996381,
+          "ce_score": 1.7499406337738037
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_25",
+          "text": "Traditional Japanese sweets are known as wagashi . Ingredients such as red bean paste and mochi are used. More modern-day tastes includes green tea ice cream , a very popular flavor. Almost all manufacturers produce a version of it. Kakigōri (かき氷) is a shaved ice dessert flavored with syrup or condensed milk. It is usually sold and eaten at summer festivals. A dessert very popular amongst children in Japan is dorayaki . They are sweet pancakes filled with a sweet red bean paste. They are mostly eaten at room temperature but are also considered very delicious hot. Similar sweets to dorayaki include imagawayaki and fish-shaped taiyaki . Sweet breads containing red bean paste, such as anpan and an-doughnut , are also commonly eaten.\n\nGreen tea may be served with most Japanese dishes. It is produced in Japan and prepared in various forms, such as matcha , the tea used in the Japanese tea ceremony . Barley tea is a favorite drink during the hot summertime.",
+          "rrf_score": 0.015625,
+          "ce_score": -5.008565902709961
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Rice_Flour_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Ingredients | Flour\n\nRice flour is a flour milled from rice . There are several grades, with different culinary uses including baking and as a thickener .\n\nRice flour is gluten-free because it is milled from a gluten-free grain. It is often used as a substitute for wheat flour in baking, but due to the lack of gluten, it requires other ingredients for binding such as tapioca starch , guar gum or xanthan gum . However, some rice flour may not be gluten-free, due to cross-contamination at the flour mill – check with your supplier if this is important.\n\nRice flour is used in baked goods and in many national and regional cuisines.  In Middle-Eastern cuisine, it is used in the dessert mihallabiyya . In Latin-American cuisine, it is used to thicken the drink horchata . Glutinous Rice Flour is used a great deal in Asian cuisine. It is also known as sweet rice flour , sticky rice flour , and waxy rice flour .\nStandard rice flour cannot be used as a substitute in a recipe calling for glutinous rice flour.",
+          "rrf_score": 0.03177805800756621,
+          "ce_score": -7.031031608581543
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daigakuimo_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Cuisine of Japan\n\nDaigakuimo (Japanese: 大学芋) is a dish of Japanese candied sweet potato.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -7.334190368652344
+        }
+      ]
+    },
+    {
+      "query_id": "test_005",
+      "query": "What foods were introduced to Korea through the Mongol invasion of Goryeo?",
+      "response": "Food items introduced to Korea through the Mongol invasion of Goryeo include:\n\n1. Grilled meat dishes\n2. Noodle dishes\n3. Seasonings such as black pepper\n4. Meat and bean products\n\nThese foods became staples in Korean cuisine during the later Goryeo period.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_temple_cuisine_chunk_0",
+          "text": "Korean temple cuisine ( Korean : 사찰음식 ) refers to a type of cuisine that originated in Buddhist temples of Korea. Since Buddhism was introduced into Korea, Buddhist traditions have strongly influenced Korean cuisine as well. During the Silla period (57 BC – 935 AD), chalbap (찰밥, a bowl of cooked glutinous rice ) yakgwa (약과, a fried dessert) and yumilgwa (a fried and puffed rice snack) were served for Buddhist altars and have been developed into types of hangwa , Korean traditional confectionery . During the Goryeo period, sangchu ssam (wraps made with lettuce), yaksik , and yakgwa were developed, so spread to China and other countries. Since the Joseon Dynasty, Buddhist cuisine has been established in Korea according to regions and temples.",
+          "rrf_score": 0.028531243721117136,
+          "ce_score": 0.7148803472518921
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_17",
+          "text": "Geographically, Gyeonggi province is located in the central region of the Korean peninsula. Until the Korean War it included Kaesong , the old capital of Goryeo . Mountain vegetables are obtained from those surrounding Seoul, while fish and seafood are harvested from the Yellow Sea , located to the west. In Gyeonggi cuisine, jeotgal (fermented salted seafood) is abundant, and among them jogijeot (made with croaker ) and saeujeot (made with small shrimp) are often used as ingredients in kimchi . The climate is relatively mild, and various types of cereal crops are harvested, so dishes made with grain crops are especially developed. Ogokbap (steamed five cereal crops), and chalbap (steamed glutinous rice) are enjoyed as main dishes. Although the province borders Seoul, its cuisine is generally simple, and its flavors and use of seasonings are moderate except in Kaesong cuisine. Due to the sophisticated culinary culture, and diverse dishes, Kaesong's cuisine is often compared with Seoul's cuisine and Korean royal court cuisine .",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -0.7876038551330566
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_5",
+          "text": "The opening of Korea to the Western world brought further exchange of culture and food. Western missionaries introduced new ingredients and dishes to Korea. Joseon elites were introduced to these new foods by way of foreigners who attended the royal court as advisers or physicians. This period also saw the introduction of various seasonings imported from Japan via western traders and alcoholic drinks from China.\n\nColonial period to modern period\n\nJapan occupied the Korean peninsula from 1910 to 1945. Many of its agricultural systems were taken over by the Japanese to support Japan's food supply. Land changes resulting from the Japanese occupation included combining small farms into large-scale farms, which led to larger yields. Rice production increased during this period to support the Empire of Japan 's war efforts. Many Koreans, in turn, increased the production of other grains for their own consumption.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -0.8530895113945007
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_2",
+          "text": "The Three Kingdoms period (57 BCE – 668 CE) was one of rapid cultural evolution. The kingdom of Goguryeo (37 BCE – 668 CE) was located in the northern part of the peninsula along much of modern-day Manchuria . The second kingdom, Baekje (18 BCE – 660 CE), was in the southwestern portion of the peninsula, and the third, Silla (57 BCE – 935 CE), was located at the southeastern portion of the peninsula. Each region had its own distinct set of cultural practices and foods. For example, Baekje was known for cold foods and fermented foods like kimchi . The spread of Buddhism and Confucianism through cultural exchanges with China during the fourth century CE began to change the distinct cultures of Korea.\n\nAttributed with the earliest kimchi , the Goguryeo people were skilled at fermenting and widely consumed fermented food.\n\nDuring the latter Goryeo period, the Mongols invaded Goryeo in the 13th century. Some traditional foods found today in Korea have their origins during this period. The dumpling dish, mandu , grilled meat dishes, noodle dishes , and the use of seasonings such as black pepper, all have their roots in this period.",
+          "rrf_score": 0.029653679653679654,
+          "ce_score": -2.080458641052246
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_imperial_cuisine_chunk_4",
+          "text": "Imperial cuisine in the Ming dynasty was mostly cooked with the flavours of southern China because of the preferences of Zhu Yuanzhang , the founder of the Ming dynasty. The cuisine in the Ming palace totally changed the Mongolian style of food served during the Mongol -led Yuan dynasty . The imperial cuisine of the Ming dynasty had one important characteristic, which was to maintain good health. The emperors of the Ming dynasty paid great attention to maintaining their health by eating healthy food. The menu of imperial cuisine changed daily and dishes were not repeated. Imperial cuisine of the Ming dynasty was mainly grain-based. Therefore, meat and bean products were not as popular as they were in the former dynasties. In the Qing dynasty , a famous dish was sweet potatoes. Maize and chili peppers were also introduced in around the mid-16th century. Other famous dishes including shark's fin soup and edible bird's nest also gained their fame during this period. Those two dishes were introduced to China by the explorer Zheng He in the early Ming dynasty. While these two dishes were becoming examples of extravagant dishes, sea cucumbers and prawns were also brought into China.",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": -2.801210880279541
+        }
+      ]
+    },
+    {
+      "query_id": "test_005",
+      "query": "Who is Yiling Li?",
+      "response": "Yiling Li is the creator of Li Family's cuisine, also known as Li-Jia-Cai.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_aristocrat_cuisine_chunk_4",
+          "text": "Li family's cuisine (Li-Jia-Cai, 厉家菜) is developed from Chinese imperial cuisine , and it is a fusion of Chinese imperial cuisine and Beijing cuisine , supplemented by dishes created by their own. Contrary to the rest styles of Chinese aristocrat cuisine that are developed from and based on regional cuisines of southern China, Li family's cuisine is developed from and based on northern regional cuisines of northern China: The original creator of Li family's cuisine, Mr. Li Shun-Qing (厉顺庆), was a Qing Dynasty subject with rank of lieutenant general (都统, Dutong ), in charge of Empress Dowager Cixi 's Imperial Household Department , and he memorized the menus of Empress Dowager's meals at work, and then wrote down after returning home, and the menus were kept in the family for more than a century.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -4.603420257568359
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Sichuan_chunk_40",
+          "text": "The Li Bai Memorial, located in Jiangyou , is a museum in memory of Li Bai, a Chinese poet of Tang China (618–907) built at the place where he grew up. The building was begun in 1962 on the occasion of the 1200th anniversary of his death, completed in 1981, and opened to the public in October 1982. The memorial is built in the style of the classic Tang garden.\n\nIn 2003, Sichuan had \"88 art performing troupes, 185 culture centers, 133 libraries, and 52 museums\". Companies based in Sichuan also produced 23 television series and one film.\n\nThe Sichuanese once spoke their variety of Spoken Chinese called Ba-Shu Chinese, or Old Sichuanese before it became extinct during the Ming dynasty. Now most of them speak Sichuanese Mandarin. The Minjiang dialects are thought by some linguists [ who? ] to be a bona fide descendant of Old Sichuanese, but there is no conclusive evidence whether Minjiang dialects are derived from Old Sichuanese or Southwestern Mandarin. [ citation needed ]\n\nThe languages of Sichuan are primarily members of three subfamilies of the Sino-Tibetan languages .",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": -5.166223526000977
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/History_of_Chinese_cuisine_chunk_27",
+          "text": "Jonathan Spence writes appreciatively that by the Qing dynasty the \"culinary arts were treated as a part of the life of the mind: There was a Tao of food, just as there was Tao of conduct and one of literary creation.\" The opulence of the scholar-official Li Liweng was balanced by the gastronome Yuan Mei . To make the best rice, Li would send his maid to gather the dew from the flowers of the wild rose, cassia, or citron to add at the last minute; Li insisted that water from garden roses was too strong. Yuan Mei takes the position of the ascetic gourmet, in his gastronomic work the Suiyuan shidan , he wrote:\n\nAfter such a meal, Yuan said, he would return home and make himself a bowl of congee .\n\nThe records of the Imperial Banqueting Court ( 光禄寺 ; 光祿寺 ; Guānglù Sì ; Kuang-lu ssu ) published in the late Qing period showed there were several levels of Manchu banquets ( 满席 ; 滿席 ; Mǎn xí ) and Chinese banquets ( 汉席 ; 漢席 ; Hàn xí ). The royal Manchu Han Imperial Feast is one that combined both traditions.\n\nThe specialty dish Dazhu gansi was highly commended by the Qing emperor Qianglong .",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -8.387964248657227
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Hunan_chunk_2",
+          "text": "The name Hunan literally means \"south of the lake\". The lake in question is Dongting Lake , in the northeast of the province. Vehicle license plates from Hunan are marked Xiāng ( Chinese : 湘 ), after the Xiang River , which runs from south to north through Hunan and forms part of the province's largest drainage system. The area of Hunan was under Chinese rule as far back as 350 BC. Hunan was the birthplace of communist revolutionary Mao Zedong , who became the Chairman of the Chinese Communist Party and the founding father of the People's Republic of China . Hunan today is home to some ethnic minorities, including the Tujia and Miao , along with the Han Chinese , who make up a majority of the population. Varieties of Chinese spoken include Xiang , Gan , and Southwestern Mandarin .\n\nWulingyuan was inscribed as a UNESCO World Heritage Site in 1992. Changsha , the capital, is in the eastern part of the province and is an important commercial, manufacturing, and transportation center. The busiest airports serve domestic and international flights for Hunan, including Changsha Huanghua International Airport , Zhangjiajie Hehua International Airport , and Changde Taohuayuan Airport .",
+          "rrf_score": 0.02690501986276634,
+          "ce_score": -9.78904914855957
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Sichuan_chunk_14",
+          "text": "Sichuan was originally the origin of the Deng lineage until one of them was hired as an official in Guangdong during the Ming dynasty but during the Qing plan to increase the population in 1671 they came to Sichuan again. In 1904 Deng Xiaoping was born in Sichuan.\n\nDuring the Qing dynasty , Sichuan was merged with Shaanxi and Shanxi to create \"Shenzhuan\" during 1680–1731 and 1735–1748. The current borders of Sichuan (which then included Chongqing ) were established in the early 18th century. In the aftermath of the Sino-Nepalese War on China's southwestern border, the Qing gave Sichuan's provincial government direct control over the minority-inhabited areas of Sichuan west of Kangding , which had previously been handled by an amban .\n\nA landslide dam on the Dadu River caused by an earthquake gave way on 10 June 1786. The resulting flood killed 100,000 people.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -10.653118133544922
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1114 @@
+{
+  "results": [
+    {
+      "query_id": "0",
+      "query": "How much kimchi is consumed per person per year in South Korea?",
+      "response": "18 kg",
+      "retrieved_context": [
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_6",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air. Kimchi is made from salted and fermented vegetables, most commonly cabbage, although popularly also radish. To the fermenting mixture is added flavourings such as gochugaru (chilli powder), garlic, ginger, scallions, and often some sort of salted seafood, such as anchovies.",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": 8.555373191833496
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_6",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air. Kimchi is made from salted and fermented vegetables, most commonly cabbage, although popularly also radish. To the fermenting mixture is added flavourings such as gochugaru (chilli powder), garlic, ginger, scallions, and often some sort of salted seafood, such as anchovies.",
+          "rrf_score": 0.03252247488101534,
+          "ce_score": 8.555373191833496
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_6",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air. Kimchi is made from salted and fermented vegetables, most commonly cabbage, although popularly also radish. To the fermenting mixture is added flavourings such as gochugaru (chilli powder), garlic, ginger, scallions, and often some sort of salted seafood, such as anchovies.",
+          "rrf_score": 0.03252247488101534,
+          "ce_score": 8.555373191833496
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_28",
+          "text": "It contains vitamins such as vitamin A, vitamin B, vitamin C, and vitamin K and minerals which are calcium, iron, phosphorus, and selenium. The same lactobacilli bacteria found in yogurt and other fermented dairy products are also found in kimchi. In 2021, Koreans collectively consumed 1,965,000 tons of Kimchi, with average Korean consuming 88.3 grams of Kimchi daily.",
+          "rrf_score": 0.015384615384615385,
+          "ce_score": 5.796894073486328
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_8",
+          "text": "Rice consumption continually decreased through these years, from 128 kg consumed per person in 1985 to 106 kg in 1995 and 83 kg in 2003. The decrease in rice consumption has been accompanied by an increase in the consumption of bread and noodles. In 2009, the South Korean government launched a $77-million culinary diplomacy program called \"Korean Cuisine to the World\" to promote its cuisine and subsequently pivoted into the markets in the United States and Muslim countries.",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": 2.5451126098632812
+        }
+      ]
+    },
+    {
+      "query_id": "1",
+      "query": "What does the Japanese term 'nuuhara' mean?",
+      "response": "I do not know",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_6",
+          "text": "The word washoku ( 和食 ) is now the common word for traditional Japanese cooking. The term kappō [ ja ] ( 割烹 ; lit. \"cutting and boiling (meats)\") is synonymous with \"cooking\", but became a reference to mostly Japanese cooking, or restaurants, and was much used in the Meiji and Taishō eras . It has come to connote a certain standard, perhaps even of the highest caliber, a restaurant with the most highly trained chefs. However, kappō is generally seen as an eating establishment which is slightly more casual or informal compared to the kaiseki .\n\nThe kaiseki ( 懐石 , lit. \"warming stone\") is tied with the Japanese tea ceremony . The kaiseki is considered a (simplified) form of honzen-ryōri ( 本膳料理 , lit. \"main tray cooking\") , which was formal banquet dining where several trays of food were served. The homophone term kaiseki ryōri ( 会席料理 , lit. \"gathering + seating\") originally referred to a gathering of composers of haiku or renga , and the simplified version of the honzen dishes served at the poem parties became kaiseki ryōri . However, the meaning of kaiseki ryōri degenerated to become just another term for a sumptuous carousing banquet, or shuen ( 酒宴 ) .",
+          "rrf_score": 0.03306010928961749,
+          "ce_score": -1.8950542211532593
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_24",
+          "text": "Hot noodles are usually served in a bowl already steeped in their broth and are called kakesoba or kakeudon . Cold soba arrive unseasoned and heaped atop a zaru or seiro , and are picked up with a chopstick and dunked in their dipping sauce. The broth can consist of many ingredients but is generally based on dashi; the sauce, called tsuyu, is usually more concentrated and made from soy sauce, dashi and mirin, sake or both.\n\nIn the simple form, yakumi (薬味, condiments and spices) such as shichimi , nori, finely chopped scallions, wasabi, etc. are added to the noodles, besides the broth/dip sauce.\n\nUdon may also be eaten in kama-age style, piping hot straight out of the boiling pot, and eaten with plain soy sauce and sometimes with raw egg also.\n\nJapanese noodles are traditionally eaten by bringing the bowl close to the mouth, and sucking in the noodles with the aid of chopsticks . The resulting loud slurping noise is considered normal in Japan, although in the 2010s concerns began to be voiced about the slurping being offensive to others, especially tourists. The word nuuhara (ヌーハラ, from \"nuudoru harasumento\", noodle harassment) was coined to describe this.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -2.6037404537200928
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_30",
+          "text": "Different cooking techniques are applied to each of the three okazu ; they may be raw ( sashimi ), grilled , simmered (sometimes called boiled ), steamed , deep-fried , vinegared, or dressed .\n\nIn ichijū-sansai ( 一汁三菜 , \"one soup, three sides\" ) , the word sai ( 菜 ) has the basic meaning of \"vegetable\", but secondarily means any accompanying dish (whether it uses fish or meat), with the more familiar combined form sōzai [ ja ] ( 惣菜 ) , which is a term for any side dish, such as the vast selections sold at Japanese supermarkets or depachikas [ ja ] .\n\nIt figures in the Japanese word for appetizer, zensai ( 前菜 ) ; main dish, shusai ( 主菜 ) ; or sōzai ( 惣菜 ) (formal synonym for okazu ), but the latter is considered somewhat of a ladies' term or nyōbō kotoba .\n\nBelow are listed some of the most common categories for prepared food:",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -3.0932888984680176
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_13",
+          "text": "Some restaurants might use the suffix -zen ( 膳 ) as a more sophisticated though dated synonym to the more familiar teishoku ( 定食 ) , since the latter basically is a term for a combo meal served at a taishū-shokudō , akin to a diner . Teishoku means a meal of fixed menu (for example, grilled fish with rice and soup), a dinner à prix fixe served at shokudō ( 食堂 , \"dining hall\") or ryōriten ( 料理店 , \"restaurant\") , which is somewhat vague ( shokudō can mean a diner-type restaurant or a corporate lunch hall); writer on Japanese popular culture Ishikawa Hiroyoshi defines it as fare served at teishoku dining halls ( 定食食堂 , teishoku-shokudō ) , and comparable diner-like establishments.",
+          "rrf_score": 0.02886002886002886,
+          "ce_score": -3.1810312271118164
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_12",
+          "text": "The small rice bowl ( 茶碗 , chawan ) , literally \"tea bowl\", doubles as a word for the large tea bowls in tea ceremonies. Thus in common speech, the drinking cup is referred to as yunomi-jawan or yunomi for the purpose of distinction. Among the nobility, each course of a full-course Japanese meal would be brought on serving napkins called zen ( 膳 ) , which were originally platformed trays or small dining tables. In the modern age, faldstool trays or stackup-type legged trays may still be seen used in zashiki (座敷), i.e. tatami -mat rooms, for large banquets or at a ryokan type inn. Some restaurants might use the suffix -zen ( 膳 ) as a more sophisticated though dated synonym to the more familiar teishoku ( 定食 ) , since the latter basically is a term for a combo meal served at a taishū-shokudō , akin to a diner .",
+          "rrf_score": 0.02946236559139785,
+          "ce_score": -3.658423900604248
+        }
+      ]
+    },
+    {
+      "query_id": "2",
+      "query": "What foods were introduced to Korea through the Mongol invasion of Goryeo?",
+      "response": "The Mongol invasion of Goryeo brought influences to Korea's traditional foods, including:\n\n1. **Dumpling Dish**: The dumpling dish, which includes grilled meat dishes, noodle dishes, and the use of seasonings like black pepper, has its roots in this period.\n2. **Grilled Meat",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_temple_cuisine_chunk_0",
+          "text": "Korean temple cuisine ( Korean : 사찰음식 ) refers to a type of cuisine that originated in Buddhist temples of Korea. Since Buddhism was introduced into Korea, Buddhist traditions have strongly influenced Korean cuisine as well. During the Silla period (57 BC – 935 AD), chalbap (찰밥, a bowl of cooked glutinous rice ) yakgwa (약과, a fried dessert) and yumilgwa (a fried and puffed rice snack) were served for Buddhist altars and have been developed into types of hangwa , Korean traditional confectionery . During the Goryeo period, sangchu ssam (wraps made with lettuce), yaksik , and yakgwa were developed, so spread to China and other countries. Since the Joseon Dynasty, Buddhist cuisine has been established in Korea according to regions and temples.",
+          "rrf_score": 0.028531243721117136,
+          "ce_score": 0.7148803472518921
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_17",
+          "text": "Geographically, Gyeonggi province is located in the central region of the Korean peninsula. Until the Korean War it included Kaesong , the old capital of Goryeo . Mountain vegetables are obtained from those surrounding Seoul, while fish and seafood are harvested from the Yellow Sea , located to the west. In Gyeonggi cuisine, jeotgal (fermented salted seafood) is abundant, and among them jogijeot (made with croaker ) and saeujeot (made with small shrimp) are often used as ingredients in kimchi . The climate is relatively mild, and various types of cereal crops are harvested, so dishes made with grain crops are especially developed. Ogokbap (steamed five cereal crops), and chalbap (steamed glutinous rice) are enjoyed as main dishes. Although the province borders Seoul, its cuisine is generally simple, and its flavors and use of seasonings are moderate except in Kaesong cuisine. Due to the sophisticated culinary culture, and diverse dishes, Kaesong's cuisine is often compared with Seoul's cuisine and Korean royal court cuisine .",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -0.7876038551330566
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_5",
+          "text": "The opening of Korea to the Western world brought further exchange of culture and food. Western missionaries introduced new ingredients and dishes to Korea. Joseon elites were introduced to these new foods by way of foreigners who attended the royal court as advisers or physicians. This period also saw the introduction of various seasonings imported from Japan via western traders and alcoholic drinks from China.\n\nColonial period to modern period\n\nJapan occupied the Korean peninsula from 1910 to 1945. Many of its agricultural systems were taken over by the Japanese to support Japan's food supply. Land changes resulting from the Japanese occupation included combining small farms into large-scale farms, which led to larger yields. Rice production increased during this period to support the Empire of Japan 's war efforts. Many Koreans, in turn, increased the production of other grains for their own consumption.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -0.8530895113945007
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_2",
+          "text": "The Three Kingdoms period (57 BCE – 668 CE) was one of rapid cultural evolution. The kingdom of Goguryeo (37 BCE – 668 CE) was located in the northern part of the peninsula along much of modern-day Manchuria . The second kingdom, Baekje (18 BCE – 660 CE), was in the southwestern portion of the peninsula, and the third, Silla (57 BCE – 935 CE), was located at the southeastern portion of the peninsula. Each region had its own distinct set of cultural practices and foods. For example, Baekje was known for cold foods and fermented foods like kimchi . The spread of Buddhism and Confucianism through cultural exchanges with China during the fourth century CE began to change the distinct cultures of Korea.\n\nAttributed with the earliest kimchi , the Goguryeo people were skilled at fermenting and widely consumed fermented food.\n\nDuring the latter Goryeo period, the Mongols invaded Goryeo in the 13th century. Some traditional foods found today in Korea have their origins during this period. The dumpling dish, mandu , grilled meat dishes, noodle dishes , and the use of seasonings such as black pepper, all have their roots in this period.",
+          "rrf_score": 0.029653679653679654,
+          "ce_score": -2.080458641052246
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_imperial_cuisine_chunk_4",
+          "text": "Imperial cuisine in the Ming dynasty was mostly cooked with the flavours of southern China because of the preferences of Zhu Yuanzhang , the founder of the Ming dynasty. The cuisine in the Ming palace totally changed the Mongolian style of food served during the Mongol -led Yuan dynasty . The imperial cuisine of the Ming dynasty had one important characteristic, which was to maintain good health. The emperors of the Ming dynasty paid great attention to maintaining their health by eating healthy food. The menu of imperial cuisine changed daily and dishes were not repeated. Imperial cuisine of the Ming dynasty was mainly grain-based. Therefore, meat and bean products were not as popular as they were in the former dynasties. In the Qing dynasty , a famous dish was sweet potatoes. Maize and chili peppers were also introduced in around the mid-16th century. Other famous dishes including shark's fin soup and edible bird's nest also gained their fame during this period. Those two dishes were introduced to China by the explorer Zheng He in the early Ming dynasty. While these two dishes were becoming examples of extravagant dishes, sea cucumbers and prawns were also brought into China.",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": -2.801210880279541
+        }
+      ]
+    },
+    {
+      "query_id": "3",
+      "query": "What liquid ingredients are used to braise quail eggs in jangjorim?",
+      "response": "Quail eggs are used in the following liquids to braise in Jangjorim:\n\n1. Water\n2. Soy Sauce\n3. Vinegar\n4. Salt\n5. Sugar\n6. Oil (such as vegetable oil)\n7. Butter\n8. Honey\n9. Sesame oil",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Quail_Egg_and_Chili_Jangjorim_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nJangjorim is Korean dish consisting mainly of boiled or braised beef and soy sauce. This version uses quail eggs.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": 6.12110710144043
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/65-northern-china/_chunk_8",
+          "text": "The second is at a very high heat in an open oven, which melts the fat away from the duck entirely, leaving an incredibly crispy skin and leaner meat. The duck is traditionally served in three steps: first the skin alone, before it gets cold and less crispy. Second is served the choicest parts of meat, usually in pancakes with spring onions, cucumber and sweet bean or hoisin sauce, as I’ve done here. The rest of the duck, including possibly the carcass, can then be cooked into a broth, or sautéed, and served last. The second part of this meal consisted of tea eggs, also sometimes called marble eggs for their pattern, which are popular in North-East China, and are made by first soft boiling eggs (in this case quail eggs), then gently cracking their shells all over, without removing them. The eggs are then submerged in a marinade of black tea, soy sauce, rice wine, Szechuan peppercorns and sweet spices such as star anise, cloves and cinnamon. This preparation is left overnight (or longer) until the dark liquid has made beautiful fractured patterns through the cracks of the shell.",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -5.269959449768066
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/_chunk_8",
+          "text": "The second is at a very high heat in an open oven, which melts the fat away from the duck entirely, leaving an incredibly crispy skin and leaner meat. The duck is traditionally served in three steps: first the skin alone, before it gets cold and less crispy. Second is served the choicest parts of meat, usually in pancakes with spring onions, cucumber and sweet bean or hoisin sauce, as I’ve done here. The rest of the duck, including possibly the carcass, can then be cooked into a broth, or sautéed, and served last. The second part of this meal consisted of tea eggs, also sometimes called marble eggs for their pattern, which are popular in North-East China, and are made by first soft boiling eggs (in this case quail eggs), then gently cracking their shells all over, without removing them. The eggs are then submerged in a marinade of black tea, soy sauce, rice wine, Szechuan peppercorns and sweet spices such as star anise, cloves and cinnamon. This preparation is left overnight (or longer) until the dark liquid has made beautiful fractured patterns through the cracks of the shell.",
+          "rrf_score": 0.015625,
+          "ce_score": -5.269959449768066
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Pickling_chunk_18",
+          "text": "Pickled eggs are common in many regions of the United States. Pickled herring is available in the Upper Midwest . Giardiniera , a mixture of pickled peppers, celery and olives, is a popular condiment in Chicago and other Midwestern cities with large Italian-American populations, and is often consumed with Italian beef sandwiches.\n\nPennsylvania Dutch Country has a strong tradition of pickled foods, including chow-chow and red beet eggs . In the Southern United States, pickled okra and watermelon rind are popular, as are deep-fried pickles and pickled pig's feet , pickled chicken eggs, pickled quail eggs, pickled garden vegetables and pickled sausage.\n\nVarious pickled vegetables, fish, or eggs may make a side dish to a Canadian lunch or dinner. Popular pickles in the Pacific Northwest include pickled asparagus and green beans. Pickled fruits like blueberries and early green strawberries are paired with meat dishes in restaurants.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -9.325421333312988
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Egg_chunk_6",
+          "text": "While whole, fresh eggs are the standard, a variety of processed \"egg products\" are available for purchase. In-shell heat-treated eggs are available to reduce the risk from eating undercooked eggs, though these are not suitable for foaming. Raw eggs can also be pre-shelled and sold as liquid or frozen eggs, yolks, or whites. They can also be dried and powdered, after which stabilizers may be added to help them whip better.\n\nMany countries have a standardized sizing system for chicken eggs, though the terminology used by each system is different and may not agree with the others. So, for normal recipes, it is best to avoid specifying egg size. In general, most recipes use \"standard\" eggs unless otherwise specified, which correspond to USDA size large and EU size M; these standard eggs tend to weigh about 50–60 g each out of shell.\n\nEU eggs are specified as per-egg weight ranges, plus a per-100 minimum.\n\nUSDA eggs are specified as the minimum weight of a dozen.\n\nEggs are most often procured whole, in their shells. When purchasing, inspect the eggs for any cracks in the shells. Do not purchase or use any cracked eggs, as they are easily contaminated.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -9.663592338562012
+        }
+      ]
+    },
+    {
+      "query_id": "4",
+      "query": "What flour is used to make the mochi dough for daifuku?",
+      "response": "Potato or taro starch",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_(Sweet_Filled_Mochi)_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nDaifukumochi (大福餅) , or Daifuku (大福) (literally \"great luck\"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko , sweetened red bean paste made from azuki beans.\n\nDaifuku comes in many varieties. The most common is white, pale green or pale pink colored mochi filled with anko. These come in two sizes, one approximately the diameter of a half-dollar coin, the other palm-sized. Some versions contain whole pieces of fruit, mixtures of fruit and anko or crushed melon paste. Nearly all daifuku are covered in a fine layer of potato or taro starch to keep them from sticking to each other, or to the fingers.  Some are covered with confectioner's sugar or cocoa.",
+          "rrf_score": 0.02982456140350877,
+          "ce_score": 1.7499406337738037
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nDaifukumochi (大福餅) , or Daifuku (大福) (literally \"great luck\"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko , sweetened red bean paste made from azuki beans.\n\nDaifuku comes in many varieties. The most common is white, pale green or pale pink colored mochi filled with anko. These come in two sizes, one approximately the diameter of a half-dollar coin, the other palm-sized. Some versions contain whole pieces of fruit, mixtures of fruit and anko or crushed melon paste. Nearly all daifuku are covered in a fine layer of potato or taro starch to keep them from sticking to each other, or to the fingers.  Some are covered with confectioner's sugar or cocoa.",
+          "rrf_score": 0.02938045560996381,
+          "ce_score": 1.7499406337738037
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_25",
+          "text": "Traditional Japanese sweets are known as wagashi . Ingredients such as red bean paste and mochi are used. More modern-day tastes includes green tea ice cream , a very popular flavor. Almost all manufacturers produce a version of it. Kakigōri (かき氷) is a shaved ice dessert flavored with syrup or condensed milk. It is usually sold and eaten at summer festivals. A dessert very popular amongst children in Japan is dorayaki . They are sweet pancakes filled with a sweet red bean paste. They are mostly eaten at room temperature but are also considered very delicious hot. Similar sweets to dorayaki include imagawayaki and fish-shaped taiyaki . Sweet breads containing red bean paste, such as anpan and an-doughnut , are also commonly eaten.\n\nGreen tea may be served with most Japanese dishes. It is produced in Japan and prepared in various forms, such as matcha , the tea used in the Japanese tea ceremony . Barley tea is a favorite drink during the hot summertime.",
+          "rrf_score": 0.015625,
+          "ce_score": -5.008565902709961
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Rice_Flour_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Ingredients | Flour\n\nRice flour is a flour milled from rice . There are several grades, with different culinary uses including baking and as a thickener .\n\nRice flour is gluten-free because it is milled from a gluten-free grain. It is often used as a substitute for wheat flour in baking, but due to the lack of gluten, it requires other ingredients for binding such as tapioca starch , guar gum or xanthan gum . However, some rice flour may not be gluten-free, due to cross-contamination at the flour mill – check with your supplier if this is important.\n\nRice flour is used in baked goods and in many national and regional cuisines.  In Middle-Eastern cuisine, it is used in the dessert mihallabiyya . In Latin-American cuisine, it is used to thicken the drink horchata . Glutinous Rice Flour is used a great deal in Asian cuisine. It is also known as sweet rice flour , sticky rice flour , and waxy rice flour .\nStandard rice flour cannot be used as a substitute in a recipe calling for glutinous rice flour.",
+          "rrf_score": 0.03177805800756621,
+          "ce_score": -7.031031608581543
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daigakuimo_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Cuisine of Japan\n\nDaigakuimo (Japanese: 大学芋) is a dish of Japanese candied sweet potato.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -7.334190368652344
+        }
+      ]
+    },
+    {
+      "query_id": "5",
+      "query": "What is the traditional method for preparing and serving Peking Duck?",
+      "response": "The traditional method for preparing and serving Peking Duck involves several key steps:\n\n1. First, the skin of the duck is removed from the outside using a technique that separates the fat and flesh from the skin.\n2. Next, the duck is soaked in boiling water for about a day or more to allow the fat and",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_imperial_cuisine_chunk_6",
+          "text": "Pekin duck originated in the Southern and Northern Dynasties (420–589 CE), specifically originated in Nanjing. Roasted duck was first served as a dish in imperial cuisine during the Yuan dynasty . It developed fully and became an important part of imperial cuisine menus during the Ming dynasty. In contemporary society, Peking roasted duck has entered international cuisine. Peking roasted duck was famous because of its crispy skin and the juicy meat which left a deep impression on people eating it for the first time. Since the imperial era, the dish is admired for its thin, crispy skin sliced in front of the diners by the cook. There are unique techniques to serving and eating Peking duck for maximum enjoyment of its taste.\n\nImperial cuisine in the Qing dynasty",
+          "rrf_score": 0.030751173708920186,
+          "ce_score": 3.26308536529541
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/_chunk_7",
+          "text": "Peking duck is often considered one of the national dishes of China, and originates from the province of Beijing, previously called Peking, where there now stands an entire museum devoted to the dish. Chinese roast duck can be traced back to the 5th century AD, but Peking duck as we know it today, is thought to have been developed during the Ming Dynasty, around the 15th century AD. Throughout the centuries, Peking duck has been particularly beloved by the ruling classes, although these days you can find the dish almost anywhere, including Chinese KFCs. Peking duck is cooked by first pumping air under the skin to separate it from the fat and ensure a light, crispy texture. The duck is then soaked in boiling water, hang-dried, and glazed with a sugary spiced syrup. After hanging for a day or so, the duck is roasted until the skin is golden-red and shiny. Two major roasting styles exist, the first on a low heat in a closed oven, which allows infusing of the fat and flesh to create very juicy meat. The second is at a very high heat in an open oven, which melts the fat away from the duck entirely, leaving an incredibly crispy skin and leaner meat.",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": 2.607217311859131
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/#comments_chunk_7",
+          "text": "Peking duck is often considered one of the national dishes of China, and originates from the province of Beijing, previously called Peking, where there now stands an entire museum devoted to the dish. Chinese roast duck can be traced back to the 5th century AD, but Peking duck as we know it today, is thought to have been developed during the Ming Dynasty, around the 15th century AD. Throughout the centuries, Peking duck has been particularly beloved by the ruling classes, although these days you can find the dish almost anywhere, including Chinese KFCs. Peking duck is cooked by first pumping air under the skin to separate it from the fat and ensure a light, crispy texture. The duck is then soaked in boiling water, hang-dried, and glazed with a sugary spiced syrup. After hanging for a day or so, the duck is roasted until the skin is golden-red and shiny. Two major roasting styles exist, the first on a low heat in a closed oven, which allows infusing of the fat and flesh to create very juicy meat. The second is at a very high heat in an open oven, which melts the fat away from the duck entirely, leaving an incredibly crispy skin and leaner meat.",
+          "rrf_score": 0.03177805800756621,
+          "ce_score": 2.607217311859131
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/65-northern-china/_chunk_7",
+          "text": "Peking duck is often considered one of the national dishes of China, and originates from the province of Beijing, previously called Peking, where there now stands an entire museum devoted to the dish. Chinese roast duck can be traced back to the 5th century AD, but Peking duck as we know it today, is thought to have been developed during the Ming Dynasty, around the 15th century AD. Throughout the centuries, Peking duck has been particularly beloved by the ruling classes, although these days you can find the dish almost anywhere, including Chinese KFCs. Peking duck is cooked by first pumping air under the skin to separate it from the fat and ensure a light, crispy texture. The duck is then soaked in boiling water, hang-dried, and glazed with a sugary spiced syrup. After hanging for a day or so, the duck is roasted until the skin is golden-red and shiny. Two major roasting styles exist, the first on a low heat in a closed oven, which allows infusing of the fat and flesh to create very juicy meat. The second is at a very high heat in an open oven, which melts the fat away from the duck entirely, leaving an incredibly crispy skin and leaner meat.",
+          "rrf_score": 0.031754032258064516,
+          "ce_score": 2.607217311859131
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/_chunk_8",
+          "text": "The second is at a very high heat in an open oven, which melts the fat away from the duck entirely, leaving an incredibly crispy skin and leaner meat. The duck is traditionally served in three steps: first the skin alone, before it gets cold and less crispy. Second is served the choicest parts of meat, usually in pancakes with spring onions, cucumber and sweet bean or hoisin sauce, as I’ve done here. The rest of the duck, including possibly the carcass, can then be cooked into a broth, or sautéed, and served last. The second part of this meal consisted of tea eggs, also sometimes called marble eggs for their pattern, which are popular in North-East China, and are made by first soft boiling eggs (in this case quail eggs), then gently cracking their shells all over, without removing them. The eggs are then submerged in a marinade of black tea, soy sauce, rice wine, Szechuan peppercorns and sweet spices such as star anise, cloves and cinnamon. This preparation is left overnight (or longer) until the dark liquid has made beautiful fractured patterns through the cracks of the shell.",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": 2.2026424407958984
+        }
+      ]
+    },
+    {
+      "query_id": "6",
+      "query": "What are the key flavor profiles and typical spices used in authentic Sichuan cuisine?",
+      "response": "The key flavor profiles and typical spices used in authentic Sichuan cuisine include:\n\n1. **Spicy and Hot** - This is the primary characteristic of Sichuan cuisine, characterized by its numbing sensation produced by the Sichuan pepper (; hujio).\n2. **Mala",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Sichuan_cuisine_chunk_6",
+          "text": "The most unique and important spice in Sichuan cuisine is the Sichuan (Szechuan) pepper ( 花椒 ; huājiāo ; 'flower pepper'), which has an intense, fragrant citruslike taste and produces a notably distinct \"numbingly spicy\" ( 麻 ; má ) sensation in the mouth. Other commonly used spices in Sichuan cuisine are garlic , chili peppers , ginger , and star anise .\n\nBroad bean chili paste ( 豆瓣醬 ; dòubànjiàng ) is another important seasoning. It is an essential component in famous dishes such as Mapo tofu and twice-cooked pork.\n\nSichuan cuisine is the origin of several prominent sauces/flavors widely used in modern Chinese cuisine , including:\n\nOther examples of flavor combinations including spicy and hot ( Mala ), fish flavor ( Yuxiang ), hot and sour, the five spices ( Wuxiang ; 五香), ginger juice, mashed garlic , sweet and sour , spice salt ( Jiaoyan ; 椒鹽), dried tangerine or orange peel ( Chenpi ; 陳皮), burnt chili, pot-stewed fowl ( Lu ; 滷味), odd flavor ( Guaiwei ; 怪味), and other recombinations of these seasonings.",
+          "rrf_score": 0.03333333333333333,
+          "ce_score": 6.812570571899414
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Sichuan_peppercorn_chunk_0",
+          "text": "Sichuan pepper ( Chinese : 花椒 ; pinyin : huājiāo ) is a spice made from the dried pericarp (outer shell of the fruit) of a plant of the genus Zanthoxylum in the family Rutaceae . It is commonly used in Sichuan cuisine of China and in the cuisines of the Himalayas. Despite its name, Sichuan pepper is not closely related to black pepper or chili pepper . Instead, Zanthoxylum plants are in the same family as citrus and rue .\n\nWhen eaten, Sichuan pepper produces a tingling, numbing effect due to the presence of hydroxy-alpha sanshool . It is used in Sichuan dishes such as mapo doufu and Chongqing hot pot , and is often added to chili peppers to create a flavor known as málà ( Chinese : 麻辣 ; ' numb-spiciness ' ).\n\nSichuan peppers have been used for culinary and medicinal purposes in China for centuries with numerous Zanthoxylum species called huājiāo . Commonly used sichuan peppers in China include:\n\nLess commonly cultivated species found in China include:\n\nOver the years, Chinese farmers have cultivated multiple strains of Z. bungeanum and Z. schinifolium .",
+          "rrf_score": 0.030090497737556562,
+          "ce_score": 2.8185513019561768
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Sichuan_cuisine_chunk_0",
+          "text": "Cookbook | Ingredients | Cuisines\n\nSichuan cuisine is a style of cuisine originating from the Sichuan Province in China's south-west. Prizing freshness and \"mala,\" or \"spicy, numbing\" heat, this region's cuisine is famously spicy. A number of Sichuanese dishes have been adapted for local tastes both within China and abroad, chief among these being Dan-Dan Noodle , Mapo Tofu and General Tso's Chicken.\n\nSichuan food is notable for its extensive use of chili-peppers as well as the berries of the mountain-ash plant, commonly called \"Szechuan pepper;\" the latter imparts a distinctive floral scent to most Sichuanese dishes while also providing a curious numbing sensation to the mouth. Additionally, foods preserved by drying, pickling and salting are exceedingly common.\n\nThe vast majority of ingredients in Sichuan cooking are either readily available in most developed regions of the world or may be passably substituted for similar (and more common) variants. Beyond ingredients common to Chinese cooking in general (ginger, soya sauce, garlic, preserved black beans, rice, dried mushrooms, wheat-flour noodles, etc), other common ingredients include:",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": 2.5569164752960205
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Sichuan_cuisine_chunk_3",
+          "text": "Sichuan is colloquially known as the \"heavenly country\" due to its abundance of food and natural resources. One ancient Chinese account declared that the \"people of Sichuan uphold good flavors, and they are fond of hot and spicy taste.\" Most Sichuan dishes are spicy, although a typical meal includes nonspicy dishes to cool the palate. Sichuan cuisine is composed of seven basic tastes: sweet, sour, numbingly spicy, spicy, bitter, fragrant/aromatic, and salty. Sichuan food is divided into five different types: sumptuous banquet, ordinary banquet, popular foods, household-style food and snacks. Milder versions of Sichuan dishes remain a staple of American Chinese cuisine .\n\nWang Dayu, in the Sichuan cuisine history strategy by the Committee on Literature and History of the CPPCC, considers Sichuan cuisine to be roughly divided into Chengdu Bang, Chongqing Bang, Dahe Bang, and Xiaohe Bang categories.\n\nShanghe Gang Sichuan cuisine in Chengdu, and Leshan-centered areas in the west of Sichuan, is characterized by being rich in seasoning and having a relatively light taste. It often uses spicy bean paste and sugar for flavoring, and is the most widely known Sichuan cuisine.",
+          "rrf_score": 0.02964254577157803,
+          "ce_score": 2.2914090156555176
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Szechuan_Pepper_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Ingredients | Spices and herbs\n\nSzechuan Pepper is a peppery spice used frequently in food from Sichuan province, China , but also in the cuisines of Japan , Tibet , and other countries in Asia . It has a slightly lemony aroma, and has a reputation for creating numbness in the mouth (very useful when eating really spicy foods like Mapo Doufu ).\n\nThe flavour and spice are in the husks of the seed, not the seed itself. The seeds are hard like little stones, and are discarded before roasting and grinding the husks.\n\nSzechuan pepper is one of the ingredients in Chinese five spice .",
+          "rrf_score": 0.027402402402402402,
+          "ce_score": 1.3506271839141846
+        }
+      ]
+    },
+    {
+      "query_id": "7",
+      "query": "How does traditional Korean BBQ differ from Japanese Yakiniku?",
+      "response": "Traditional Korean BBQ differs from Japanese Yakiniku in several ways:\n\n1. **Meat Selection**: In Korean BBQ, common ingredients include fish, shrimp, pork, and chicken. In contrast, Japanese Yakiniku typically uses beef, pork, and other cuts of meat.\n2. **Grilling Method**: Korean BBQ",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Beef_Yakiniku_Pizza_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Cuisine of Japan\n\nYakiniku is a Japanese term referring broadly to grilled or barbecued meat dishes. This recipe tops pizza dough with a yakiniku-style beef stir-fry.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": 1.0563217401504517
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_0",
+          "text": "Korean cuisine is the set of foods and culinary styles which are associated with Korean culture . This cuisine has evolved through centuries of social and political change. Originating from ancient agricultural and nomadic traditions in Korea and southern Manchuria , Korean cuisine reflects a complex interaction of the natural environment and different cultural trends.\n\nKorean cuisine is largely based on rice , vegetables , seafood and (at least in South Korea) meats . Dairy is largely absent from the traditional Korean diet. Traditional Korean meals are named for the number of side dishes ( 반찬 ; 飯饌 ; banchan ) that accompany steam-cooked short-grain rice. Kimchi is served at nearly every meal. Commonly used ingredients include sesame oil , doenjang ( fermented bean paste ), soy sauce , salt, garlic, ginger, gochugaru ( pepper flakes), gochujang (fermented red chili paste) and napa cabbage .\n\nIngredients and dishes vary by province. Many regional dishes have become national. Korean royal court cuisine once brought all of the unique regional specialties together for the royal family. Foods are regulated by Korean cultural etiquette .",
+          "rrf_score": 0.03055037313432836,
+          "ce_score": -0.6481820940971375
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_25",
+          "text": "Typical hangwa or Korean confectioneries are yakgwa , mandugwa , maejakgwa , and various types of yeotgangjeong and dasik . Both yakgwa and maejakgwa are fried pastries made with wheat flour and honey each having a distinctive shape and texture; the former with a flower pattern shape and a soft texture; the latter in a ribbon shape with a crispy texture. Mandugwa is a confectionery made by frying a dumpling filled with sweetened jujube. Yeotgangjeong , or taffy rice cracker, is covered with sesame seeds, peanuts, or ground pine nuts. Dasik is a pattern pressed cake eaten when drinking tea, made with black sesame seeds, soybean, pollen powders, chestnut, starch, rice or a mixture of wheat flour and honey.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -1.436819076538086
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_35",
+          "text": "In Korean cuisine, tea , or cha , refers to various types of herbal tea that can be served hot or cold. Not necessarily related to the leaves, leaf buds, and internodes of the Camellia sinensis plant, they are made from diverse substances, including fruits (e.g. yuja-cha ), flowers (e.g. gukhwa-cha ), leaves, roots, and grains (e.g. bori-cha , hyeonmi-cha ) or herbs and substances used in traditional Korean medicine , such as ginseng (e.g. insam-cha ) and ginger (e.g. saenggang-cha ).\n\nWhile soju is the best known liquor, there are well over 100 different alcoholic beverages, such as beers, rice and fruit wines, and liquors produced in South Korea as well as a sweet rice drink. The top-selling domestic beers ( maekju in Korean) are lagers , which differ from Western beers in that they are brewed from rice, rather than barley. Consequently, Korean beers are lighter, sweeter and have less head than their Western counterparts. The South Korean beer market is dominated by the two major breweries: Hite and OB . Taedonggang is a North Korean beer produced at a brewery based in Pyongyang since 2002. Microbrewery beers and bars are growing in popularity after 2002.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -2.1040596961975098
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/North_Korean_cuisine_chunk_2",
+          "text": "The flavors of some North Korean dishes differ from South Korean versions, with some being less spicy and more varied in composition than South Korean preparations. North Korean dishes have been described as having a specific tanginess that is created from the interplay of spicy, sour and sweet flavors.\n\nSome restaurants , particularly in Pyongyang , have expensive pricing relative to average worker wages in North Korea. North Korean citizens typically cannot afford such restaurants. Due to their pricing, upscale restaurants are typically available only to well-paid leaders of the North Korean government, tourists visiting the country, and the emerging affluent middle class of tonju ( 돈주 ) in the country. Tonju means \"masters of money\", and the tonju typically hold positions in the government, positions operating state-owned businesses outside of the country, and positions involving bringing investments and the importation of products into the country.",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": -2.678753137588501
+        }
+      ]
+    },
+    {
+      "query_id": "8",
+      "query": "What are the main ingredients of a classic Japanese Okonomiyaki?",
+      "response": "The main ingredients of a classic Japanese Okonomiyaki are flour, eggs, cabbage, and green onions.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Okonomiyaki_(Japanese_Savory_Pancake)_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Cuisine of Japan\n\nOkonomiyaki is a popular savory pancake dish in Japan. It consists of a batter made of flour, eggs, cabbage and green onions and other ingredients of your choice. The name means \"as you like it\" or \"what you want\" in Japanese.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": 6.216053009033203
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Okonomiyaki_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Cuisine of Japan\n\nOkonomiyaki is a popular savory pancake dish in Japan. It consists of a batter made of flour, eggs, cabbage and green onions and other ingredients of your choice. The name means \"as you like it\" or \"what you want\" in Japanese.",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": 6.216053009033203
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/12-japan/_chunk_10",
+          "text": "Okonomiyaki means “how you like, grill”, and it consists of a savoury pancake topped with, well, whatever you like. Grilled. The okonomiyaki batter is usually made with grated yam, dashi, cabbage, green onion and flour. It is then fried in a skillet, and adorned with toppings such as pork belly, seafood, vegetables or cheese. I chose thinly sliced pork belly for mine, as well as picked ginger, green onions, katsuobushi, Japanese mayonnaise and okonomiyaki sauce. Okonomiyaki sauce is a bit like English brown sauce, but a bit more soy saucey and sweet. I’m not sure how else to describe it, but it’s super delicious – you can find it in most Asian grocery stores. Okinomiyaki is often described as “the Japanese pizza”, but it’s really more like a savoury pancake, omelette or crepe. I think it’s even better than pizza because the “dough” has cabbage, and I’m nuts for cabbage. This is a very quick meal to prepare, and although I don’t have any kids to road test it on, I suspect they would love it, and it might be a good way to expand their cultural repertoire.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": 4.426133632659912
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_38",
+          "text": "These early elements are generally considered distinct from modern Japanese Chinese cuisine , known as chūka ryōri , which emerged in the 19th century. Iconic dishes of chūka ryōri include ramen , gyoza , and chukaman . In contrast, dishes of Chinese origin such as kakuni and karaage are often regarded as part of washoku , or traditional Japanese cuisine, due to their longstanding integration into Japanese food culture.\n\nOkonomiyaki is a savoury pancake containing a variety of ingredients in a wheat-flour-based batter.\n\nTonkatsu is a breaded, deep-fried pork cutlet. It is frequently served with tonkatsu sauce .",
+          "rrf_score": 0.029273504273504274,
+          "ce_score": 4.282414436340332
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_regional_cuisine_chunk_0",
+          "text": "Japanese cuisine has a vast array of regional specialities known as kyōdo ryōri ( 郷土料理 ) in Japanese , many of them originating from dishes prepared using local ingredients and traditional recipes.\n\nWhile \"local\" ingredients are now available nationwide, and some originally regional dishes such as okonomiyaki and Edo-style sushi have spread throughout Japan and are no longer considered as such, many regional specialities survive to this day, with some new ones still being created.\n\nRegionality is also apparent in many dishes which are served throughout Japan such as ozōni soup. For example, the dashi -based broth for serving udon noodles is heavy on dark soy sauce , similar to soba broth, in eastern Japan, while in western Japan the broth relies more on the complex dashi -flavouring, with a hint of light soy sauce.\n\nBroadly speaking, the historical origins of Japanese regional specialities can be categorized into four types:",
+          "rrf_score": 0.02786377708978328,
+          "ce_score": 2.153756856918335
+        }
+      ]
+    },
+    {
+      "query_id": "9",
+      "query": "How is stinky tofu traditionally fermented and prepared in Taiwanese cuisine?",
+      "response": "Stinky tofu is fermented tofu.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_14",
+          "text": "Stinky tofu is fermented tofu. Like blue cheese or durian , it has a very distinct, potent and strong smell, and is an acquired taste. Hard stinky tofu is often deep-fried and paired with soy sauce or salty spice. Soft stinky tofu is usually used as a spread on steamed buns.\n\nDoufuru is another type of fermented tofu that has a salty taste. Doufuru can be pickled together with soy beans, red yeast rice or chili to create different color and flavor. This is more of a pickled type of tofu and is not as strongly scented as stinky tofu.  Doufuru has the consistency of slightly soft blue cheese, and a taste similar to Japanese miso paste , but less salty. Doufuru can be used as a spread on steamed buns, or paired with rice congee .\n\nSufu is one other type of fermented tofu that goes through ageing process. The color (red, white, green) and flavor profile can determine the type of sufu it is. This kind of tofu is usually eaten alongside breakfast rice.\n\nSoybean milk is soybean-based milk. It is a morning beverage, and it has many benefits to human health.",
+          "rrf_score": 0.03306010928961749,
+          "ce_score": 3.5566532611846924
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Taiwanese_cuisine_chunk_9",
+          "text": "In many of their dishes, the Taiwanese have shown their creativity in their selection of spices. Typical spice mixes in Taiwanese cuisine are five-spice powder and hujiaoyan (literally pepper salt; a mixture of white pepper, salt, MSG, and sugar). Taiwanese cuisine relies on an abundant array of seasonings for flavor: soy sauce , rice wine , sesame oil , fermented black beans , pickled radish , pickled mustard greens , peanuts , chili peppers , cilantro (sometimes called Chinese parsley) and a local variety of basil ( 九層塔 ; káu-chàn-tha̍h ; 'nine-story pagoda'). Widespread use of sugar is part of the legacy of Taiwan's commercial sugar industry.",
+          "rrf_score": 0.029418126757516764,
+          "ce_score": 0.30862143635749817
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Taiwanese_cuisine_chunk_4",
+          "text": "Common ingredients of Taiwanese cuisine are pork , seafood , chicken , rice , and soy . Traditionally, rice formed the basis of most Taiwanese diets. Before the Japanese colonial period, most rice grown in Taiwan was long-grained indica rice . The Japanese introduced short-grained japonica rice which quickly changed both the farming and eating patterns of the Taiwanese. Due to Japanese influence, the Taiwanese generally prefer rice that is plump, aromatic, slightly firm, and sweet. Differences between the Taiwanese and Japanese rice preferences are demonstrated by differences in their cuisine with Taiwan's more flavorful and aggressive cooking methods calling for highly aromatic rice while the Japanese prefer a more subtle and pure taste and smell. During the Japanese Colonial period, Taiwanese cuisine was divided. High-end restaurants, or wine houses, served Chinese cuisine such as Peking duck , shark fin with bird's nest soup , and braised turtle to the colonial elite. In the meantime, those without wealth or connections primarily ate rice, porridge , pickled vegetables , and sweet potato leaves . Cooking oil was considered a luxury and was only used for special occasions.",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -0.4079678952693939
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Fermentation_(food)_chunk_4",
+          "text": "Beverages produced through fermentation have likely universally been associated with ceremonies and festivals. There is some understanding of how they have been consumed in such contexts, derived from the construction of drinkware, and residue contained therein.\n\nCheonggukjang , doenjang , douchi , fermented bean curd , miso , natto , soy sauce , stinky tofu , tempeh , oncom, soybean paste, Beijing mung bean milk, kinama, iru , thua nao\n\nAmazake , beer , bread , choujiu , gamju , injera , kvass , makgeolli , murri , ogi , rejuvelac , sake , sikhye , sourdough , sowans , rice wine , malt whisky , grain whisky , idli , dosa , Bangla (drink) vodka , boza , and chicha , among others.\n\nKimchi , mixed pickle , sauerkraut , Indian pickle , gundruk , tursu\n\nWine , vinegar , cider , perry , brandy , atchara , nata de coco , burong mangga , asinan , pickling , vişinată , chocolate , rakı , aragh sagi , chacha , tempoyak\n\nSome kinds of cheese also, kefir , kumis (mare milk), shubat (camel milk), ayran , cultured milk products such as quark , filmjölk , crème fraîche , smetana , skyr , and yogurt",
+          "rrf_score": 0.015625,
+          "ce_score": -0.5216162204742432
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Fujian_cuisine_chunk_2",
+          "text": "Fermented fish sauce , known locally as \"shrimp oil\" ( 虾油 ; 蝦油 ; xiā yóu ; hâ iû ), is also commonly used in the cuisine, along with oyster , crab and shrimp. Peanuts (utilised for both savoury dishes and desserts) are also prevalent, and can be boiled, fried, roasted, crushed, ground or turned into a paste. Peanuts can be used as a garnish, feature in soups and be added to braised or stir-fried dishes.\n\nFujian cuisine has had a profound impact on Taiwanese cuisine and on the overseas Chinese cuisines found in Japan , North America , and Southeast Asia (particularly the Malay Archipelago ), as the majority of Taiwanese and Southeast Asian Chinese people have ancestral roots in Minnan region of Fujian province.\n\nFujian cuisine consists of several styles:\n\nUnique seasonings from Fujian include fish sauce , shrimp paste , sugar , shacha sauce and preserved apricot . Wine lees from the production of rice wine is also commonly used in all aspects of the region's cuisine. Red yeast rice ( 红麴/红糟酱 ; 紅麴/紅糟醬 ; hóngqū/hóngzāojiàng ; ângkhak/ângchauchiòng ) is also commonly used in Fujian cuisine, imparting a rosy-red hue to the foods, pleasant aroma, and slightly sweet taste.",
+          "rrf_score": 0.025974025974025976,
+          "ce_score": -0.6400288343429565
+        }
+      ]
+    },
+    {
+      "query_id": "10",
+      "query": "What is the precise difference between sushi and sashimi in Japanese cuisine?",
+      "response": "The precise difference between sushi and sashimi in Japanese cuisine is that sushi typically consists of raw fish without rice, while sashimi includes raw fish with rice.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Sushi_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages\n\nIn Japanese cuisine, sushi (寿司, 鮨, 鮓) is vinegar-seasoned rice, usually topped with a variety of ingredients including seafood (cooked or uncooked) and vegetables. Outside of Japan, sushi is sometimes misunderstood to mean the raw fish by itself, or even any fresh raw-seafood dishes. In Japan, sliced raw fish alone is called sashimi and is distinct from sushi, as sashimi is the raw fish component, not the rice component. The word sushi itself comes from an outdated grammatical form of a word that is no longer used in other contexts; literally, sushi means \"it's sour.\"\n\nMuch care is put into the creation of the dish and the many methods of preparing the food indicate the importance of appearance to the educated consumer.",
+          "rrf_score": 0.03306010928961749,
+          "ce_score": 6.247516632080078
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Sushi_chunk_5",
+          "text": "Sashimi is sliced raw seafood (usually fish) without any rice. It is artistic, with thin slices of fish and shellfish formed into a range of different shapes. Because it does not contain rice, sashimi is not technically sushi—however, it tends to be grouped with it due to the overlap in ingredients.\n\nSushi can be eaten as served by the cook or accompanied by soy sauce and/or wasabi. In Japan, sushi chefs will apply a small amount of wasabi to the appropriate types of sushi during preparation. For example, sushi that features its own unique sauce will be prepared sans wasabi so as not to compromise the flavor. Western sushi chefs may do this, but some may not apply wasabi to any sushi.\n\nAs a general rule, it is always appropriate to eat sushi by hand, unless doing so would be exceedingly messy or would cause the sushi to fall apart—in these cases, chopsticks are appropriate.",
+          "rrf_score": 0.03200204813108039,
+          "ce_score": 6.139477729797363
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/12-japan/_chunk_7",
+          "text": "Where to start with sushi and sashimi? It has probably been the most successful culinary export from Japan. There is a specialised sushi bar at my University cafeteria, and there was sushi for sale every day at my high school cafeteria – it’s become a normal day-to-day meal in Australia. Having said that, it’s not the sort of thing that the average person makes themselves, and being a relatively average person in many ways, I too had never made it. Sushi describes preparations of a specially flavoured rice (called “shari” or “sumeshi”) served in a variety of ways, primarily with seafood, but also with meats and vegetables, and almost always in a roll. Sashimi, on the other hand, describes very thinly sliced raw fish, often also with rice. I suppose now is a good time to confess something to you – I’ve never been a big fan of rice. I have always been partial to a decent risotto now and again, and fried rice can be tasty, but I generally regarded rice as a bland, boring substance that dilutes the tasty stuff next to it. You need to know all of this to understand what I mean when I say that freshly made sushi rice is seriously good.",
+          "rrf_score": 0.02886002886002886,
+          "ce_score": 2.819308280944824
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2017/05/05/12-japan/_chunk_7",
+          "text": "Where to start with sushi and sashimi? It has probably been the most successful culinary export from Japan. There is a specialised sushi bar at my University cafeteria, and there was sushi for sale every day at my high school cafeteria – it’s become a normal day-to-day meal in Australia. Having said that, it’s not the sort of thing that the average person makes themselves, and being a relatively average person in many ways, I too had never made it. Sushi describes preparations of a specially flavoured rice (called “shari” or “sumeshi”) served in a variety of ways, primarily with seafood, but also with meats and vegetables, and almost always in a roll. Sashimi, on the other hand, describes very thinly sliced raw fish, often also with rice. I suppose now is a good time to confess something to you – I’ve never been a big fan of rice. I have always been partial to a decent risotto now and again, and fried rice can be tasty, but I generally regarded rice as a bland, boring substance that dilutes the tasty stuff next to it. You need to know all of this to understand what I mean when I say that freshly made sushi rice is seriously good.",
+          "rrf_score": 0.02854251012145749,
+          "ce_score": 2.819308280944824
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2017/05/05/12-japan/#comments_chunk_7",
+          "text": "Where to start with sushi and sashimi? It has probably been the most successful culinary export from Japan. There is a specialised sushi bar at my University cafeteria, and there was sushi for sale every day at my high school cafeteria – it’s become a normal day-to-day meal in Australia. Having said that, it’s not the sort of thing that the average person makes themselves, and being a relatively average person in many ways, I too had never made it. Sushi describes preparations of a specially flavoured rice (called “shari” or “sumeshi”) served in a variety of ways, primarily with seafood, but also with meats and vegetables, and almost always in a roll. Sashimi, on the other hand, describes very thinly sliced raw fish, often also with rice. I suppose now is a good time to confess something to you – I’ve never been a big fan of rice. I have always been partial to a decent risotto now and again, and fried rice can be tasty, but I generally regarded rice as a bland, boring substance that dilutes the tasty stuff next to it. You need to know all of this to understand what I mean when I say that freshly made sushi rice is seriously good.",
+          "rrf_score": 0.02844551282051282,
+          "ce_score": 2.819308280944824
+        }
+      ]
+    },
+    {
+      "query_id": "11",
+      "query": "Which Chinese province is historically most famous for its Dim Sum tradition?",
+      "response": "Guangdong",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Cantonese_cuisine_chunk_12",
+          "text": "A number of dishes are traditionally served in Cantonese restaurants only at dinner time. Said banquets were typically served in the capital's famous tea houses. Guangzhou’s tea houses have historically served as meeting places for the public, where political movements could foment and lead to action. The main draw of these tea houses was to enjoy dim sum. While eating dim sum in tea houses grew in popularity during the nineteenth century, the different snacks and small bites that were enjoyed grew Guangzhou staples to encompassing culinary traditions from China’s numerous provinces. After the Qing’s defeat in the first Opium War, culinary influences outside of China found their way into the dim sum served at tea houses, with ingredients such as Worcestershire sauce and Ketchup becoming staple ingredients. Dim sum restaurants stop serving bamboo -basket dishes after the yum cha period (equivalent to afternoon tea ) and begin offering an entirely different menu in the evening. Some dishes are standard while others are regional. Some are customised for special purposes such as Chinese marriages or banquets. Salt and pepper dishes are one of the few spicy dishes.",
+          "rrf_score": 0.03333333333333333,
+          "ce_score": 6.045208930969238
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Australian_Chinese_cuisine_chunk_4",
+          "text": "Moreover, as Guangdong's cooking styles focus on producing a fresh and tender taste, their cooking methods usually favor steaming and braising . However, to better adapt to the Australian palate, deep-fried and saucy Asian dishes are also included in the new menus. These include sweet and sour pork, sticky lemon chicken and dim sim . Inspired by the authentic Chinese style of dishes, dim sum , the dim sim or \"dimmy\" was developed by Chinese chef William Wing Young around 1945 in Melbourne. Dim sim is a dumpling with thick (crispy) skin filled with meat and is usually fried. It is normally mistaken for dim sum – small bite-sized portions of food served in small baskets which are usually cooked by the steaming method. [ citation needed ]",
+          "rrf_score": 0.03252247488101534,
+          "ce_score": 1.7812342643737793
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_17",
+          "text": "As the most predominant cultural group in Hong Kong, Cantonese food forms the backbone of home cooking and dine-out scenes. Many early celebrated Cantonese restaurants, including Tai San Yuan and Luk Yu Tea House , which were originally Hong Kong branches of the famed Guangzhou-based restaurants, and most chefs in Hong Kong until the 1970s had spent their formative years working in the restaurant industry in Guangzhou . Most of the celebrated dishes in Hong Kong were introduced into the territory through Guangzhou, often refined with awareness of international tastes. Cantonese food prices perhaps cover the widest range, from small businesses’ lou mei to the most expensive abalone delicacies.\n\nOne well-developed dish in Cantonese cuisine is dim sum . Waiters' carts carry stacks of steamer baskets or small plates of food for customers to choose from. Dim sum includes dishes based on meat, seafood, and vegetables, as well as desserts and fruit. The term yum cha ( lit. ' drink tea ' ) is synonymous with eating dim sum for Hong Kong people. It is customary for families to eat dim sum on weekends. Most foods are steamed, traditionally.\n\nExamples of Hong Kong-style Cantonese cuisine include:",
+          "rrf_score": 0.03177805800756621,
+          "ce_score": 0.8386346101760864
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_17",
+          "text": "Traditionally, Chinese desserts are sweet foods and dishes that are served with tea , usually during the meal, or at the end of meals in Chinese cuisine.\n\nBesides being served as dim sum along with tea, pastries are used for celebration of traditional festivals. The most famous one is moon cake , used to celebrate the Mid-Autumn Festival .\n\nA wide variety of Chinese desserts are available, mainly including steamed and boiled sweet snacks. Bing is an umbrella term for all breads in Chinese, also including pastries and sweets. These are baked wheat-flour-based confections, with different stuffings including red bean paste , jujube , and a variety of others. Su (酥) is another kind of pastry made with more amount of oil, making the confection more friable. Chinese candies and sweets, called táng (糖) are usually made with cane sugar , malt sugar, honey , nuts, and fruit. Gao or Guo are rice-based snacks that are typically steamed and may be made from glutinous or normal rice.",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": 0.313205748796463
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/_chunk_11",
+          "text": "“But Laura”, I hear you cry, “what’s the difference between dim sum and yum cha?” I’m glad you asked, because before this week, I didn’t know the difference myself! Where I grew up, in Australia, I always heard the term dim sum being used to refer to a single dumpling. However, in China, dim sum refers to a meal of small portions of food served in bamboo steamers or on small plates, which popularly includes dumplings, though not exclusively. There is often an array of dim sum on offer, which may have inspired its name, meaning “ordering from the heart”, maybe referring to the opportunity to eat whatever your heart desires. However, the name could also be interpreted as “touch the heart”, perhaps referring to the small portions that are not individually meant to fill the stomach, but rather touch the heart. What a beautiful and layered language! If this practice sounds more like yum cha to you, that’s because yum cha describes the entire occasion of eating dim sum, often from circling push carts, along with drinking copious amounts of tea over a social and leisurely brunch, where families and friends can try a little bit of many delicious things.",
+          "rrf_score": 0.0315136476426799,
+          "ce_score": -0.11918632686138153
+        }
+      ]
+    },
+    {
+      "query_id": "12",
+      "query": "What is the cultural significance of eating Tteokguk (rice cake soup) on Korean New Year?",
+      "response": "The cultural significance of eating Tteokguk (rice cake soup) on Korean New Year lies in its association with the Seonnongdan shrine in the neighborhood of Jegi-dong, Dongdaemun District, Seoul. This shrine holds significant importance in Korean culture, particularly during the New Year celebrations.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_37",
+          "text": "Traditional rice cakes, tteok and Korean confectionery hangwa are eaten as treats during holidays and festivals. Tteok refers to all kinds of rice cakes made from either pounded rice (메떡, metteok ), pounded glutinous rice (찰떡, chaltteok ), or glutinous rice left whole, without pounding. It is served either filled or covered with sweetened mung bean paste, red bean paste , mashed red beans, raisins , a sweetened filling made with sesame seeds, sweet pumpkin, beans, jujubes, pine nuts or honey). Tteok is usually served as dessert or as a snack. Among varieties, songpyeon is a chewy stuffed tteok served at Chuseok . Honey or another soft sweet material such as sweetened sesame or black beans are used as fillings. Pine needles can be used for imparting flavor during the steaming process. Yaksik is a sweet rice cake made with glutinous rice, chestnuts, pine nuts, jujubes, and other ingredients, while chapssaltteok is a tteok filled with sweet bean paste .",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": 3.4350345134735107
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_23",
+          "text": "During the Joseon period, the villages of Bukchon and Namchon were referred to as \"Namju Byukbyeong\" , which literally means \"Namchon for alcoholic beverages, Bukchon for tteok \" (rice cakes), because tteok were made on many occasions in Seoul. There are many tteok made with high-quality ingredients, that take a lot of work to produce, in Seoul cuisine such as danja . It is usually used as a decoration for other tteok and is shaped into a ball or a square after its dough is pounded and stuffed with a sweetened filling and covered with gomul (powder coating or sliced fruits). The danja varieties are made with jujube, Artemisia princeps var. orientalis (sunflower-like plant), chestnut, yuzu (a citrus fruit), Gingko seeds , gotgam (dried persimmon), Coix lacryma-jobi var. ma-yuen (a grain), and seogi (a lichen - Umbilicaria esculenta ).",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": 1.4421956539154053
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_4",
+          "text": "Tteok or glutinous rice cakes of the region are given unconventional names and are larger and simpler in form than those of Seoul, such as songgi tteok which is a rice cake made with the inner bark of pine trees, golmi tteok ( thimble -shaped rice cake), kkojang tteok (tteok covered with steamed bean crumbles), ppong tteok (tteok steamed with mulberry leaves), nidoraemi (rice cake covered with azuki bean crumbles), and jogae songpyeon (clam-shaped tteok with fillings). The songgi in songgi tteok refers to the inner bark of pine trees, and its ground flour is mixed with glutinous rice flour and kneaded. The dough is steamed or filled with ground pine nuts and then pan-fried with sesame oil. Notti is another characteristic tteok of Pyongan and Hwanghae provinces, made by pounding a saccharified dough of hulled millet flour, and pan-frying its pieces with oil.\n\nPyongan hangwa or traditional confectionery are gwajul (fried honeyed confection) and yeot (candies). Taesik is also a variety of the regional hangwa , made by mixing jocheong (liquefied yeot ) and misu (steamed and dried mixed flour made from various grains and beans).",
+          "rrf_score": 0.03252247488101534,
+          "ce_score": 1.289021372795105
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_20",
+          "text": "Cuisine in the capital city of Seoul is extravagantly presented, and prepared according to strict quality rules. Meals are served in small portions and include many dishes. Their cooking uses many seasonings, but the taste is not overly spicy. Typical main dishes include: seolleongtang (beef soup with rice), gukbap (soup with rice), tteokguk (rice cake soup), heukimjajuk ( black sesame porridge), jatjuk ( pine nut porridge), memil mandu (dumpling with a buckwheat covering), saengchi mandu (dumpling stuffed with pheasant meat ), and pyeonsu (square-shaped mandu with vegetable filling). Among them, seolleongtang is the most widely known Seoul dish, and is also popular nationwide. It is said to be strongly associated with the Seonnongdan shrine in the neighborhood of Jegi-dong , Dongdaemun District , Seoul where the kings of Korea held an annual national ritual to pray for a good harvest. After the ritual everyone gathered to eat a beef soup together, which was made by boiling beef and its tripe in dozens of gamasots ( cauldrons ) with water.",
+          "rrf_score": 0.03018018018018018,
+          "ce_score": 0.4601898491382599
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Sakhalin_Korean_cuisine_chunk_2",
+          "text": "The Sakhalin Koreans reportedly call several shared dishes with Korea by different names. For instance, what is called \"curry rice\" ( 카레라이스 ) in South Korea is called \"rice curry\" ( 라이스카레 ) in Sakhalin, jokbal ( 족발 ) is called baljok ( 발족 ), doenjang-jjigae is called doenjang- guk , and gopchang is called ttongchang ( 똥창 ).\n\nThe cuisine has had a significant impact on the diet of non-Korean Sakhalin Russians. Seaweed , kelp , and squid were reportedly previously thought to be inedible (and reportedly used as feed for livestock ) by the Russians, but after they were exposed to Sakhalin Korean cuisine, they began not only consuming them, but gathering, preparing, and selling the ingredients themselves. Korean food is now reportedly widely sold in restaurants, markets, and grocery stores on the island. This trend has been bolstered by the rise of the Korean Wave in the past several decades. The cuisine has reportedly become an avenue for mutual cultural exchange between South Koreans, Sakhalin Koreans, and Sakhalin Russians.",
+          "rrf_score": 0.029709507042253523,
+          "ce_score": -1.331657886505127
+        }
+      ]
+    },
+    {
+      "query_id": "13",
+      "query": "What are the primary components and layout of a traditional Japanese Bento box?",
+      "response": "A traditional Japanese Bento box typically consists of several main components:\n\n1. **Container**: This is usually a large, flat container that holds all the ingredients together. It's designed to keep everything separate and prevent mixing between different types of food items.\n\n2. **Separate Bowls/Designs**: Depending on the",
+      "retrieved_context": [
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/12-japan/_chunk_2",
+          "text": "“Bento” derives from a word meaning “convenient” and it basically describes a variety of food, commonly including meat/fish, rice and salad, in a container that keeps them separate. Bento boxes are commonly sold as “fast food” in Japan, and also made as lunch boxes for children and adults. The separation of different elements is a common theme in Japanese cuisine – there is a general preference to not have different dishes touching, so they are often served in separate bowls or in specially-designed dishes with barriers. I think that this is a reflection of the appreciation of simplicity and purity in Japanese culture, preferring not to sully the flavour or aesthetics of distinct dishes with others. The bento tradition has more recently morphed into “kyaraben”, where bento boxes are made to look like anime or manga characters. Pretty much any popular book, movie, game or musician that I googled with “bento box” gave me a bento decorated in that style – I encourage you to try it at home, I have a suspicion that it would make a rather spectacular drinking game.",
+          "rrf_score": 0.03306010928961749,
+          "ce_score": 2.3328444957733154
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2017/05/05/12-japan/_chunk_2",
+          "text": "“Bento” derives from a word meaning “convenient” and it basically describes a variety of food, commonly including meat/fish, rice and salad, in a container that keeps them separate. Bento boxes are commonly sold as “fast food” in Japan, and also made as lunch boxes for children and adults. The separation of different elements is a common theme in Japanese cuisine – there is a general preference to not have different dishes touching, so they are often served in separate bowls or in specially-designed dishes with barriers. I think that this is a reflection of the appreciation of simplicity and purity in Japanese culture, preferring not to sully the flavour or aesthetics of distinct dishes with others. The bento tradition has more recently morphed into “kyaraben”, where bento boxes are made to look like anime or manga characters. Pretty much any popular book, movie, game or musician that I googled with “bento box” gave me a bento decorated in that style – I encourage you to try it at home, I have a suspicion that it would make a rather spectacular drinking game.",
+          "rrf_score": 0.03279569892473118,
+          "ce_score": 2.3328444957733154
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2017/05/05/12-japan/#comments_chunk_2",
+          "text": "“Bento” derives from a word meaning “convenient” and it basically describes a variety of food, commonly including meat/fish, rice and salad, in a container that keeps them separate. Bento boxes are commonly sold as “fast food” in Japan, and also made as lunch boxes for children and adults. The separation of different elements is a common theme in Japanese cuisine – there is a general preference to not have different dishes touching, so they are often served in separate bowls or in specially-designed dishes with barriers. I think that this is a reflection of the appreciation of simplicity and purity in Japanese culture, preferring not to sully the flavour or aesthetics of distinct dishes with others. The bento tradition has more recently morphed into “kyaraben”, where bento boxes are made to look like anime or manga characters. Pretty much any popular book, movie, game or musician that I googled with “bento box” gave me a bento decorated in that style – I encourage you to try it at home, I have a suspicion that it would make a rather spectacular drinking game.",
+          "rrf_score": 0.03252247488101534,
+          "ce_score": 2.3328444957733154
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Cuisine_of_Japan_chunk_0",
+          "text": "Cookbook | Ingredients | Cuisines\n\nRice (ご飯 gohan ) Short-grain white rice.\n\nBento (お弁当 obentô ) Box lunches.\n\nSweets & Dessert (お菓子 okashi )\n\nGrilled dishes (焼き物 yakimono )\n\nDeep-fried dishes (揚げ物 agemono )\n\nSteamed dishes (蒸し物 mushimono )\n\nNew Year Special Dishes (おせち料理 osechiryori )\n\nJapanized versions of other cuisines\n\nThe word Gohan (御飯) means rice but because rice is the staple diet of the Japanese, it also means meal and applies to all food.\n\nA typical Japanese meal consists of:\n\nBefore eating, Japanese put their hands together as if in prayer and say Itadakimasu (頂きます). This is a polite phrase meaning \"I receive (this food with thanks)\".\n\nAfter eating, both hands are put together as before and Gochisousama deshita (御馳走様でした) is said. This is another polite phrase meaning \"That was a feast\".\n\nWhen eating a traditional Japanese meal, the usual order is as follows:",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -2.6851725578308105
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_7",
+          "text": "The traditional Japanese table setting has varied considerably over the centuries, depending primarily on the type of table common during a given era. Before the 19th century, small individual box tables ( hakozen , 箱膳) or flat floor trays were set before each diner. Larger low tables ( chabudai , ちゃぶ台) that accommodated entire families were gaining popularity by the beginning of the 20th century, but these gave way to Western-style dining tables and chairs by the end of the 20th century.\n\nThe traditional Japanese table setting is to place a bowl of rice on the diner's left and to place a bowl of miso soup on the diner's right side at the table. Behind these, each okazu is served on its own individual plate. Based on the standard three- okazu formula, behind the rice and soup are three flat plates to hold the three okazu ; one to far back left, one at far back right, and one in the center. Pickled vegetables are often served on the side but are not counted as part of the three okazu . Chopsticks are generally placed at the very front of the tray near the diner with pointed ends facing left and supported by a chopstick rest , or hashioki .",
+          "rrf_score": 0.02976190476190476,
+          "ce_score": -3.111335277557373
+        }
+      ]
+    },
+    {
+      "query_id": "14",
+      "query": "How is Matcha green tea powder traditionally prepared in a Japanese tea ceremony?",
+      "response": "Matcha green tea powder is traditionally prepared using loose-leaf tea.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_25",
+          "text": "Traditional Japanese sweets are known as wagashi . Ingredients such as red bean paste and mochi are used. More modern-day tastes includes green tea ice cream , a very popular flavor. Almost all manufacturers produce a version of it. Kakigōri (かき氷) is a shaved ice dessert flavored with syrup or condensed milk. It is usually sold and eaten at summer festivals. A dessert very popular amongst children in Japan is dorayaki . They are sweet pancakes filled with a sweet red bean paste. They are mostly eaten at room temperature but are also considered very delicious hot. Similar sweets to dorayaki include imagawayaki and fish-shaped taiyaki . Sweet breads containing red bean paste, such as anpan and an-doughnut , are also commonly eaten.\n\nGreen tea may be served with most Japanese dishes. It is produced in Japan and prepared in various forms, such as matcha , the tea used in the Japanese tea ceremony . Barley tea is a favorite drink during the hot summertime.",
+          "rrf_score": 0.03333333333333333,
+          "ce_score": 1.927585482597351
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_21",
+          "text": "The different types of Chinese tea include red (known as \"black tea\" outside of East Asia), white , green , yellow , oolong , and black (often called \"dark tea\" in English to differentiate it from \"black tea\"). Chinese tea is often classified into several different categories according to the variety of the tea plant from which it is sourced, the region in which it is grown, and the method of production used.\n\nFlavored and scented teas originated in China. Jasmine , osmanthus , chrysanthemum , and ginseng are popular varieties.\n\nHistorically, compressed tea dominated and powdered tea known as matcha would be made from it. This was later supplanted by loose-leaf tea. Fermented tea drinks like kombucha originated in China, but kombucha is now better known outside of China than within the country.\n\nThere are four major tea plantation regions: Jiangbei , Jiangnan , Huanan and the southwestern region . Well known types of green tea include Longjing , Huangshan Maofeng , Bilochun , Putuofeng Cha, and Liu'an Guapian. China is the world's largest exporter of green tea.",
+          "rrf_score": 0.03225806451612903,
+          "ce_score": -1.868800163269043
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Milk_tea_chunk_5",
+          "text": "Taiwan milk tea is well-known as bubble milk tea. It was originated in the 17th century, when the Dutch brought it there. The Boba is a round starch powder that looks like a pearl. Before being added to the milk tea, this powder circle is usually dipped in syrup. This is done to make sure that when the powder circle is mixed with the sugary milk tea, it keeps its natural sweetness. Bubble tea has acquired such a significant role in representing Taiwanese culture that the people of Taiwan commemorate April 30 annually as the National Day of Bubble Tea.\n\nIn Britain, when hot tea and cold milk are drunk together, the drink is simply known as tea due to the vast majority of tea being consumed in such a way. The term milk tea is unused, although one may specify tea with milk if context requires it. This may cause confusion for people from cultures that traditionally drink tea without milk.",
+          "rrf_score": 0.03131881575727918,
+          "ce_score": -3.822633981704712
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_18",
+          "text": "Generally speaking, traditional Japanese cuisine is prepared with little cooking oil. A major exception is the deep-frying of foods. This cooking method was introduced during the Edo period due to influence from Western (formerly called nanban-ryōri ( 南蛮料理 ) ) and Chinese cuisine, and became commonplace with the availability of cooking oil due to increased productivity. Dishes such as tempura , aburaage , and satsuma age are now part of established traditional Japanese cuisine. Words such as tempura or hiryōzu (synonymous with ganmodoki ) are said to be of Portuguese origin.\n\nAlso, certain rustic sorts of traditional Japanese foods such as kinpira , hijiki , and kiriboshi daikon usually involve stir-frying in oil before stewing in soy sauce. Some standard osōzai or obanzai dishes feature stir-fried Japanese greens with either age or chirimen-jako [ ja ] , dried sardines.",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": -5.61696195602417
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Soba_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Ingredients | Pasta | Asian Pasta\n\nSoba are Japanese thin buckwheat noodles.\n\nAt their most basic and most traditional, soba noodles are made of buckwheat flour and water, then rolled out shaped into thin noodles. The buckwheat gives the noodles a brown color, firm chewy texture, and nutty flavor. Because buckwheat contains no gluten, the noodles are relatively fragile and can clump together during the boiling process. For elasticity and ease of handling, some varieties of soba contain a percentage of wheat flour, but this reduces their characteristic buckwheat flavor and color.\n\nSoba noodles are typically pre-cooked by a brief boiling before being added to the final dish. They can be served hot, as a soup ( kake-soba ), or cold, with a dipping sauce ( zaru-soba ) or chilled broth. The noodles can also be stir-fried with meat and vegetables to make yakisoba . It's important to avoid overcooking soba, as they will become over-soft and mushy.\n\nIn Japan, soba noodles may be traditionally eaten when celebrating the New Year.",
+          "rrf_score": 0.015625,
+          "ce_score": -9.081979751586914
+        }
+      ]
+    },
+    {
+      "query_id": "15",
+      "query": "What specific ingredients give Mapo Tofu its signature 'málà' (numbing and spicy) flavor?",
+      "response": "Mapo Tofu gives its signature 'ml' (numbing and spicy) flavor through several key ingredients:\n\n1. **Mapo Sauce**: This is made primarily from soy sauce, vinegar, sugar, and chili peppers. The combination of these ingredients creates a tangy and slightly numbing flavor profile that",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Sichuan_cuisine_chunk_6",
+          "text": "The most unique and important spice in Sichuan cuisine is the Sichuan (Szechuan) pepper ( 花椒 ; huājiāo ; 'flower pepper'), which has an intense, fragrant citruslike taste and produces a notably distinct \"numbingly spicy\" ( 麻 ; má ) sensation in the mouth. Other commonly used spices in Sichuan cuisine are garlic , chili peppers , ginger , and star anise .\n\nBroad bean chili paste ( 豆瓣醬 ; dòubànjiàng ) is another important seasoning. It is an essential component in famous dishes such as Mapo tofu and twice-cooked pork.\n\nSichuan cuisine is the origin of several prominent sauces/flavors widely used in modern Chinese cuisine , including:\n\nOther examples of flavor combinations including spicy and hot ( Mala ), fish flavor ( Yuxiang ), hot and sour, the five spices ( Wuxiang ; 五香), ginger juice, mashed garlic , sweet and sour , spice salt ( Jiaoyan ; 椒鹽), dried tangerine or orange peel ( Chenpi ; 陳皮), burnt chili, pot-stewed fowl ( Lu ; 滷味), odd flavor ( Guaiwei ; 怪味), and other recombinations of these seasonings.",
+          "rrf_score": 0.030679156908665108,
+          "ce_score": 3.0705089569091797
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Sichuan_cuisine_chunk_0",
+          "text": "Cookbook | Ingredients | Cuisines\n\nSichuan cuisine is a style of cuisine originating from the Sichuan Province in China's south-west. Prizing freshness and \"mala,\" or \"spicy, numbing\" heat, this region's cuisine is famously spicy. A number of Sichuanese dishes have been adapted for local tastes both within China and abroad, chief among these being Dan-Dan Noodle , Mapo Tofu and General Tso's Chicken.\n\nSichuan food is notable for its extensive use of chili-peppers as well as the berries of the mountain-ash plant, commonly called \"Szechuan pepper;\" the latter imparts a distinctive floral scent to most Sichuanese dishes while also providing a curious numbing sensation to the mouth. Additionally, foods preserved by drying, pickling and salting are exceedingly common.\n\nThe vast majority of ingredients in Sichuan cooking are either readily available in most developed regions of the world or may be passably substituted for similar (and more common) variants. Beyond ingredients common to Chinese cooking in general (ginger, soya sauce, garlic, preserved black beans, rice, dried mushrooms, wheat-flour noodles, etc), other common ingredients include:",
+          "rrf_score": 0.031024531024531024,
+          "ce_score": 2.829089879989624
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Mapo_Tofu_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Cuisine of China\n\nMápó dòufu (麻婆豆腐), also romanized as mapo tofu , is a classic spicy tofu and meat dish from the Szechuan province of China. It is a very flavourful, easy-to-prepare, and spicy dish.",
+          "rrf_score": 0.03333333333333333,
+          "ce_score": 1.961043119430542
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Sichuan_chunk_2",
+          "text": "The Sichuanese people speak distinctive dialects of Mandarin Chinese . The Sichuan pepper , with its distinctive flavor and numbing effect, is prominent in modern Sichuan cuisine , featuring dishes, including Kung Pao chicken and mapo tofu , that have become staples of Chinese cuisine around the world. \nThere are many panda stations in the province and large reserves for these creatures, such as the Chengdu Research Base of Giant Panda Breeding .\n\nSichuan is the 6th-largest provincial economy of China, the largest in Western China , and the second-largest among inland provinces after Henan . As of 2021, its nominal GDP was CN¥5,385 billion (US$847.68 billion), ahead of that of Turkey ($815 billion). If it were its own country, Sichuan would be the 18th-largest economy and 19th-most populous as of 2021.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": 0.43590134382247925
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Szechuan_Pepper_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Ingredients | Spices and herbs\n\nSzechuan Pepper is a peppery spice used frequently in food from Sichuan province, China , but also in the cuisines of Japan , Tibet , and other countries in Asia . It has a slightly lemony aroma, and has a reputation for creating numbness in the mouth (very useful when eating really spicy foods like Mapo Doufu ).\n\nThe flavour and spice are in the husks of the seed, not the seed itself. The seeds are hard like little stones, and are discarded before roasting and grinding the husks.\n\nSzechuan pepper is one of the ingredients in Chinese five spice .",
+          "rrf_score": 0.027479766610201392,
+          "ce_score": -0.22252604365348816
+        }
+      ]
+    },
+    {
+      "query_id": "16",
+      "query": "What is the historical origin of the Taiwanese drink Pearl Milk Tea (Boba)?",
+      "response": "The historical origin of the Taiwanese drink Pearl Milk Tea (Boba) is in the 17th century when the Dutch brought it to Taiwan.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Milk_tea_chunk_5",
+          "text": "Taiwan milk tea is well-known as bubble milk tea. It was originated in the 17th century, when the Dutch brought it there. The Boba is a round starch powder that looks like a pearl. Before being added to the milk tea, this powder circle is usually dipped in syrup. This is done to make sure that when the powder circle is mixed with the sugary milk tea, it keeps its natural sweetness. Bubble tea has acquired such a significant role in representing Taiwanese culture that the people of Taiwan commemorate April 30 annually as the National Day of Bubble Tea.\n\nIn Britain, when hot tea and cold milk are drunk together, the drink is simply known as tea due to the vast majority of tea being consumed in such a way. The term milk tea is unused, although one may specify tea with milk if context requires it. This may cause confusion for people from cultures that traditionally drink tea without milk.",
+          "rrf_score": 0.03333333333333333,
+          "ce_score": 7.0174880027771
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Milk_tea_chunk_2",
+          "text": "In ancient China, tea was primarily consumed for its caffeine content. Milk has been historically regarded as a prominent beverage among nomadic communities, symbolizing their cultural identity. As nomadic populations migrated southward, the consumption of milk gradually permeated the Central Plains region, and history records that when Emperor Dezong of Tang made tea, he added \"crispy\", which is processed and fermented milk, and found it to be delicious. Since then, milk tea became more and more popular in the mainland market because of the opening of tea-horse trading: the emperor moves tea from farms to pastures or good horses and cows that he needs for war and production. In this case, milk tea has started to spread in different places other than mainland China. In 2019, the milk tea market sold over approximately 140.5 billion renminbi . Some of the most popular milk tea brands include Coco , Alittle, and Heytea . .Moreover there is history of an ancient monk Bodhidharma whose eyelids when fall into water and boiled led to discovery of tea in china",
+          "rrf_score": 0.031544957774465976,
+          "ce_score": -1.5661659240722656
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Milk_tea_chunk_4",
+          "text": "Hong Kong milk tea comes from its ties to British milk tea during the colonial era. Since the taste of British milk tea was not very strong, people in Hong Kong changed this drink by adding crushed Ceylon black tea, which is usually called Sri Lanka black tea. Because of its similar pronunciation,  Sri Lanka milk tea is then translated to Silang milk tea in Hong Kong. The process of making Silang milk tea has six steps: scraping the tea, boiling the tea, baking the tea, infusing the tea, and adding milk. The tea was put through a sieve as part of the way it was made, which also led to the name \"silk hose milk tea\". On top of that, evaporated milk was added to the tea to finish the drink.",
+          "rrf_score": 0.03225806451612903,
+          "ce_score": -2.717005729675293
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Bubble_Tea_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Cuisines | East Asian cuisines | Cuisine of Taiwan\n\nBubble tea is a tea beverage with black tapioca pearls mixed in.",
+          "rrf_score": 0.015384615384615385,
+          "ce_score": -3.711001396179199
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Milk_tea_chunk_0",
+          "text": "Milk tea refers to several forms of beverage found in many cultures, consisting of some combination of tea and milk . The term milk tea is used for both hot and cold drinks that can be combined with various kinds of milks and a variety of spices. This is a popular way to serve tea in many countries, and is the default type of tea in many South Asian countries. Beverages vary based on the amount of each of these key ingredients, the method of preparation, and the inclusion of other ingredients (varying from sugar or honey to salt or cardamom ) Milk tea is the default type of tea in India and Pakistan and referred to as chai .\n\nMilk tea is well-known in many countries such as the United States, United Kingdom, Malaysia, India, Pakistan, China, and other Asian countries. The recipes for milk tea mainly consist of a tea base, milk, added sugar, and other added ingredients such as fruits, and creamer. The drink is popular for its rich tea flavor, affordability, pretty aesthetics, sweetness, and diversity that appeals to many people, which is similar to coffee in the drink market.",
+          "rrf_score": 0.032018442622950824,
+          "ce_score": -3.9300427436828613
+        }
+      ]
+    },
+    {
+      "query_id": "17",
+      "query": "What are the essential toppings and condiments usually served with a traditional bowl of Japanese Tonkotsu Ramen?",
+      "response": "Toppings: Pork cutlets, green onions, hard-boiled eggs split in two. Condiments: Wasabi, Japanese mustard, minced shiso leaves, myoga, and shichimi.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Tonkotsu_Ramen_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nTonkotsu ramen is a dish of ramen noodles served in rich and fatty pork broth usually garnished with a variation of toppings (most of the time pork cutlets, green onions, and hard-boiled eggs split in two). There are many variations to this recipe. Some people add some chicken bones or beef bones to create a unique combination of flavors. A lot of the ingredients aren't available in just any grocery stores, but you shouldn't have a lot of trouble finding them at the Asian grocers in your local international district. You would be surprised on how much better tasting it is than the store bought instant ramen brands.",
+          "rrf_score": 0.03279569892473118,
+          "ce_score": 4.105301856994629
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_19",
+          "text": "Traditional Japanese food is typically seasoned with a combination of dashi , soy sauce , sake and mirin , vinegar, sugar, and salt. A modest number of herbs and spices may be used during cooking as a hint or accent, or as a means of neutralizing fishy or gamy odors present. Examples of such spices include ginger , perilla and takanotsume [ ja ] ( 鷹の爪 ) red pepper.\n\nIntense condiments, such as wasabi or Japanese mustard , are provided as condiments to raw fish, due to their effect on the mucous membrane which paralyze the sense of smell, particularly from fish odors. A sprig of mitsuba or a piece of yuzu rind floated on soups are called ukimi . Minced shiso leaves and myoga often serve as yakumi , a type of condiment paired with tataki of katsuo or soba . Shichimi is also a very popular spice mixture often added to soups, noodles and rice cakes. Shichimi is a chilli-based spice mix which contains seven spices: chilli, sansho, orange peel, black sesame, white sesame, hemp, ginger, and nori.",
+          "rrf_score": 0.029726775956284153,
+          "ce_score": 0.8018572330474854
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_23",
+          "text": "Japanese noodles often substitute for a rice-based meal. Soba (thin, grayish-brown noodles containing buckwheat flour) and udon (thick wheat noodles) are the main traditional noodles, while ramen is a modern import and now very popular. There are also other, common noodles, such as somen (thin, white noodles containing wheat flour). Cold somen noodles are often eaten during the hot summer. Hiyashi chūka are also popular noodles in the summer.\n\nJapanese noodles, such as soba and udon, are eaten as a standalone, and usually not with a side dish, in terms of general custom. It may have toppings, but they are called gu ( 具 ) . The fried battered shrimp tempura sitting in a bowl of tempura-soba would be referred to as \"the shrimp\" or \"the tempura\", and not so much be referred to as a topping ( gu ). The identical toppings, if served as a dish to be eaten with plain white rice could be called okazu , so these terms are context-sensitive. Some noodle dishes derive their name from Japanese folklore, such as kitsune and tanuki , reflecting dishes in which the noodles can be changed, but the broth and garnishes correspond to their respective legend.",
+          "rrf_score": 0.03076923076923077,
+          "ce_score": -0.5121461749076843
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_24",
+          "text": "Hot noodles are usually served in a bowl already steeped in their broth and are called kakesoba or kakeudon . Cold soba arrive unseasoned and heaped atop a zaru or seiro , and are picked up with a chopstick and dunked in their dipping sauce. The broth can consist of many ingredients but is generally based on dashi; the sauce, called tsuyu, is usually more concentrated and made from soy sauce, dashi and mirin, sake or both.\n\nIn the simple form, yakumi (薬味, condiments and spices) such as shichimi , nori, finely chopped scallions, wasabi, etc. are added to the noodles, besides the broth/dip sauce.\n\nUdon may also be eaten in kama-age style, piping hot straight out of the boiling pot, and eaten with plain soy sauce and sometimes with raw egg also.\n\nJapanese noodles are traditionally eaten by bringing the bowl close to the mouth, and sucking in the noodles with the aid of chopsticks . The resulting loud slurping noise is considered normal in Japan, although in the 2010s concerns began to be voiced about the slurping being offensive to others, especially tourists. The word nuuhara (ヌーハラ, from \"nuudoru harasumento\", noodle harassment) was coined to describe this.",
+          "rrf_score": 0.03115942028985507,
+          "ce_score": -0.7094331979751587
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_11",
+          "text": "Rice is served in its own small bowl ( chawan ), and each main course item is placed on its own small plate ( sara ) or bowl ( hachi ) for each individual portion. This is done even in Japanese homes. This contrasts with Western-style home dinners in which each individual takes helpings from large serving dishes of food placed in the middle of the dining table. Japanese style traditionally abhors different flavored dishes touching each other on a single plate, so different dishes are given their own individual plates as mentioned or are partitioned using, for example, leaves. Placing main dishes on top of rice, thereby \"soiling\" it, is also frowned upon by traditional etiquette.\n\nAlthough this tradition of not placing other foods on rice originated from classical Chinese dining formalities, especially after the adoption of Buddhist tea ceremonies; it became most popular and common during and after the Kamakura period , such as in the kaiseki (懐石). Although present-day Chinese cuisine has abandoned this practice, Japanese cuisine retains it. One exception is the popular donburi , in which toppings are directly served on rice.",
+          "rrf_score": 0.029030910609857977,
+          "ce_score": -1.9520608186721802
+        }
+      ]
+    },
+    {
+      "query_id": "18",
+      "query": "How is the Korean dish Bibimbap traditionally assembled and eaten?",
+      "response": "Traditionally, Bibimbap is assembled and eaten as follows:\n\n1. **Ingredients**: \n   - White rice\n   - Vegetables (such as cucumber, carrot, and cabbage)\n   - Egg (often raw)\n   - Gochujang (Korean chili pepper paste)\n\n2. **Preparation**",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Bibimbap_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Korean Cuisine\n\nBibimbap (also called Bibimba or Bibimbop ) is a typical Korean meal that literally means \"mixed rice\". The meal consists of a bowl of steamed white rice topped with vegetables, beef (sometimes tofu or chicken to suit tastes), a whole egg, and gochujang (Korean chili pepper paste). Gochujang is usually served separately to control the spiciness of the dish. It is often made vegetarian by substituting tofu for beef. Dolsot Bibimbap is a variation where the dish is served in a very hot stoneware bowl, crisping the rice and cooking the egg.\n\nThe ingredients below are the most typical of the dish although many other ingredients are often served on the side depending on the cooks preferences. The quantity shown serves 3. If your bowls are large, you can pack more into each and share them.\n\nIf using dolsots (Korean stoneware bowls) to serve your bibimbap, the preparation is slightly different:",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": 5.766727447509766
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_3",
+          "text": "Bibimbap literally means “mixed rice” and describes a dish of cooked white rice topped with varieties of cooked, pickled or fermented vegetables, a sauce (commonly with a basis of gochujang, fermented soy bean and chilli paste), and egg. The dish is traditionally served in a hot stone bowl, and the egg or egg yolk is often served raw, then stirred through the piping hot dish to cook it to a rich and creamy consistency. However, for those churlish about the concept of raw egg, a fried egg is commonly substituted. Bibimbap is traditionally served on the eve of the lunar New Year, as a way to use up all of the leftover side dishes in the house and therefore start anew in all aspects. However, there are also origin stories of bibimbap in farming communities to feed masses of hungry workers, as a between-meal snack for royalty, and mixing varied food offerings at an ancestral rite (jesa) in a bowl, as part of the memorial ceremony to deceased ancestors.",
+          "rrf_score": 0.03279569892473118,
+          "ce_score": 5.252204895019531
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_3",
+          "text": "Bibimbap literally means “mixed rice” and describes a dish of cooked white rice topped with varieties of cooked, pickled or fermented vegetables, a sauce (commonly with a basis of gochujang, fermented soy bean and chilli paste), and egg. The dish is traditionally served in a hot stone bowl, and the egg or egg yolk is often served raw, then stirred through the piping hot dish to cook it to a rich and creamy consistency. However, for those churlish about the concept of raw egg, a fried egg is commonly substituted. Bibimbap is traditionally served on the eve of the lunar New Year, as a way to use up all of the leftover side dishes in the house and therefore start anew in all aspects. However, there are also origin stories of bibimbap in farming communities to feed masses of hungry workers, as a between-meal snack for royalty, and mixing varied food offerings at an ancestral rite (jesa) in a bowl, as part of the memorial ceremony to deceased ancestors.",
+          "rrf_score": 0.03278688524590164,
+          "ce_score": 5.252204895019531
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_3",
+          "text": "Bibimbap literally means “mixed rice” and describes a dish of cooked white rice topped with varieties of cooked, pickled or fermented vegetables, a sauce (commonly with a basis of gochujang, fermented soy bean and chilli paste), and egg. The dish is traditionally served in a hot stone bowl, and the egg or egg yolk is often served raw, then stirred through the piping hot dish to cook it to a rich and creamy consistency. However, for those churlish about the concept of raw egg, a fried egg is commonly substituted. Bibimbap is traditionally served on the eve of the lunar New Year, as a way to use up all of the leftover side dishes in the house and therefore start anew in all aspects. However, there are also origin stories of bibimbap in farming communities to feed masses of hungry workers, as a between-meal snack for royalty, and mixing varied food offerings at an ancestral rite (jesa) in a bowl, as part of the memorial ceremony to deceased ancestors.",
+          "rrf_score": 0.03200204813108039,
+          "ce_score": 5.252204895019531
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_17",
+          "text": "Vegetables such as cucumbers, carrots, and cabbage use gochujang as a dip. Gochujang is a common seasoning for foods such as Korean barbecue including pork and beef. One popular snack food that is very commonly eaten with gochujang is bibimbap. Bibimbap includes rice, spinach, radish, bean sprouts. Sometimes beef is added to bibimbap. Another popular dish including gochujang is tteokbokki .\n\nGochujang was believed to revitalize people who were sick with colds or exhaustion during the Gio period. There have been some studies that show that red peppers fight obesity and diabetes. Gochujang is also added to many foods so that there can be additional nutritional value with each meal.\n\nIn antiquity, most meat in Korea was likely obtained through hunting and fishing . Ancient records indicate rearing of livestock began on a small scale during the Three Kingdoms period. Meat was consumed roasted or in soups or stews during this period. Those who lived closer to the oceans were able to complement their diet with more fish, while those who lived in the interior had a diet containing more meat.",
+          "rrf_score": 0.028169014084507043,
+          "ce_score": 3.7064127922058105
+        }
+      ]
+    },
+    {
+      "query_id": "19",
+      "query": "What role does Gochujang play in Korean cooking and how is it made?",
+      "response": "Gochujang plays a significant role in Korean cooking, particularly in the preparation of tteokbokki and bibimbap. It is a key ingredient in these dishes, adding a deep savory flavor that distinguishes it from other chile pastes. Additionally, gochujang is used in various sauces",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Gochujang_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Ingredients | Cuisine of Korea\n\nGochujang (고추장) is a Korean fermented chili paste.\n\nThe paste is composed primarily of glutinous rice, soy, and gochugaru chile powder, with added salt and sweeteners. The heat levels and color vary according to the recipe. Because it is fermented, gochujang has a depth of savory flavor that tends to differentiate it from other chile pastes. It is also relatively mild compared to some other chile pastes, but it is still spicy, and very spicy versions can be made. Gochujang can be made at home, although this is a lengthy process, and many cooks will purchase gochujang ready-made.",
+          "rrf_score": 0.03306010928961749,
+          "ce_score": 5.38419771194458
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Gochujang_chunk_1",
+          "text": "Gochujang is typically available in tubs at East Asian grocery stores. Beware of trendy products that market themselves as gochujang but are primarily intended to be used only as a condiment for cooked food rather than in cooking itself. Once opened, it should be stored in the fridge, where it has a very long shelf life. If anything, you may find that the surface simply darkens or dries out if you let it hang around for too long. Even if this does happen, the moist paste under the surface is still edible.\n\nGochujang is widely used in Korean cooking, where it adds a depth of flavor and bright red color. It is a key component of tteokbokki , and a sauce made from gochujang is commonly used to season bibimbap before serving.\n\nUnfortunately, you cannot substitute other chile pastes for gochujang. Its fermented, savory, and sweet character is key to its use in dishes.\n\nRecipes (containing gochujang)",
+          "rrf_score": 0.03279569892473118,
+          "ce_score": 5.123020172119141
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Bibimbap_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Korean Cuisine\n\nBibimbap (also called Bibimba or Bibimbop ) is a typical Korean meal that literally means \"mixed rice\". The meal consists of a bowl of steamed white rice topped with vegetables, beef (sometimes tofu or chicken to suit tastes), a whole egg, and gochujang (Korean chili pepper paste). Gochujang is usually served separately to control the spiciness of the dish. It is often made vegetarian by substituting tofu for beef. Dolsot Bibimbap is a variation where the dish is served in a very hot stoneware bowl, crisping the rice and cooking the egg.\n\nThe ingredients below are the most typical of the dish although many other ingredients are often served on the side depending on the cooks preferences. The quantity shown serves 3. If your bowls are large, you can pack more into each and share them.\n\nIf using dolsots (Korean stoneware bowls) to serve your bibimbap, the preparation is slightly different:",
+          "rrf_score": 0.031009615384615385,
+          "ce_score": 4.1808977127075195
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_17",
+          "text": "Vegetables such as cucumbers, carrots, and cabbage use gochujang as a dip. Gochujang is a common seasoning for foods such as Korean barbecue including pork and beef. One popular snack food that is very commonly eaten with gochujang is bibimbap. Bibimbap includes rice, spinach, radish, bean sprouts. Sometimes beef is added to bibimbap. Another popular dish including gochujang is tteokbokki .\n\nGochujang was believed to revitalize people who were sick with colds or exhaustion during the Gio period. There have been some studies that show that red peppers fight obesity and diabetes. Gochujang is also added to many foods so that there can be additional nutritional value with each meal.\n\nIn antiquity, most meat in Korea was likely obtained through hunting and fishing . Ancient records indicate rearing of livestock began on a small scale during the Three Kingdoms period. Meat was consumed roasted or in soups or stews during this period. Those who lived closer to the oceans were able to complement their diet with more fish, while those who lived in the interior had a diet containing more meat.",
+          "rrf_score": 0.031024531024531024,
+          "ce_score": 3.869107723236084
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_16",
+          "text": "Gochujang can be found in many writings. Some of the writings are the Mangi Yoram [ ko ] , The Three States , the Nonggawolryeongga , the Gijaejapgi , and the Hyangyak-jipsongbang [ ko ] . The Hyangyak-jipseongbang , which dates back to around 1433 during the Chosun dynasty, is one of the oldest writings mentioning gochujang.\n\nGochujang is a fermented bean paste made with red pepper powder, fermented soybean powder (Meju) and rice flour. It typically can be added to most dishes. Gochujang can be used as a seasoning and sometimes as a dipping sauce. The taste is described as savory, peppery, salty, spicy and slightly sweet.\n\nMany variations come from jang , fermented bean paste. Some variations can include doenjang (soybean and brine), kanjang (soybeans, water, and salt), chogochujang (gochujang and vinegar), and jeotgal (mixture of other jangs and seafoods).",
+          "rrf_score": 0.02921395544346364,
+          "ce_score": 3.487478256225586
+        }
+      ]
+    },
+    {
+      "query_id": "20",
+      "query": "Describe the physical process of making traditional hand-pulled noodles (Lamian) in China.",
+      "response": "The physical process of making traditional hand-pulled noodles (Lamian) in China involves several steps:\n\n1. **Hand-Pulling**: \n   - **Ingredients Preparation**: Start by preparing the base ingredients, which typically include wheat flour, water, and seasonings like salt, pepper, and soy sauce.\n   \n2",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_Islamic_cuisine_chunk_6",
+          "text": "Lamian ( simplified Chinese : 拉面 ; traditional Chinese : 拉麪 ; pinyin : lāmiàn , Dungan : Ламян) is a Chinese dish of hand-made noodles, usually served in a beef or mutton-flavored soup (湯麪, даңмян, tāngmiàn), but sometimes stir-fried (炒麪, Чаомян, chǎomiàn) and served with a tomato-based sauce. Literally, 拉, ла (lā) means to pull or stretch, while 麪, мян (miàn) means noodle. The hand-making process involves taking a lump of dough and repeatedly stretching it to produce a single very long noodle. There exists a local variant in Lanzhou , the Lanzhou beef noodles , also known as Lanzhou lamian.\n\nWords that begin with L are not native to Turkic — läghmän is a loanword as stated by Uyghur linguist Abdlikim: It is of Chinese derivation and not originally Uyghur.\n\nBeef noodle soup is a noodle soup dish composed of stewed beef , beef broth, vegetables and wheat noodles . It exists in various forms throughout East and Southeast Asia . It was created by the Hui people during the Qing dynasty of China .\n\nIn the west, this food may be served in a small portion as a soup. In China, a large bowl of it is often taken as a whole meal with or without any side dish.",
+          "rrf_score": 0.03,
+          "ce_score": 6.294559478759766
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/_chunk_14",
+          "text": "Zhajiangmian literally means “fried sauce noodles”, and describes a dish of thick hand-pulled wheat noodles, stir fried in a sauce made of small pieces of pork with fermented yellow soy bean paste. The noodles are usually topped with slices of fresh or pickled vegetables, such as bean sprouts, cucumbers, carrots or radishes. The dish is thought to have originated with the working classes of Northern China, as the strong taste of fermented soy bean paste meant that you would only need a small amount to make a big bowl of cheap noodles into a rich, filling and flavoursome meal. Noodles have been a staple in China for over 4000 years according to a 2005 report from a team of archaeologists, who found an earthenware bowl containing evidence of hand-pulled noodles. Zhajiangmian is particularly popular in Beijing, where there are entire restaurants exclusively dedicated to the dish. These restaurants are usually very traditional, featuring grey brick walls decorated with the imperial red and gold colours and ancient, simple furniture. Diners can therefore step back in time to the Beijing of old, including feasting on traditional noodle fare.",
+          "rrf_score": 0.031754032258064516,
+          "ce_score": 3.9844722747802734
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/65-northern-china/_chunk_14",
+          "text": "Zhajiangmian literally means “fried sauce noodles”, and describes a dish of thick hand-pulled wheat noodles, stir fried in a sauce made of small pieces of pork with fermented yellow soy bean paste. The noodles are usually topped with slices of fresh or pickled vegetables, such as bean sprouts, cucumbers, carrots or radishes. The dish is thought to have originated with the working classes of Northern China, as the strong taste of fermented soy bean paste meant that you would only need a small amount to make a big bowl of cheap noodles into a rich, filling and flavoursome meal. Noodles have been a staple in China for over 4000 years according to a 2005 report from a team of archaeologists, who found an earthenware bowl containing evidence of hand-pulled noodles. Zhajiangmian is particularly popular in Beijing, where there are entire restaurants exclusively dedicated to the dish. These restaurants are usually very traditional, featuring grey brick walls decorated with the imperial red and gold colours and ancient, simple furniture. Diners can therefore step back in time to the Beijing of old, including feasting on traditional noodle fare.",
+          "rrf_score": 0.031544957774465976,
+          "ce_score": 3.9844722747802734
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/#comments_chunk_14",
+          "text": "Zhajiangmian literally means “fried sauce noodles”, and describes a dish of thick hand-pulled wheat noodles, stir fried in a sauce made of small pieces of pork with fermented yellow soy bean paste. The noodles are usually topped with slices of fresh or pickled vegetables, such as bean sprouts, cucumbers, carrots or radishes. The dish is thought to have originated with the working classes of Northern China, as the strong taste of fermented soy bean paste meant that you would only need a small amount to make a big bowl of cheap noodles into a rich, filling and flavoursome meal. Noodles have been a staple in China for over 4000 years according to a 2005 report from a team of archaeologists, who found an earthenware bowl containing evidence of hand-pulled noodles. Zhajiangmian is particularly popular in Beijing, where there are entire restaurants exclusively dedicated to the dish. These restaurants are usually very traditional, featuring grey brick walls decorated with the imperial red and gold colours and ancient, simple furniture. Diners can therefore step back in time to the Beijing of old, including feasting on traditional noodle fare.",
+          "rrf_score": 0.03125763125763126,
+          "ce_score": 3.9844722747802734
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_13",
+          "text": "Noodles ( Chinese : 面/麵 miàn ) were invented in China over 4,000 years ago and have since spread across the world. Chinese noodles come dry or fresh in a variety of sizes, shapes and textures and are often served in soups or fried as toppings. Some varieties, such as Shou Mian (寿面, literally noodles of longevity), is an avatar of long life and good health according to Chinese traditions. Noodles can be served hot or cold with different toppings, with broth, and occasionally dry (as is the case with mi-fen).  Noodles are commonly made with rice flour or wheat flour, but other flours such as soybean are also used in minor groups. Some noodles names describe their methods of creation, such as the hand-pulled noodle.\n\nTofu is made of soybeans and is another popular food product that supplies protein. The production process of tofu varies from region to region, resulting in different kinds of tofu with a wide range of texture and taste. Other products such as soy milk , soy paste , soy oil , and fermented soy sauce are also important in Chinese cooking.\n\nThere are many kinds of soybean products, including tofu skin , smoked tofu, dried tofu, and fried tofu.",
+          "rrf_score": 0.03306010928961749,
+          "ce_score": 3.4342637062072754
+        }
+      ]
+    },
+    {
+      "query_id": "21",
+      "query": "What are the rules regarding seasonal variations in Japanese Kaiseki dining?",
+      "response": "seasonal variations in Japanese Kaiseki dining",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_31",
+          "text": "Kaiseki , closely associated with tea ceremony ( chanoyu ), is a high form of hospitality through cuisine. The style is minimalist, extolling the aesthetics of wabi-sabi . Like the tea ceremony, appreciation of the diningware and vessels is part of the experience. In the modern standard form, the first course consists of ichijū-sansai (one soup, three dishes), followed by the serving of sake accompanied by dish(es) plated on a square wooden bordered tray of sorts called hassun ( 八寸 ) . Sometimes another element called shiizakana ( 強肴 ) is served to complement the sake, for guests who are heavier drinkers.",
+          "rrf_score": 0.03018018018018018,
+          "ce_score": 0.029676835983991623
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_6",
+          "text": "The word washoku ( 和食 ) is now the common word for traditional Japanese cooking. The term kappō [ ja ] ( 割烹 ; lit. \"cutting and boiling (meats)\") is synonymous with \"cooking\", but became a reference to mostly Japanese cooking, or restaurants, and was much used in the Meiji and Taishō eras . It has come to connote a certain standard, perhaps even of the highest caliber, a restaurant with the most highly trained chefs. However, kappō is generally seen as an eating establishment which is slightly more casual or informal compared to the kaiseki .\n\nThe kaiseki ( 懐石 , lit. \"warming stone\") is tied with the Japanese tea ceremony . The kaiseki is considered a (simplified) form of honzen-ryōri ( 本膳料理 , lit. \"main tray cooking\") , which was formal banquet dining where several trays of food were served. The homophone term kaiseki ryōri ( 会席料理 , lit. \"gathering + seating\") originally referred to a gathering of composers of haiku or renga , and the simplified version of the honzen dishes served at the poem parties became kaiseki ryōri . However, the meaning of kaiseki ryōri degenerated to become just another term for a sumptuous carousing banquet, or shuen ( 酒宴 ) .",
+          "rrf_score": 0.03279569892473118,
+          "ce_score": -1.0952926874160767
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_10",
+          "text": "Japanese cuisine is based on combining the staple food , which is steamed white rice or gohan ( 御飯 ) , with one or more okazu (おかず), \"main\" or \"side\" dishes. This may be accompanied by a clear or miso soup and tsukemono (pickles). The phrase ichijū-sansai ( 一汁三菜 , \"one soup, three sides\") refers to the makeup of a typical meal served but has roots in classic kaiseki , honzen , and yūshoku cuisine. The term is also used to describe the first course served in standard kaiseki cuisine nowadays.\n\nThe origin of Japanese \"one soup, three sides\" cuisine is a dietary style called Ichiju-Issai (一汁一菜, \"one soup, one dish\"), tracing back to the Five Great Zen Temples of the 12-century Kamakura period ( Kamakura Gozan ), developed as a form of meal that emphasized frugality and simplicity.",
+          "rrf_score": 0.032266458495966696,
+          "ce_score": -1.6116259098052979
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_14",
+          "text": "Emphasis is placed on seasonality of food or shun ( 旬 ) , and dishes are designed to herald the arrival of the four seasons or calendar months.\n\nSeasonality means taking advantage of the \"fruit of the mountains\" ( 山の幸 , yama no sachi ; alt. \"bounty of the mountains\") (for example, bamboo shoots in spring, chestnuts in the autumn) as well as the \"fruit of the sea\" ( 海の幸 , umi no sachi ; alt. \"bounty of the sea\") as they come into season. Thus the first catch of skipjack tunas ( 初鰹 , hatsu-gatsuo ) that arrives with the Kuroshio Current has traditionally been greatly prized.\n\nIf something becomes available rather earlier than what is usual for the item in question, the first crop or early catch is called hashiri .\n\nUse of tree leaves and branches as decor is also characteristic of Japanese cuisine. Maple leaves are often floated on water to exude coolness or ryō ( 涼 ) ; sprigs of nandina are popularly used. The haran ( Aspidistra ) and sasa bamboo leaves were often cut into shapes and placed underneath or used as separators.",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": -2.2975406646728516
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_11",
+          "text": "Rice is served in its own small bowl ( chawan ), and each main course item is placed on its own small plate ( sara ) or bowl ( hachi ) for each individual portion. This is done even in Japanese homes. This contrasts with Western-style home dinners in which each individual takes helpings from large serving dishes of food placed in the middle of the dining table. Japanese style traditionally abhors different flavored dishes touching each other on a single plate, so different dishes are given their own individual plates as mentioned or are partitioned using, for example, leaves. Placing main dishes on top of rice, thereby \"soiling\" it, is also frowned upon by traditional etiquette.\n\nAlthough this tradition of not placing other foods on rice originated from classical Chinese dining formalities, especially after the adoption of Buddhist tea ceremonies; it became most popular and common during and after the Kamakura period , such as in the kaiseki (懐石). Although present-day Chinese cuisine has abandoned this practice, Japanese cuisine retains it. One exception is the popular donburi , in which toppings are directly served on rice.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -3.0261473655700684
+        }
+      ]
+    },
+    {
+      "query_id": "22",
+      "query": "How is the Chinese delicacy Century Egg (Pidan) chemically preserved and cured?",
+      "response": "I do not know",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Hakka_cuisine_chunk_1",
+          "text": "The Hakka people have a marked cuisine and style of Chinese cooking which is little known outside the Hakka home. It concentrates on the texture of food – the hallmark of Hakka cuisine. Whereas preserved meats feature in Hakka delicacy, stewed, braised, roast meats – 'texturized' contributions to the Hakka palate – have a central place in their repertoire. Preserved vegetables ( 梅菜 ) are commonly used for steamed and braised dishes such as steamed minced pork with preserved vegetables and braised pork with salted vegetables.  In fact, the raw materials for Hakka food are no different from raw materials for any other type of regional Chinese cuisine where what is  cooked depends on what is available in the market. Hakka cuisine may be described as outwardly simple but tasty. The skill in Hakka cuisine lies in the ability to cook meat thoroughly without hardening it, and to naturally bring out the proteinous flavor ( umami taste) of meat.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -5.012298583984375
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Egg_chunk_8",
+          "text": "Whole eggs may be stored at room temperature or in the fridge, depending on how they are processed. Chicken eggs are covered in a protective layer called the cuticle, which helps prevent bacterial contamination and subsequent spoilage. Eggs in the European Union and many other places leave this layer intact, and these eggs can be safely stored at cool room temperatures for up to a few weeks. However, some regions such as the United States have most commercially-available eggs undergo a washing process that removes external contaminants but strips the protective cuticle from the egg; this slightly increases the risk of microbial contamination from minuscule cracks, thereby necessitating storage in the refrigerator to prevent spoilage. It has, however, been noted that refrigeration does extend the shelf life of eggs, regardless of whether or not they have been washed. Whole eggs kept in the back of the fridge (not the door, where it is warmer) will remain good for many weeks. Cracked eggs will last for up to a few days.",
+          "rrf_score": 0.015625,
+          "ce_score": -7.680448532104492
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Sichuan_chunk_44",
+          "text": "Sichuan is well known for its spicy cuisine and use of Sichuan peppers due to its humid climate.\nThe Sichuanese are proud of their cuisine, known as one of the Four Great Traditions of Chinese cuisine . The cuisine here is of \"one dish, one shape, hundreds of dishes, hundreds of tastes\", as the saying goes, to describe its acclaimed diversity. The most prominent traits of Sichuanese cuisine are described by four words: spicy, hot, fresh, and fragrant. Sichuan cuisine is popular in the whole nation of China, and so are Sichuan chefs.\n\nAnother famous Sichuan delicacy is hot pot . Hot pot is a Chinese soup containing a variety of East Asian foodstuffs and ingredients, prepared with a simmering pot of soup stock at the dining table. While the hot pot is kept simmering, ingredients are placed into the pot and cooked at the table. Typical hot pot dishes include thinly sliced meat, leaf vegetables, mushrooms, wontons, egg dumplings, tofu, and seafood. The cooked food is usually eaten with a dipping sauce.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -8.983222961425781
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Shanxi_cuisine_chunk_2",
+          "text": "Shanxi old vinegar is one of the four famous vinegars in China, which has a history of more than 3,000 years and has the reputation of \"the best vinegar in the world\". The longer the vinegar is stored, the more fragrant and tasty it is. It's called Old Chen vinegar because it was born thousands of years ago and has been inherited until today while maintaining the basic technology and with the continuous improvement of brewing technology. Shanxi old vinegar can be kept for 9–12 months in general, and some better vinegars can be kept for at least 3–10 years. Some of the methods used in brewing the vinegar have been considered intellectual properties and are under the protection of Chinese laws.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -9.08505630493164
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Seafood_chunk_10",
+          "text": "Because fresh fish is highly perishable, it must be eaten promptly or discarded; it can be kept for only a short time. In many countries, fresh fish are filleted and displayed for sale on a bed of crushed ice or refrigerated . Fresh fish is most commonly found near bodies of water, but the advent of refrigerated train and truck transportation has made fresh fish more widely available inland.\n\nLong term preservation of fish is accomplished in a variety of ways. The oldest and still most widely used techniques are drying and salting . Desiccation (complete drying) is commonly used to preserve fish such as cod . Partial drying and salting are popular for the preservation of fish like herring and mackerel . Fish such as salmon , tuna , and herring are cooked and canned . Most fish are filleted before canning, but some small fish (e.g. sardines ) are only decapitated and gutted before canning.\n\nSeafood is consumed all over the world; it provides the world's prime source of high-quality protein : 14–16% of the animal protein consumed worldwide, with over one billion people reliant on seafood as their primary source of animal protein. Fish is among the most common food allergens .",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -9.572141647338867
+        }
+      ]
+    },
+    {
+      "query_id": "23",
+      "query": "What are the main culinary differences between Cantonese cuisine and Shandong cuisine in China?",
+      "response": "Cantonese cuisine is known for its wider selection of ingredients and uses different cooking methods compared to Shandong cuisine.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Cantonese_cuisine_chunk_0",
+          "text": "Cantonese or Guangdong cuisine , also known as Yue cuisine ( Chinese : 廣東菜 or 粵菜 ), is the cuisine of Cantonese people , associated with the Guangdong province of China , particularly the provincial capital Guangzhou , and the surrounding regions in the Pearl River Delta including Hong Kong and Macau . Strictly speaking, Cantonese cuisine is the cuisine of Guangzhou or of Cantonese speakers, but it often includes the cooking styles of all the speakers of Yue Chinese languages in Guangdong.\n\nThe Teochew cuisine and Hakka cuisine of Guangdong are considered their own styles. However, scholars may categorize Guangdong cuisine into three major groups based on the region's dialect: Cantonese, Hakka and Chaozhou cuisines. Neighboring Guangxi 's cuisine is also considered separate despite eastern Guangxi being considered culturally Cantonese due to the presence of ethnic Zhuang influences in the rest of the province.",
+          "rrf_score": 0.029273504273504274,
+          "ce_score": 6.717639446258545
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Shandong_cuisine_chunk_0",
+          "text": "Shandong cuisine ( simplified Chinese : 山东菜 ; traditional Chinese : 山東菜 ; pinyin : Shāndōngcài ), more commonly known in Chinese as Lu cuisine (魯菜), is one of the Eight Culinary Traditions of Chinese cuisine and one of the Four Great Traditions ( 四 大 菜 系 ). It is derived from the native cooking style of Shandong Province , a northern coastal province of China .\n\nShandong cuisine is famous for its wide selection of material and use of different cooking methods. The raw materials are mainly domestic animals and birds, seafood and vegetables. The masterly cooking techniques include bao (爆; quick frying), liu (溜; quick frying with corn flour), pa (扒; stewing), kao (烤; roasting), zhu (煮; boiling), and coating sugar onto fruits with honey as the adhesive.\n\nShandong cuisine is mainly divided into three sub-regional styles: Jinan and Jiaodong, and Kongfu.",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": 5.860881328582764
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Shandong_cuisine_chunk_2",
+          "text": "The cuisine as it is known today was created during the Yuan dynasty . It gradually spread to northern and northeastern China. In Beijing and Tianjin, it influenced Imperial cuisine . Shandong cuisine is primarily made up of Jiaodong and Jinan dishes.\n\nAlthough modern transportation has increased the availability of ingredients throughout China, Shandong cuisine remains rooted in tradition. It is noted for its variety of seafood , including scallop , prawn and shrimp , clam , sea cucumber and squid .\n\nShandong is unique for its use of maize , a local cash crop not widely cultivated in northern China. Unlike the sweet corn of North America, Shandong maize is chewy and starchy, and often has a grassy aroma. It is served as steamed (or boiled) cobs, or the kernels are removed from the cob and lightly fried.\n\nShandong is noted for its peanuts, which are fragrant and naturally sweet. Large dishes of peanuts (roasted in the shell or shelled and stir-fried with salt) are common at meals, and they are served raw in a number of cold dishes from the region.",
+          "rrf_score": 0.03252247488101534,
+          "ce_score": 4.791042804718018
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Shandong_cuisine_chunk_1",
+          "text": "Although less available in overseas Chinese restaurants, Shandong cuisine is considered one of the most influential schools in Chinese cuisine. Modern cuisines in North China ( Beijing , Tianjin and the Manchuria ) are branches of Shandong cuisine, and meals in most Northern Chinese households are typically prepared using simplified Shandong methods.\n\nDuring the Spring and Autumn period (770-221 BCE), there were 2 influential states, Qi and Lu . Both states, with mountains and fertile plains, were economically and culturally developed and had abundant aquatic products, grains and sea salt. Some of the earliest known descriptions of Chinese culinary methods come from the states. Yi Ya, a retainer of Duke Huan of Qi , was renowned for his culinary skill. Confucius (who was born in the Lu state) was quoted in the Analects as saying, \"One should not indulge overly in fine flour, or in kuai (a dish akin to carpaccio ) that is sliced too thinly\". About food, he recommended: \"Do not consume food which looks spoiled, smells spoiled, is out of season, is improperly butchered, or is not made with its proper seasoning\".",
+          "rrf_score": 0.03007688828584351,
+          "ce_score": 4.527050495147705
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Cantonese_cuisine_chunk_1",
+          "text": "Cantonese cuisine is one of the Eight Great Traditions of Chinese cuisine ,\nand chefs trained in Cantonese cuisine are highly sought after throughout China. Its prominence outside China is due to the large number of Cantonese emigrants ;  until the late 20th century, most Chinese restaurants in the West served largely Cantonese dishes.",
+          "rrf_score": 0.028370221327967807,
+          "ce_score": 4.525388240814209
+        }
+      ]
+    },
+    {
+      "query_id": "24",
+      "query": "What is the cultural significance of mooncakes during the Chinese Mid-Autumn Festival?",
+      "response": "The cultural significance of mooncakes during the Chinese Mid-Autumn Festival is that they are symbolic of the Mid-autumn festival and the Spring Festival, respectively.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_30",
+          "text": "Depending on whether one chooses to have rice or a meal that is made of wheat flour such as bread or noodles as their main source of food, people within a similar culture or of a different background can make an assumption of the other's country of origin from the south or north of China. Different foods have different symbolic meanings. Mooncakes and dumplings are symbolic of the Mid-autumn festival and the Spring Festival, respectively. Pear symbolizes bad luck due to its similarity in pronunciation of 'away' in the native language and noodle means living a long life for its length.\n\nIn Chinese philosophy, food frequently conveys a message. A Chinese philosophy I Ching says, \"Gentlemen use eating as a way to attain happiness. They should be aware of what they say, and refrain from eating too much.\"",
+          "rrf_score": 0.03333333333333333,
+          "ce_score": 4.314340591430664
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_17",
+          "text": "Traditionally, Chinese desserts are sweet foods and dishes that are served with tea , usually during the meal, or at the end of meals in Chinese cuisine.\n\nBesides being served as dim sum along with tea, pastries are used for celebration of traditional festivals. The most famous one is moon cake , used to celebrate the Mid-Autumn Festival .\n\nA wide variety of Chinese desserts are available, mainly including steamed and boiled sweet snacks. Bing is an umbrella term for all breads in Chinese, also including pastries and sweets. These are baked wheat-flour-based confections, with different stuffings including red bean paste , jujube , and a variety of others. Su (酥) is another kind of pastry made with more amount of oil, making the confection more friable. Chinese candies and sweets, called táng (糖) are usually made with cane sugar , malt sugar, honey , nuts, and fruit. Gao or Guo are rice-based snacks that are typically steamed and may be made from glutinous or normal rice.",
+          "rrf_score": 0.032018442622950824,
+          "ce_score": 2.853515863418579
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Malaysian_Chinese_cuisine_chunk_3",
+          "text": "Many Chinese kue require the use of a Kue mould similar to that use in mooncakes , which is either carved out of wood or made of plastics. Kue moulds with turtles are ubiquitous, though moulds of peaches are usually quite common. Red coloured turtle kue are known especially as \"Ang ku kueh\"/\" Red Tortoise Cake \" (紅龜粿). Since many Chinese no longer make kue at home, these moulds have become less common in many kitchens.",
+          "rrf_score": 0.030117753623188408,
+          "ce_score": -6.451037883758545
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_28",
+          "text": "Food plays various roles in social and cultural life. In Chinese folk religion , ancestor veneration is conducted by offering food to ancestors and Chinese festivals involve the consumption and preparation of specific foods which have symbolic meanings attached to them. Specific religions in China have their own cuisines such as the Taoist diet , Buddhist cuisine and Chinese Islamic Cuisine .\n\nThe Kaifeng Jews in Henan province once had their own Chinese Jewish cuisine but the community has largely died out in the modern era and not much is known about the specifics of their cuisine but they did influence foods eaten in their region and some of their dishes remain. Chinese dishes with purported Kaifeng Jewish roots include Kaifeng xiao long bao, Mayuxing bucket-shaped chicken, Chrysanthemum hot pot, and Four Treasures.",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -6.8114776611328125
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Liaoning_cuisine_chunk_4",
+          "text": "This super-time and space attribute of food culture is often out of sync with changes in political factors such as administrative divisions. As an important component of regional food culture, the food element not only clearly reflects the specific content of food production and food life in the region in the spatial category, but also records the changes in people's food behavior and food culture style in time. Therefore, it is undoubtedly a meaningful work to examine the food culture in Northeast China from the perspective of historical and cultural evolution and development. Not only does a profound understanding of the Northeastern region's food culture itself require this kind of historical observation, but its significance can also be expanded to many other cultural fields that are much broader.",
+          "rrf_score": 0.02964254577157803,
+          "ce_score": -9.588940620422363
+        }
+      ]
+    },
+    {
+      "query_id": "25",
+      "query": "What core ingredients are used to make the popular Korean street food Tteokbokki?",
+      "response": "The core ingredients used to make the popular Korean street food Tteokbokki are:\n\n- Mung Bean Paste\n- Red Bean Paste\n- Raisins\n- Sweetened Filling Made with Sesame Seeds, Sweet Pumpkin, Beans, Jujubes, Pine Nuts, Honey",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_21",
+          "text": "Representative Seoul soups or stews are: sinseollo (royal casserole), gaksaek jeongol (casserole made with various ingredients), yukgaejang (spicy beef soup with rice), Gujeolpan (nine-sectioned plate), galbijjim (braised meat short ribs), tteokjjim (boiled tteok , beef and vegetables), tteokbokki (stir-fried tteok and vegetables), braised dishes in soy sauce such as honghapcho and jeonbokcho respectively made with mussels and abalone, and gannap (beef liver pancake). Raw dishes such as gaphoe (seasoned raw beef tripe ), gulhoe (raw oyster) are also part of Seoul cuisine. Pressed or dried dishes such as pyeonyuk made with ox's tongue or brisket , jokpyeon (gelatin), eochae (parboiled fish fillet), yukpo (beef jerky), suran ( poached egg ), sukju namul (sauteed mung bean spouts), mugeun namul bokkeum (sauteed dried various mountain vegetables), hobakseon (steamed stuffed zucchini), gimssam (wraps with gim , seaweed), maedeup jaban (fried kelp in a ribbon shape), are banchan representing Seoul cuisine. Gujeolpan and sinseollo especially demonstrate the sophisticated style of Seoul cuisine.",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": 3.05318021774292
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_37",
+          "text": "Traditional rice cakes, tteok and Korean confectionery hangwa are eaten as treats during holidays and festivals. Tteok refers to all kinds of rice cakes made from either pounded rice (메떡, metteok ), pounded glutinous rice (찰떡, chaltteok ), or glutinous rice left whole, without pounding. It is served either filled or covered with sweetened mung bean paste, red bean paste , mashed red beans, raisins , a sweetened filling made with sesame seeds, sweet pumpkin, beans, jujubes, pine nuts or honey). Tteok is usually served as dessert or as a snack. Among varieties, songpyeon is a chewy stuffed tteok served at Chuseok . Honey or another soft sweet material such as sweetened sesame or black beans are used as fillings. Pine needles can be used for imparting flavor during the steaming process. Yaksik is a sweet rice cake made with glutinous rice, chestnuts, pine nuts, jujubes, and other ingredients, while chapssaltteok is a tteok filled with sweet bean paste .",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": 2.7161197662353516
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_23",
+          "text": "During the Joseon period, the villages of Bukchon and Namchon were referred to as \"Namju Byukbyeong\" , which literally means \"Namchon for alcoholic beverages, Bukchon for tteok \" (rice cakes), because tteok were made on many occasions in Seoul. There are many tteok made with high-quality ingredients, that take a lot of work to produce, in Seoul cuisine such as danja . It is usually used as a decoration for other tteok and is shaped into a ball or a square after its dough is pounded and stuffed with a sweetened filling and covered with gomul (powder coating or sliced fruits). The danja varieties are made with jujube, Artemisia princeps var. orientalis (sunflower-like plant), chestnut, yuzu (a citrus fruit), Gingko seeds , gotgam (dried persimmon), Coix lacryma-jobi var. ma-yuen (a grain), and seogi (a lichen - Umbilicaria esculenta ).",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": 2.246617078781128
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_14",
+          "text": "Nokdu (Mung bean) is commonly used in Korean cuisine. Sukju namuls (Mung bean sprouts) are often served as a side dish, blanched and sautéed with sesame oil, garlic, and salt. Ground Nokdu is used to make a porridge called nokdujuk , which is eaten as a nutritional supplement and digestive aid, especially for ill patients. A popular snack, bindaetteok (mung bean pancake), is made with ground nokdu and fresh sukju namul. Starch extracted from ground nokdu is used to make transparent dangmyeon ( cellophane noodles ). The dangmyeons are the main ingredients for japchae (a salad-like dish) and sundae (a blood sausage ), and are a subsidiary ingredient for soups and stews. The starch can be also used to make jelly-like foods, such as nokdumuk and hwangpomuk . The muk have a bland flavor, so are served seasoned with soy sauce, sesame oil and crumbled seaweed or other seasonings such as tangpyeongchae .",
+          "rrf_score": 0.030834914611005692,
+          "ce_score": 1.9149529933929443
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/South_Korean_cuisine_chunk_1",
+          "text": "Street food in South Korea has traditionally been seen as a part of popular culture in South Korea. Historically, street food mainly included foods such as eomuk , bungeo-ppang and tteok-bokki . Street food has been sold through many types of retail outlets, with new ones being developed over time. Recently, street food has seen a popular resurgence in South Korea, such as at the Night Market at Hangang Park, which is called \"Bamdokkaebi Night Market\".\n\nDelivery culture in South Korea started in the Joseon era . It has since evolved into one of the most sophisticated and widely used services in the country, spanning from the 18th century to the present. Nowadays, because of a fast-paced lifestyle and the role of technology in everyday life, people use delivery services to deliver anything from food, documents, presents, etc. at a cheap price. Although delivery is quite common in other parts of the world, Korean delivery is unique in a way because of the use of scooters and motorcycles to quickly transport food and services.",
+          "rrf_score": 0.03229166666666666,
+          "ce_score": 1.4864115715026855
+        }
+      ]
+    },
+    {
+      "query_id": "26",
+      "query": "Explain the concept of Umami and how it is typically achieved in a Japanese Dashi broth.",
+      "response": "Umami is a savory, meaty, slightly sweet, and salty taste often described as a rich, complex, and comforting sensation. It is primarily found in foods like mushrooms, tomatoes, onions, garlic, and certain meats. In Japanese cuisine, umami is commonly achieved through the addition of amino acids, particularly glut",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Dashi_(Japanese_Soup_Stock)_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Soup | Cuisine of Japan\n\nDashi is a traditional Japanese broth that forms the foundation of many Japanese dishes .  \nIt is made by extracting umami compounds from ingredients such as kelp ( kombu ), bonito flakes ( katsuobushi ), and dried sardines ( niboshi ).  \nDashi adds depth and subtle flavor to soups, stews, and simmered dishes.\n\nDashi can be roughly classified into four main types:\n\nUse any of the following (to taste):\n\nDashi is versatile and used in many dishes:",
+          "rrf_score": 0.03306010928961749,
+          "ce_score": 3.6251380443573
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_regional_cuisine_chunk_0",
+          "text": "Japanese cuisine has a vast array of regional specialities known as kyōdo ryōri ( 郷土料理 ) in Japanese , many of them originating from dishes prepared using local ingredients and traditional recipes.\n\nWhile \"local\" ingredients are now available nationwide, and some originally regional dishes such as okonomiyaki and Edo-style sushi have spread throughout Japan and are no longer considered as such, many regional specialities survive to this day, with some new ones still being created.\n\nRegionality is also apparent in many dishes which are served throughout Japan such as ozōni soup. For example, the dashi -based broth for serving udon noodles is heavy on dark soy sauce , similar to soba broth, in eastern Japan, while in western Japan the broth relies more on the complex dashi -flavouring, with a hint of light soy sauce.\n\nBroadly speaking, the historical origins of Japanese regional specialities can be categorized into four types:",
+          "rrf_score": 0.03177805800756621,
+          "ce_score": -1.8642690181732178
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Cuisine_of_Japan_chunk_1",
+          "text": "On the surface, Japanese food might seem very friendly for vegetarians. Indeed, its extensive use of vegetables clearly makes it quite healthy. However, fish is an important ingredient in almost all Japanese dishes, even when it's not immediately apparent. Japanese cooking employs dried fish products shaved on the top of many foods, but most problematic for vegetarians is dashi , a broth made of dried bonito fish that is used extensively through the cuisine. This stock appears in many foods that would otherwise appear vegetarian, such as miso soup. Although miso is made of a fermented soybean paste, it is traditionally added to a dashi base, and it's almost impossible to find miso soup at a restaurant in Japan that does not contain dashi . Similarly, other foods such as tamago-zushi (egg custard sushi), which many ovo-vegetarians would enjoy, also generally contains dashi broth.\n\nHistory of Japanese Cuisine and Cookbooks",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": -1.971492886543274
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/12-japan/_chunk_6",
+          "text": "Usually dashi is made with kombu, a strong tasting kelp. However, after searching everywhere for kombu in Brisbane, I was reliably informed that it was no longer imported into Australia because “someone died of iodine poisoning I think?”. The net result was that I used a less authentic, but purportedly safer variety of dried seaweed. The secret of the noodles is that they are traditionally made with a type of alkaline mineral water typical of the lakes of inner Mongolia, which renders them yellow and firm. This firmness makes them ideal for soup, because they stay chewy and don’t disintegrate into mush like normal Italian spaghetti would. Fortunately, a lot of eggs can be substituted for alkaline mineral water from the lakes of inner Mongolia, which should save you a bit of money on plane tickets. I probably went a bit overboard in my ramen toppings, which runs counter to the Japanese philosophy of simplicity and minimalism, but I felt as if I was compensating for all of the unadorned ramen I scoffed in my youth. I included chasu (thin slices of barbecued pork), enoki mushrooms, bok choy, seasoned nori (seaweed), corn, picked bamboo shoots, green onions, and a soft-boiled egg.",
+          "rrf_score": 0.015625,
+          "ce_score": -3.8870606422424316
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2017/05/05/12-japan/#comments_chunk_6",
+          "text": "Usually dashi is made with kombu, a strong tasting kelp. However, after searching everywhere for kombu in Brisbane, I was reliably informed that it was no longer imported into Australia because “someone died of iodine poisoning I think?”. The net result was that I used a less authentic, but purportedly safer variety of dried seaweed. The secret of the noodles is that they are traditionally made with a type of alkaline mineral water typical of the lakes of inner Mongolia, which renders them yellow and firm. This firmness makes them ideal for soup, because they stay chewy and don’t disintegrate into mush like normal Italian spaghetti would. Fortunately, a lot of eggs can be substituted for alkaline mineral water from the lakes of inner Mongolia, which should save you a bit of money on plane tickets. I probably went a bit overboard in my ramen toppings, which runs counter to the Japanese philosophy of simplicity and minimalism, but I felt as if I was compensating for all of the unadorned ramen I scoffed in my youth. I included chasu (thin slices of barbecued pork), enoki mushrooms, bok choy, seasoned nori (seaweed), corn, picked bamboo shoots, green onions, and a soft-boiled egg.",
+          "rrf_score": 0.015384615384615385,
+          "ce_score": -3.8870606422424316
+        }
+      ]
+    },
+    {
+      "query_id": "27",
+      "query": "What is Tonkatsu, and what type of breadcrumbs are essential for its preparation?",
+      "response": "Tonkatsu is a breaded, deep-fried pork cutlet that is typically served with tonkatsu sauce. The essential ingredient for preparing Tonkatsu is breadcrumbs.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_38",
+          "text": "These early elements are generally considered distinct from modern Japanese Chinese cuisine , known as chūka ryōri , which emerged in the 19th century. Iconic dishes of chūka ryōri include ramen , gyoza , and chukaman . In contrast, dishes of Chinese origin such as kakuni and karaage are often regarded as part of washoku , or traditional Japanese cuisine, due to their longstanding integration into Japanese food culture.\n\nOkonomiyaki is a savoury pancake containing a variety of ingredients in a wheat-flour-based batter.\n\nTonkatsu is a breaded, deep-fried pork cutlet. It is frequently served with tonkatsu sauce .",
+          "rrf_score": 0.01639344262295082,
+          "ce_score": -0.6532190442085266
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Tonkotsu_Ramen_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nTonkotsu ramen is a dish of ramen noodles served in rich and fatty pork broth usually garnished with a variation of toppings (most of the time pork cutlets, green onions, and hard-boiled eggs split in two). There are many variations to this recipe. Some people add some chicken bones or beef bones to create a unique combination of flavors. A lot of the ingredients aren't available in just any grocery stores, but you shouldn't have a lot of trouble finding them at the Asian grocers in your local international district. You would be surprised on how much better tasting it is than the store bought instant ramen brands.",
+          "rrf_score": 0.016129032258064516,
+          "ce_score": -3.6952672004699707
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/77-finland/_chunk_5",
+          "text": "The breadcrumb tradition lies in the custom of covering cuts of meat in pastry, often rye, before baking, in order to keep it flavoursome and succulent. I loved the combination of hot mustard and sweet crunchy breadcrumbs along with the ham, although I’m not sure if it will replace my deep affection for the sweet sticky glazes of my childhood. Finns go mad for casseroles during Christmas, and often a trifecta of casseroles, including potato casserole, rutabaga casserole and carrot casserole all grace the dinner table on Christmas Eve. As a friend of mine promised to bring her famous potato bake to my Christmas Eve pot luck, and rutabaga isn’t usually sold where I live in Brisbane, I opted to just make the carrot casserole, called porkkanalaatikko (literally “carrot box”). It’s made by combining grated (or mashed) carrot with cooked short grain rice, beaten eggs, salt, nutmeg, milk and butter, then topping it with breadcrumbs and baking until golden. I was pleasantly surprised by the carrot casserole – it sounds a little meagre compared to other lavish carnivorous Christmas dishes, but was actually delightfully sweet and savoury, with a fantastic texture.",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -5.937989711761475
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Garlic_chunk_18",
+          "text": "Oils can be flavored with garlic cloves. These infused oils are used to season all categories of vegetables , meats, breads, and pasta . Garlic, along with fish sauce , chopped fresh chilis, lime juice , sugar, and water, is a basic essential item in dipping fish sauce , a highly used dipping sauce condiment used in Indochina . In East and Southeast Asia , chili oil with garlic is a popular dipping sauce , especially for meat and seafood. Tuong ot toi Viet Nam (Vietnam chili garlic sauce) is a highly popular condiment and dip across North America and Asia.\n\nIn some cuisines, the young bulbs are pickled for three to six weeks in a mixture of sugar, salt, and spices. In eastern Europe, the shoots are pickled and eaten as an appetizer. Laba garlic , prepared by soaking garlic in vinegar , is a type of pickled garlic served with dumplings in northern China to celebrate the Chinese New Year .",
+          "rrf_score": 0.015625,
+          "ce_score": -8.354631423950195
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Sushi/Gimbap_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Korean Cuisine\n\nGimbap is a popular snack or lunch dish in Korea . Its primary ingredients are gim (sheets of dried seaweed) and bap (rice).",
+          "rrf_score": 0.015625,
+          "ce_score": -10.47423267364502
+        }
+      ]
+    },
+    {
+      "query_id": "28",
+      "query": "What is the functional difference between light soy sauce and dark soy sauce in Chinese cooking?",
+      "response": "light soy sauce enhances the flavor, while dark soy sauce creates a dark amber color.",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Shanghai_cuisine_chunk_1",
+          "text": "The four classic words used to describe Shanghai food are \" 浓油赤酱 \", meaning that Shanghai food uses a considerable amount of oil and soy sauce. Both dark soy sauce and regular soy sauce are used in Shanghai cooking, which gives dishes a red and shiny appearance. Dark soy sauce creates a dark amber color in dishes, while regular soy sauce enhances the flavor. Sugar is often added to soy sauce.\n\nDishes are prepared using various methods, such as baking , stewing , braising , steaming , and deep-frying . Fish, crab, and chicken are made \"drunken\" using spirits and brisk cooking techniques. Salted meats and preserved vegetables are commonly used in dishes. Rice is more commonly served than noodles or other wheat products.\n\nShanghai cuisine emphasizes the use of condiments while retaining the original flavors of raw ingredients. It aims for lightness in flavor and is mellower and slightly sweet in taste compared to some other Chinese cuisines. Sweet and sour is a typical Shanghai taste. In Shanghai cuisine, the presentation of dishes is also important. Ingredients are carefully cut and arranged to create a harmonious color scheme. [ citation needed ]",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": 6.123512268066406
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Soy_Sauce_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Ingredients | Basic foodstuffs | Legume\n\nSoy sauce (soya sauce) is a dark brown liquid derived primarily from fermented soybeans (soya beans). Soy sauce is common in the cuisines of Japan , China , Philippines , Korea , Indonesia , and Malaysia , and there are many varieties.\n\nSoy sauce contains a small amount of naturally occurring MSG . It can also be extremely salty .\n\nSoy sauce is shelf-stable because it contains added salt , alcohol , or sodium benzoate. Since alcohol quickly boils off when stir-frying (a typical use of soy sauce), an alcohol-based soy sauce is preferable when using copious amounts.\n\nWhile all soy sauces consist largely of fermented soy, distinct varieties exist that impact the flavor of a dish. Some common varieties are described below.",
+          "rrf_score": 0.032539682539682535,
+          "ce_score": 2.785261392593384
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Soy_sauce_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Ingredients | Basic foodstuffs | Legume\n\nSoy sauce (soya sauce) is a dark brown liquid derived primarily from fermented soybeans (soya beans). Soy sauce is common in the cuisines of Japan , China , Philippines , Korea , Indonesia , and Malaysia , and there are many varieties.\n\nSoy sauce contains a small amount of naturally occurring MSG . It can also be extremely salty .\n\nSoy sauce is shelf-stable because it contains added salt , alcohol , or sodium benzoate. Since alcohol quickly boils off when stir-frying (a typical use of soy sauce), an alcohol-based soy sauce is preferable when using copious amounts.\n\nWhile all soy sauces consist largely of fermented soy, distinct varieties exist that impact the flavor of a dish. Some common varieties are described below.",
+          "rrf_score": 0.032018442622950824,
+          "ce_score": 2.785261392593384
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_16",
+          "text": "When it comes to sauces , China is home to soy sauce, which is made from fermented soybeans and wheat. A number of sauces are also based on fermented soybeans, including hoisin sauce , ground bean sauce and yellow bean sauce. There are also different sauces preferred by regional cuisines, oyster sauce , fish sauce and furu (fermented tofu) are also widely used. Vinegar also has a variety with different flavors: clear rice vinegar, Chinkiang black rice vinegar , Shanxi vinegar, Henghe vinegar etc.\n\nThe most commonly consumed meat in China is pork . As of at least 2024, China is the second largest beef consuming market in the world. Steakhouses and hot pot restaurants serving beef are becoming increasingly popular in urban China . Chinese consumers particularly value freshly slaughtered beef.\n\nGenerally, seasonal fruits serve as the most common form of dessert consumed after dinner.\n\nDim sum (点心), originally means a small portion of food, can refer to dessert, or pastries. Later to avoid disambiguation, tian dian (甜点) and gao dian (糕点) are used to describe desserts and pastries.",
+          "rrf_score": 0.02844551282051282,
+          "ce_score": -0.5289006233215332
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Udon_chunk_1",
+          "text": "Udon are often served hot in a variety of broths to make a noodle soup. The flavor of broth and topping vary from region to region. Usually, dark brown broth, made from dark soy sauce ( koikuchi shōyu ) is used in eastern Japan, and light brown broth, made from light soy sauce ( usukuchi shōyu ) is used in western Japan.  This is even noticeable in packaged instant udon, which are often sold in two different versions for east and west Japan.\n\nA simple form of udon noodle soup is kake udon , consisting of udon in a kakejiru broth made of dashi, soy sauce (shōyu), and mirin.  It is usually topped with thinly chopped scallions. Other common toppings include tempura, often prawn or kakiage (a type of mixed tempura fritter), or abura age , a type of deep-fried tofu pockets seasoned with sugar, mirin, and soy sauce. A thin slice of kamaboko, a halfmoon-shaped fish cake, is often added. Shichimi can be added to taste.\n\nMiso nikomi udon is another udon soup where udon noodles are added to a flavorful miso and vegetable soup.",
+          "rrf_score": 0.031099324975891997,
+          "ce_score": -0.5524359345436096
+        }
+      ]
+    },
+    {
+      "query_id": "29",
+      "query": "What are the typical fillings used in the Japanese traditional confection Dorayaki?",
+      "response": "The typical fillings used in the Japanese traditional confection Dorayaki include:\n\n1. Anko (sweetened red bean paste)\n2. Sweetened condensed milk\n3. Mixed fruits (e.g., strawberries, blueberries, bananas)\n4. Crushed melons (e.g., cantaloupe,",
+      "retrieved_context": [
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_25",
+          "text": "Traditional Japanese sweets are known as wagashi . Ingredients such as red bean paste and mochi are used. More modern-day tastes includes green tea ice cream , a very popular flavor. Almost all manufacturers produce a version of it. Kakigōri (かき氷) is a shaved ice dessert flavored with syrup or condensed milk. It is usually sold and eaten at summer festivals. A dessert very popular amongst children in Japan is dorayaki . They are sweet pancakes filled with a sweet red bean paste. They are mostly eaten at room temperature but are also considered very delicious hot. Similar sweets to dorayaki include imagawayaki and fish-shaped taiyaki . Sweet breads containing red bean paste, such as anpan and an-doughnut , are also commonly eaten.\n\nGreen tea may be served with most Japanese dishes. It is produced in Japan and prepared in various forms, such as matcha , the tea used in the Japanese tea ceremony . Barley tea is a favorite drink during the hot summertime.",
+          "rrf_score": 0.03018018018018018,
+          "ce_score": 3.754173994064331
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_(Sweet_Filled_Mochi)_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nDaifukumochi (大福餅) , or Daifuku (大福) (literally \"great luck\"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko , sweetened red bean paste made from azuki beans.\n\nDaifuku comes in many varieties. The most common is white, pale green or pale pink colored mochi filled with anko. These come in two sizes, one approximately the diameter of a half-dollar coin, the other palm-sized. Some versions contain whole pieces of fruit, mixtures of fruit and anko or crushed melon paste. Nearly all daifuku are covered in a fine layer of potato or taro starch to keep them from sticking to each other, or to the fingers.  Some are covered with confectioner's sugar or cocoa.",
+          "rrf_score": 0.032018442622950824,
+          "ce_score": -1.1014620065689087
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes\n\nDaifukumochi (大福餅) , or Daifuku (大福) (literally \"great luck\"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko , sweetened red bean paste made from azuki beans.\n\nDaifuku comes in many varieties. The most common is white, pale green or pale pink colored mochi filled with anko. These come in two sizes, one approximately the diameter of a half-dollar coin, the other palm-sized. Some versions contain whole pieces of fruit, mixtures of fruit and anko or crushed melon paste. Nearly all daifuku are covered in a fine layer of potato or taro starch to keep them from sticking to each other, or to the fingers.  Some are covered with confectioner's sugar or cocoa.",
+          "rrf_score": 0.0315136476426799,
+          "ce_score": -1.1014620065689087
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_18",
+          "text": "Generally speaking, traditional Japanese cuisine is prepared with little cooking oil. A major exception is the deep-frying of foods. This cooking method was introduced during the Edo period due to influence from Western (formerly called nanban-ryōri ( 南蛮料理 ) ) and Chinese cuisine, and became commonplace with the availability of cooking oil due to increased productivity. Dishes such as tempura , aburaage , and satsuma age are now part of established traditional Japanese cuisine. Words such as tempura or hiryōzu (synonymous with ganmodoki ) are said to be of Portuguese origin.\n\nAlso, certain rustic sorts of traditional Japanese foods such as kinpira , hijiki , and kiriboshi daikon usually involve stir-frying in oil before stewing in soy sauce. Some standard osōzai or obanzai dishes feature stir-fried Japanese greens with either age or chirimen-jako [ ja ] , dried sardines.",
+          "rrf_score": 0.015384615384615385,
+          "ce_score": -3.293562412261963
+        },
+        {
+          "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Onigiri_chunk_0",
+          "text": "Cookbook | Recipes | Ingredients | Equipment | Techniques | Cookbook Disambiguation Pages | Recipes | Cuisines | Cuisine of Japan\n\nOnigiri (also called omusubi) is a ball or triangle of hot or cold rice , often with a filling, frequently wrapped in nori making it easier to eat. It is a popular snack food, and is also common as part of a packed lunch. Depending on your location, some convenience store chains have shelves with a large selection of fresh onigiri for sale.\n\nThe most common form of onigiri has a filling in the center. This is often something sour or salty, as it helps preserve the rice for longer periods of time. Common fillings include umeboshi (Japanese pickled plum); katsuobushi (dried bonito flakes, often called \"okaka\" in this case) moistened in soy sauce ; cooked, salted salmon (\"sake\"); cod roe (\"tarako\"); kombu ; and canned tuna (\"sea-chicken\") with mayonnaise . Less common is onigiri with the filling mixed in with the rice, making it spread throughout the rice.",
+          "rrf_score": 0.015873015873015872,
+          "ce_score": -3.734992027282715
+        }
+      ]
+    }
+  ]
+}

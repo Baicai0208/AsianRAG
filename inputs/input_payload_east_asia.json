@@ -1,0 +1,124 @@
+{
+  "queries": [
+    {
+      "query_id": "0",
+      "query": "How much kimchi is consumed per person per year in South Korea?"
+    },
+    {
+      "query_id": "1",
+      "query": "What does the Japanese term 'nuuhara' mean?"
+    },
+    {
+      "query_id": "2",
+      "query": "What foods were introduced to Korea through the Mongol invasion of Goryeo?"
+    },
+    {
+      "query_id": "3",
+      "query": "What liquid ingredients are used to braise quail eggs in jangjorim?"
+    },
+    {
+      "query_id": "4",
+      "query": "What flour is used to make the mochi dough for daifuku?"
+    },
+    {
+      "query_id": "5",
+      "query": "What is the traditional method for preparing and serving Peking Duck?"
+    },
+    {
+      "query_id": "6",
+      "query": "What are the key flavor profiles and typical spices used in authentic Sichuan cuisine?"
+    },
+    {
+      "query_id": "7",
+      "query": "How does traditional Korean BBQ differ from Japanese Yakiniku?"
+    },
+    {
+      "query_id": "8",
+      "query": "What are the main ingredients of a classic Japanese Okonomiyaki?"
+    },
+    {
+      "query_id": "9",
+      "query": "How is stinky tofu traditionally fermented and prepared in Taiwanese cuisine?"
+    },
+    {
+      "query_id": "10",
+      "query": "What is the precise difference between sushi and sashimi in Japanese cuisine?"
+    },
+    {
+      "query_id": "11",
+      "query": "Which Chinese province is historically most famous for its Dim Sum tradition?"
+    },
+    {
+      "query_id": "12",
+      "query": "What is the cultural significance of eating Tteokguk (rice cake soup) on Korean New Year?"
+    },
+    {
+      "query_id": "13",
+      "query": "What are the primary components and layout of a traditional Japanese Bento box?"
+    },
+    {
+      "query_id": "14",
+      "query": "How is Matcha green tea powder traditionally prepared in a Japanese tea ceremony?"
+    },
+    {
+      "query_id": "15",
+      "query": "What specific ingredients give Mapo Tofu its signature 'málà' (numbing and spicy) flavor?"
+    },
+    {
+      "query_id": "16",
+      "query": "What is the historical origin of the Taiwanese drink Pearl Milk Tea (Boba)?"
+    },
+    {
+      "query_id": "17",
+      "query": "What are the essential toppings and condiments usually served with a traditional bowl of Japanese Tonkotsu Ramen?"
+    },
+    {
+      "query_id": "18",
+      "query": "How is the Korean dish Bibimbap traditionally assembled and eaten?"
+    },
+    {
+      "query_id": "19",
+      "query": "What role does Gochujang play in Korean cooking and how is it made?"
+    },
+    {
+      "query_id": "20",
+      "query": "Describe the physical process of making traditional hand-pulled noodles (Lamian) in China."
+    },
+    {
+      "query_id": "21",
+      "query": "What are the rules regarding seasonal variations in Japanese Kaiseki dining?"
+    },
+    {
+      "query_id": "22",
+      "query": "How is the Chinese delicacy Century Egg (Pidan) chemically preserved and cured?"
+    },
+    {
+      "query_id": "23",
+      "query": "What are the main culinary differences between Cantonese cuisine and Shandong cuisine in China?"
+    },
+    {
+      "query_id": "24",
+      "query": "What is the cultural significance of mooncakes during the Chinese Mid-Autumn Festival?"
+    },
+    {
+      "query_id": "25",
+      "query": "What core ingredients are used to make the popular Korean street food Tteokbokki?"
+    },
+    {
+      "query_id": "26",
+      "query": "Explain the concept of Umami and how it is typically achieved in a Japanese Dashi broth."
+    },
+    {
+      "query_id": "27",
+      "query": "What is Tonkatsu, and what type of breadcrumbs are essential for its preparation?"
+    },
+    {
+      "query_id": "28",
+      "query": "What is the functional difference between light soy sauce and dark soy sauce in Chinese cooking?"
+    },
+    {
+      "query_id": "29",
+      "query": "What are the typical fillings used in the Japanese traditional confection Dorayaki?"
+    }
+  ]
+}

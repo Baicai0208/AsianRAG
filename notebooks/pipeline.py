@@ -20,7 +20,7 @@ import gc
 import json
 import argparse
 from retriever import Retriever
-from generator import Generator
+from generator import create_generator
 
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
@@ -31,13 +31,19 @@ class RAGInferencePipeline:
         index_path,
         metadata_path,
         embed_model_name=EMBED_MODEL,
-        llm_model_id="Qwen/Qwen2.5-0.5B-Instruct",
+        llm_model_id=None,
         top_k=5,
+        backend="local",
+        api_key=None,
     ):
         self.retriever = Retriever(index_path, metadata_path, model_name=embed_model_name)
 
         gc.collect()
-        self.generator = Generator(model_id=llm_model_id)
+        self.generator = create_generator(
+            backend=backend,
+            model_id=llm_model_id,
+            api_key=api_key,
+        )
         self.top_k = top_k
 
         print("[Pipeline] All modules loaded.")
@@ -140,6 +146,22 @@ if __name__ == "__main__":
         default=5,
         help="最终返回给生成模型的 chunk 数量（课程要求 at most 5）",
     )
+    parser.add_argument(
+        "--backend",
+        default="local",
+        choices=["local", "openrouter"],
+        help="生成后端: local (本地 HF 模型) 或 openrouter (API)",
+    )
+    parser.add_argument(
+        "--api_key",
+        default=None,
+        help="OpenRouter API Key (也可设置 OPENROUTER_API_KEY 环境变量)",
+    )
+    parser.add_argument(
+        "--api_model",
+        default=None,
+        help="OpenRouter 模型 ID, 例如 openai/gpt-4o-mini, google/gemini-2.0-flash-001 等",
+    )
 
     args = parser.parse_args()
 
@@ -157,16 +179,22 @@ if __name__ == "__main__":
     else:
         output_path = f"../outputs/output_payload_{args.strategy}.json"
 
-    print(f"策略:   {args.strategy}")
-    print(f"模型:   {EMBED_MODEL}")
-    print(f"索引:   {index_path}")
-    print(f"Top-K:  {args.top_k}")
-    print(f"输出:   {output_path}\n")
+    print(f"策略:     {args.strategy}")
+    print(f"嵌入模型: {EMBED_MODEL}")
+    print(f"生成后端: {args.backend}")
+    if args.api_model:
+        print(f"API 模型: {args.api_model}")
+    print(f"索引:     {index_path}")
+    print(f"Top-K:    {args.top_k}")
+    print(f"输出:     {output_path}\n")
 
     pipeline = RAGInferencePipeline(
         index_path=index_path,
         metadata_path=metadata_path,
         top_k=args.top_k,
+        backend=args.backend,
+        llm_model_id=args.api_model,
+        api_key=args.api_key,
     )
 
     if args.mode == "benchmark":

@@ -1,0 +1,28 @@
+{
+  "queries": [
+    {
+      "query_id": "test_001",
+      "query": "How much kimchi is consumed per person per year in South Korea?"
+    },
+    {
+      "query_id": "test_002",
+      "query": "What does the Japanese term 'nuuhara' mean?"
+    },
+    {
+      "query_id": "test_003",
+      "query": "What liquid ingredients are used to braise quail eggs in jangjorim?"
+    },
+    {
+      "query_id": "test_004",
+      "query": "What flour is used to make the mochi dough for daifuku?"
+    },
+    {
+      "query_id": "test_005",
+      "query": "What foods were introduced to Korea through the Mongol invasion of Goryeo?"
+    },
+    {
+      "query_id": "test_005",
+      "query": "Who is Yiling Li?"
+    }
+  ]
+}
