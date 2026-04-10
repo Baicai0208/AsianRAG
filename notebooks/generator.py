@@ -72,7 +72,7 @@ def _build_prompt_and_messages(query, retrieved_chunks):
         "2. Do NOT include any outside knowledge, assumptions, or extra information not found in the context.\n"
         "3. If the provided context does not contain the answer, you MUST say exactly 'I do not know' and nothing else.\n"
         "4. Respond directly to the user. Do not include your internal reasoning or say 'Based on the context...' — just give the answer naturally.\n"
-        "5. Respond in English only.\n\n"
+        "5. Respond in the same language as the user's question (e.g. answer in Chinese if the question is in Chinese).\n\n"
         f"{confidence_note}"
         f"Context:\n{context}\n\n"
         f"Question: {query}\n"
@@ -82,14 +82,15 @@ def _build_prompt_and_messages(query, retrieved_chunks):
     system_msg = (
         "You are a knowledgeable East Asian culinary expert. "
         "Provide complete, natural answers based exclusively on the provided context. "
-        "Never hallucinate or add outside information."
+        "Never hallucinate or add outside information. "
+        "Respond in the language of the user's query."
     )
     return system_msg, user_msg
 
 
 def _postprocess(text: str) -> str:
-    """后处理：强制清除非 ASCII 字符."""
-    return re.sub(r"[^\x00-\x7F]+", "", text).strip()
+    """后处理：简单清除首尾空格."""
+    return text.strip()
 
 
 # ────────────────────────────────────────────

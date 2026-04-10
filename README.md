@@ -178,7 +178,7 @@ The generator module supports two backends, selectable via the `create_generator
 
 **Backend 2 – OpenRouter (`OpenRouterGenerator`):** Calls the [OpenRouter API](https://openrouter.ai/models) to use any supported remote model (e.g. `openai/gpt-4o-mini`, `google/gemini-2.0-flash-001`, `anthropic/claude-3.5-sonnet`). The API key is read from the `.env` file or the `OPENROUTER_API_KEY` environment variable.
 
-Both backends share the same prompt construction and post-processing logic. Retrieved chunks are concatenated with `---` separators and injected into a system prompt that instructs the model to answer only from the provided context and to respond exclusively in English. A post-processing step strips any non-ASCII characters from the output to enforce the English-only constraint.
+Both backends share the same prompt construction and post-processing logic. Retrieved chunks are concatenated with `---` separators and injected into a system prompt that instructs the model to answer only from the provided context and to respond in the same language as the user's question.
 
 ```python
 # Local model (default)
@@ -220,7 +220,7 @@ The script reads from `outputs/benchmark_output_fixed_size.json` and `data/bench
 
 ---
 
-## Running the Inference Pipeline (Deliverable 5)
+## Running the Inference Pipeline
 
 `pipeline.py` wires all five components into a single end-to-end pipeline. It supports two modes and two generator backends.
 
