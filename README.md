@@ -379,7 +379,6 @@ Representative query–response pairs from the benchmark output files.
 | What health risk has been associated with frequent kimchi consumption? | An increased risk of gastric cancer was found in some case-control studies | ✅ |
 | What saying in 1970s Hong Kong manifested the nouveau riche mentality? | "Mixing shark fin soup with rice" | ✅ |
 | What is the predominant food source for the Yamis and Thao tribes in Taiwan? | Fish | ✅ |
-| In which city in Northern England did salt and pepper chips originate? | Liverpool | ✅ |
 | What do the Chinese words 'la' and 'mian' literally mean in Lamian? | 'La' means to pull or stretch; 'mian' means noodle | ✅ |
 | Which ruling class in the Goryeo period forbade beef consumption? | The Buddhist ruling class | ✅ |
 

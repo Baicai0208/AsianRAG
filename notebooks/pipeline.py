@@ -17,10 +17,18 @@ pipeline.py — RAG 推理主流程
 """
 
 import gc
+import os
 import json
 import argparse
+from pathlib import Path
+
+from dotenv import load_dotenv
 from retriever import Retriever
 from generator import create_generator
+
+# 自动加载项目根目录下的 .env 文件
+_env_path = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(_env_path)
 
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
@@ -148,9 +156,9 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--backend",
-        default="local",
+        default=os.environ.get("GENERATION_BACKEND", "local"),
         choices=["local", "openrouter"],
-        help="生成后端: local (本地 HF 模型) 或 openrouter (API)",
+        help="生成后端: local (本地 HF 模型) 或 openrouter (API), 可在 .env 中设置 GENERATION_BACKEND",
     )
     parser.add_argument(
         "--api_key",
@@ -159,8 +167,8 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--api_model",
-        default=None,
-        help="OpenRouter 模型 ID, 例如 openai/gpt-4o-mini, google/gemini-2.0-flash-001 等",
+        default=os.environ.get("GENERATION_MODEL", None),
+        help="生成模型 ID, 可在 .env 中设置 GENERATION_MODEL",
     )
 
     args = parser.parse_args()
@@ -172,12 +180,23 @@ if __name__ == "__main__":
         index_path    = f"{args.vector_store_base}/{args.strategy}/vector_store.index"
         metadata_path = f"{args.vector_store_base}/{args.strategy}/chunk_metadata.json"
 
+    # 从模型 ID 中提取短名称用于文件名 (e.g. "openai/gpt-4o-mini" → "gpt-4o-mini")
+    if args.api_model:
+        model_short = args.api_model.rsplit("/", 1)[-1]
+    elif args.backend == "local":
+        model_short = "qwen2.5-0.5b"
+    else:
+        model_short = "unknown"
+
     if args.output:
         output_path = args.output
     elif args.mode == "benchmark":
-        output_path = f"../outputs/benchmark_output_{args.strategy}.json"
+        output_path = f"../outputs/{args.strategy}/benchmark_output_{model_short}.json"
     else:
-        output_path = f"../outputs/output_payload_{args.strategy}.json"
+        output_path = f"../outputs/{args.strategy}/output_payload_{model_short}.json"
+
+    # 自动创建输出子目录
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     print(f"策略:     {args.strategy}")
     print(f"嵌入模型: {EMBED_MODEL}")

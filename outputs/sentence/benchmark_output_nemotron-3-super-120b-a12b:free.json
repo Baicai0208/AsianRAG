@@ -3,7 +3,7 @@
     {
       "query_id": "q_001",
       "query": "What specific events led to a decade-long depression in the Hong Kong culinary scene after 1997?",
-      "response": "A decade-long depression in the Hong Kong culinary scene after 1997 was primarily due to the Asian financial crisis and SARS epidemic.",
+      "response": "We need to answer: \"What specific events led to a decade-long depression in the Hong Kong culinary scene after 1997?\" According to context: \"After Hong Kong was returned to China in 1997, the Asian financial crisis and SARS epidemic led to a decade-long depression.\" So answer: Asian financial crisis and SARS epidemic. Must extract exact keywords or short phrases. So answer: Asian financial crisis, SARS epidemic. Probably separate by commas? The instruction: \"Extract ONLY the exact keywords or short phrases from the Context to answer the Question. Do NOT write full sentences.\" So we can output: list",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_16",
@@ -40,7 +40,7 @@
     {
       "query_id": "q_002",
       "query": "According to the JRO, how many Japanese restaurants were there in Thailand as of June 2012?",
-      "response": "According to the JRO, there were approximately 1,676 Japanese restaurants in Thailand as of June 2012.",
+      "response": "1,676",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_82",
@@ -77,7 +77,7 @@
     {
       "query_id": "q_003",
       "query": "What health risk has been associated with frequent or high consumption of kimchi in some studies?",
-      "response": "High risk of gastric cancer among subjects with frequent or high consumption of kimchi.",
+      "response": "increased risk of gastric cancer",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_86",
@@ -98,13 +98,13 @@
           "ce_score": -1.3382985591888428
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_12",
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_12",
           "text": "Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air.",
           "rrf_score": 0.016129032258064516,
           "ce_score": -1.508230209350586
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_12",
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_12",
           "text": "Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air.",
           "rrf_score": 0.015873015873015872,
           "ce_score": -1.508230209350586
@@ -114,7 +114,7 @@
     {
       "query_id": "q_004",
       "query": "What saying in 1970s Hong Kong manifested the nouveau riche mentality resulting from stock market investments?",
-      "response": "Mixing shark fin soup with rice",
+      "response": "We need to extract exact keywords or short phrases from context. The question: \"What saying in 1970s Hong Kong manifested the nouveau riche mentality resulting from stock market investments?\" The context says: \"one visible manifestation of the resultant nouveau riche mentality in 1970s Hong Kong were sayings such as 'mixing shark fin soup with rice' ( Chinese :  ; Cantonese Yale : Yhchi Lufaahn ).\" So answer: mixing shark fin soup with rice. Must be exact phrase. Provide only that phrase, no extra extra",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_12",
@@ -151,7 +151,7 @@
     {
       "query_id": "q_005",
       "query": "Why did the general population in Asuka period Japan use their hands instead of chopsticks to eat?",
-      "response": "Due to the lack of meat products, Japanese people minimized spice utilization. Spices were rare to find at the time. Spices, like pepper and garlic, were used only in a minimal amount. Spices widely used in Japan were sansho and black pepper. They were often used in noodle, white rice,",
+      "response": "We need to answer based on context. The question: \"Why did the general population in Asuka period Japan use their hands instead of chopsticks to eat?\" The context says: \"During the Asuka period, chopsticks were introduced to Japan. Initially, they were used only by the nobility. The general population used their hands, as utensils were quite expensive.\" Also later: \"The general population used their hands, as utensils were quite expensive.\" So answer: because utensils were quite expensive. Must extract exact keywords or short phrases. So answer: utensils were quite expensive. Or \":",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_3",
@@ -188,7 +188,7 @@
     {
       "query_id": "q_006",
       "query": "Which type of rice introduced by the Japanese changed farming and eating patterns in Taiwan?",
-      "response": "Japanese short-grain rice changed farming and eating patterns in Taiwan.",
+      "response": "short-grained japonica rice",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Taiwanese_cuisine_chunk_7",
@@ -211,7 +211,7 @@
         {
           "doc_id": "https://en.wikipedia.org/wiki/Taiwanese_cuisine_chunk_3",
           "text": "Due to the period of Japanese rule , Taiwanese cuisine was also strongly influenced by Japanese washoku and yōshoku . [ citation needed ] During Japanese rule Japanese dishes and foodways such as bento, sashimi, rice balls, and miso soup were introduced to Taiwanese cuisine. After WWII, the Kuomintang retreat to Taiwan brought along many Han cuisines outside the province of Fujian or Southeast China. After that, the dishes from China especially Guangdong , Chaoshan , Shanghai , Sichuan and Beijing could be easily found in Taiwan . [ citation needed ]\n\nAccording to Taiwanese chef Fu Pei-mei , authentic Chinese culinary traditions were properly preserved in Taiwan.",
-          "rrf_score": 0.03028233151183971,
+          "rrf_score": 0.03009207275993712,
           "ce_score": 1.7797293663024902
         },
         {
@@ -225,7 +225,7 @@
     {
       "query_id": "q_007",
       "query": "Which ruling class in the Goryeo period forbade the consumption of beef in Korea?",
-      "response": "The ruling class in the Goryeo period who forbade the consumption of beef in Korea was the Buddhist ruling class.",
+      "response": "Buddhist ruling class",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_27",
@@ -252,7 +252,7 @@
           "ce_score": -1.894779920578003
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_19",
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_19",
           "text": "They are often accompanied by a meat-based centrepiece (such as bulgogi), bap (rice), soup or stew. The concept of banchan is thought to have originated from a Buddhist influence on Korea during the early centuries of AD, which decreased the consumption of meat for many years subsequent. A varied assortment of vegetable-based dishes therefore became the central point of Korean cuisine, even after the reemergence of meat in the culture.",
           "rrf_score": 0.016129032258064516,
           "ce_score": -4.042280197143555
@@ -262,24 +262,24 @@
     {
       "query_id": "q_008",
       "query": "In Korean culture, what are the four big family celebrations where food plays an integral part?",
-      "response": "The four big family celebrations in Korea where food plays an integral part are coming-of-age, wedding, funeral, and ancestral rite.",
+      "response": "coming-of-age, wedding, funeral and ancestral rite",
       "retrieved_context": [
-        {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_2",
-          "text": "Before the divide of north and south in 1948, Korea was divided into eight provinces, and although there were commonalities between them, they also each had their own particular taste preferences and environmental conditions suited to the production of specific ingredients. Food is an important part of Korean culture, and plays an integral part in the four big family celebrations: coming-of-age, wedding, funeral and ancestral rite. In each of these, specific recipes are displayed in particular spatial and temporal patterns, all of which carry deep spiritual significance to the celebration.",
-          "rrf_score": 0.03333333333333333,
-          "ce_score": 9.253900527954102
-        },
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_2",
           "text": "Before the divide of north and south in 1948, Korea was divided into eight provinces, and although there were commonalities between them, they also each had their own particular taste preferences and environmental conditions suited to the production of specific ingredients. Food is an important part of Korean culture, and plays an integral part in the four big family celebrations: coming-of-age, wedding, funeral and ancestral rite. In each of these, specific recipes are displayed in particular spatial and temporal patterns, all of which carry deep spiritual significance to the celebration.",
-          "rrf_score": 0.03252247488101534,
+          "rrf_score": 0.03279569892473118,
+          "ce_score": 9.253900527954102
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_2",
+          "text": "Before the divide of north and south in 1948, Korea was divided into eight provinces, and although there were commonalities between them, they also each had their own particular taste preferences and environmental conditions suited to the production of specific ingredients. Food is an important part of Korean culture, and plays an integral part in the four big family celebrations: coming-of-age, wedding, funeral and ancestral rite. In each of these, specific recipes are displayed in particular spatial and temporal patterns, all of which carry deep spiritual significance to the celebration.",
+          "rrf_score": 0.03279569892473118,
           "ce_score": 9.253900527954102
         },
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_2",
           "text": "Before the divide of north and south in 1948, Korea was divided into eight provinces, and although there were commonalities between them, they also each had their own particular taste preferences and environmental conditions suited to the production of specific ingredients. Food is an important part of Korean culture, and plays an integral part in the four big family celebrations: coming-of-age, wedding, funeral and ancestral rite. In each of these, specific recipes are displayed in particular spatial and temporal patterns, all of which carry deep spiritual significance to the celebration.",
-          "rrf_score": 0.03252247488101534,
+          "rrf_score": 0.03278688524590164,
           "ce_score": 9.253900527954102
         },
         {
@@ -289,7 +289,7 @@
           "ce_score": 4.207998275756836
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_3",
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_3",
           "text": "In each of these, specific recipes are displayed in particular spatial and temporal patterns, all of which carry deep spiritual significance to the celebration. Korean culture also carries a great weight of rules of etiquette around eating: for example, that the elders of the family must be served and must eat first, with conversation generally discouraged; and one should not lift the bowl or plate from the table while eating.",
           "rrf_score": 0.015625,
           "ce_score": -0.08707213401794434
@@ -299,7 +299,7 @@
     {
       "query_id": "q_009",
       "query": "What is the predominant source of food for the Yamis and Thao indigenous tribes in Taiwan?",
-      "response": "The predominant source of food for the Yamis and Thao indigenous tribes in Taiwan is fish.",
+      "response": "fish",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Taiwanese_cuisine_chunk_24",
@@ -336,7 +336,7 @@
     {
       "query_id": "q_010",
       "query": "What do the Chinese words 'la' and 'mian' literally mean in the context of the noodle dish Lamian?",
-      "response": "The literal meanings of \"la\" () and \"mian\" () in the context of the noodle dish Lamian are:\n\n1. La (): This word translates to \"to pull or stretch\" in English. In the context of Lamian, it refers to the process of making",
+      "response": "We need to answer: \"What do the Chinese words 'la' and 'mian' literally mean in the context of the noodle dish Lamian?\" According to context: \"Literally, ,  (l) means to pull or stretch, while ,  (min) means noodle.\" So answer: \"pull or stretch\" and \"noodle\". Must extract exact keywords or short phrases from context. So answer: \"to pull or stretch\" and \"noodle\". Must not write full sentences. Probably list them separated by commas? The instruction: \"Extract Extract",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Chinese_Islamic_cuisine_chunk_10",
@@ -351,29 +351,29 @@
           "ce_score": 2.512650489807129
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Chinese_Indonesian_cuisine_chunk_2",
-          "text": "Also mi or mie ( 麵 ) signify noodle as in mie goreng (\"fried noodle\"). Most of these loanwords for food dishes and their ingredients are Hokkien in origin and are used throughout the Indonesian language and vernacular speech of large cities. Because they have become an integral part of the local language, many Indonesians and ethnic Chinese do not recognize their Hokkien origins. Some of popular Indonesian dishes such as nasi goreng , mie goreng, bihun, kwetiau, lumpia and bakpia can trace their origin to Chinese influence. Some food and ingredients are part of the daily diet of both the indigenous and ethnic Chinese populations as side dishes to accompany rice, the staple food of most of the country.",
-          "rrf_score": 0.031009615384615385,
-          "ce_score": -0.043603137135505676
+          "doc_id": "https://en.wikipedia.org/wiki/Uyghur_cuisine_chunk_7",
+          "text": "Guests are greeted with tea, nan , pastries, and fruits before the main dishes are ready. [ citation needed ]\n\nA common Uyghur dish is läghmän ( Uyghur : لەڭمەن , ләғмән ; Chinese : 手拉麵 ; pinyin : shǒu lāmiàn ), boiled hand-pulled noodles made with wheat flour and eaten with säy , a stir-fried topping usually made with mutton, onions, peppers, tomatoes, and other seasonal vegetables. The dish was most likely derived from the Chinese lamian and adapted to create a distinctively Uyghur flavor. Naren chöp ( Uyghur : چۆپ نارىن ) is a different noodle dish that is topped with a thin sauce of lamb, onions, and carrot and seasoned with a large amount of black or white pepper .",
+          "rrf_score": 0.015384615384615385,
+          "ce_score": 1.5909732580184937
         },
         {
           "doc_id": "https://en.wikipedia.org/wiki/Indonesian_Chinese_cuisine_chunk_2",
           "text": "Also mi or mie ( 麵 ) signify noodle as in mie goreng (\"fried noodle\"). Most of these loanwords for food dishes and their ingredients are Hokkien in origin and are used throughout the Indonesian language and vernacular speech of large cities. Because they have become an integral part of the local language, many Indonesians and ethnic Chinese do not recognize their Hokkien origins. Some of popular Indonesian dishes such as nasi goreng , mie goreng, bihun, kwetiau, lumpia and bakpia can trace their origin to Chinese influence. Some food and ingredients are part of the daily diet of both the indigenous and ethnic Chinese populations as side dishes to accompany rice, the staple food of most of the country.",
-          "rrf_score": 0.030536130536130537,
+          "rrf_score": 0.031024531024531024,
           "ce_score": -0.043603137135505676
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Chinese_Indonesian_cuisine_chunk_1",
-          "text": "Chinese influences are evident in Indonesian food . The Chinese cooking style that has influenced Indonesian cuisine was mainly Hokkien cuisine . Popular Chinese Indonesian foods include bakmi , mie ayam , pangsit , bakso , lumpia , kwetiau goreng and mie goreng . Chinese culinary culture is particularly evident in Indonesian cuisine through the Hokkien, Hakka, and Cantonese loanwords used for various dishes. Words beginning with bak ( 肉 ) signify the presence of meat, e.g. bakpau (\" meat bun \"); words ending with cai ( 菜 ) signify vegetables, e.g. pecai (\" Chinese white cabbage \") and cap cai (\"mixed vegetables\"). Also mi or mie ( 麵 ) signify noodle as in mie goreng (\"fried noodle\").",
-          "rrf_score": 0.015873015873015872,
-          "ce_score": -1.949187159538269
+          "doc_id": "https://en.wikipedia.org/wiki/Chinese_Indonesian_cuisine_chunk_2",
+          "text": "Also mi or mie ( 麵 ) signify noodle as in mie goreng (\"fried noodle\"). Most of these loanwords for food dishes and their ingredients are Hokkien in origin and are used throughout the Indonesian language and vernacular speech of large cities. Because they have become an integral part of the local language, many Indonesians and ethnic Chinese do not recognize their Hokkien origins. Some of popular Indonesian dishes such as nasi goreng , mie goreng, bihun, kwetiau, lumpia and bakpia can trace their origin to Chinese influence. Some food and ingredients are part of the daily diet of both the indigenous and ethnic Chinese populations as side dishes to accompany rice, the staple food of most of the country.",
+          "rrf_score": 0.031009615384615385,
+          "ce_score": -0.043603137135505676
         }
       ]
     },
     {
       "query_id": "q_011",
       "query": "During which dynasty's court was Korean royal court cuisine traditionally consumed?",
-      "response": "The Korean royal court cuisine was traditionally consumed during the Joseon Dynasty.",
+      "response": "Joseon Dynasty",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Korean_royal_court_cuisine_chunk_0",
@@ -410,7 +410,7 @@
     {
       "query_id": "q_012",
       "query": "When did seafood start to become specialized delicacies in Hong Kong?",
-      "response": "Seafood started to become specialized delicacies in the 1960s.",
+      "response": "the 1960s",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_10",
@@ -437,17 +437,17 @@
           "ce_score": -0.24295586347579956
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/American_Chinese_cuisine_chunk_30",
-          "text": "Restaurants specializing in Cantonese, Sichuanese, Hunanese, Northern Chinese, Shanghainese, Taiwanese, and Hong Kong traditions are widely available, as are more specialized restaurants such as seafood restaurants, Hong Kong-style diners and cafes , also known as Cha chaan teng ( 茶餐廳 ; chácāntīng ), dim sum teahouses, and hot pot restaurants. Many Chinatown areas also feature Chinese bakeries , boba milk tea shops, roasted meat , vegetarian cuisine , and specialized dessert shops. However, one of the most common American Chinese dishes, Chop suey , is not widely available in San Francisco , and the area's chow mein is different from Midwestern chow mein. Chinese cuisine in Boston results from a combination of economic and regional factors, in association with the wide Chinese academic scene.",
-          "rrf_score": 0.015873015873015872,
-          "ce_score": -0.6677310466766357
+          "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_8",
+          "text": "On the other hand, most renowned chefs of Canton, now known as Guangzhou in pinyin romanisation, settled in Hong Kong to escape from Communist rule in mainland China . Prostitution and opium had by then long faded from the restaurant scene, and to survive, many restaurants started to tap into profitable new markets by offering yum cha and wedding banquets, which coincided with an increasing interest in Western fare by the Chinese in Hong Kong. Egg tarts and Hong Kong-style milk tea soon became part of Hong Kong's food culture. It could be argued that the seeds of Hong Kong society as understood today were not sown until 1949, and the cuisine of Hong Kong has its direct roots in this period.",
+          "rrf_score": 0.025478740668614087,
+          "ce_score": -0.5986090898513794
         }
       ]
     },
     {
       "query_id": "q_013",
       "query": "What traditional noodle dish from Beijing is described as having a \"strong feel of homely comfort food\"?",
-      "response": "Zhajiangmian",
+      "response": "zhajiangmian",
       "retrieved_context": [
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/65-northern-china/_chunk_23",
@@ -458,33 +458,33 @@
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/_chunk_23",
           "text": "These restaurants are usually very traditional, featuring grey brick walls decorated with the imperial red and gold colours and ancient, simple furniture. Diners can therefore step back in time to the Beijing of old, including feasting on traditional noodle fare. I loved the zhajiangmian – they were bursting with flavour but still with the strong feel of homely comfort food nestling underneath. Share on X (Opens in new window) X\n\nShare on Facebook (Opens in new window) Facebook",
-          "rrf_score": 0.03252247488101534,
+          "rrf_score": 0.03278688524590164,
           "ce_score": 6.049008369445801
         },
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/#comments_chunk_23",
           "text": "These restaurants are usually very traditional, featuring grey brick walls decorated with the imperial red and gold colours and ancient, simple furniture. Diners can therefore step back in time to the Beijing of old, including feasting on traditional noodle fare. I loved the zhajiangmian – they were bursting with flavour but still with the strong feel of homely comfort food nestling underneath. Share on X (Opens in new window) X\n\nShare on Facebook (Opens in new window) Facebook",
-          "rrf_score": 0.03252247488101534,
+          "rrf_score": 0.03225806451612903,
           "ce_score": 6.049008369445801
-        },
-        {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/#comments_chunk_22",
-          "text": "The dish is thought to have originated with the working classes of Northern China, as the strong taste of fermented soy bean paste meant that you would only need a small amount to make a big bowl of cheap noodles into a rich, filling and flavoursome meal. Noodles have been a staple in China for over 4000 years according to a 2005 report from a team of archaeologists, who found an earthenware bowl containing evidence of hand-pulled noodles. Zhajiangmian is particularly popular in Beijing, where there are entire restaurants exclusively dedicated to the dish. These restaurants are usually very traditional, featuring grey brick walls decorated with the imperial red and gold colours and ancient, simple furniture.",
-          "rrf_score": 0.015384615384615385,
-          "ce_score": 2.385067939758301
         },
         {
           "doc_id": "https://en.wikipedia.org/wiki/Beijing_cuisine_chunk_2",
           "text": "Therefore, it is sometimes difficult to determine the actual origin of a dish as the term \"Mandarin\" is generalised and refers not only to Beijing, but other provinces as well. However, some generalisation of Beijing cuisine can be characterised as follows: Foods that originated in Beijing are often snacks rather than main courses, and they are typically sold by small shops or street vendors. There is emphasis on dark soy paste, sesame paste, sesame oil and scallions, and fermented tofu is often served as a condiment. In terms of cooking techniques, methods relating to different ways of frying are often used. There is less emphasis on rice as an accompaniment as compared to many other regions in China, as local rice production in Beijing is limited by the relatively dry climate.",
-          "rrf_score": 0.028371628371628373,
+          "rrf_score": 0.028484848484848488,
           "ce_score": -0.8441104888916016
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Beijing_cuisine_chunk_0",
+          "text": "Beijing cuisine , also known as Jing cuisine , Mandarin cuisine and Peking cuisine and formerly as Beiping cuisine , is the local cuisine of Beijing , the national capital of China. As Beijing has been the capital of China for centuries, its cuisine is influenced by culinary traditions from all over China, but the style that has the greatest influence on Beijing cuisine is that of the eastern coastal province of Shandong . Beijing cuisine has itself, in turn, also greatly influenced other Chinese cuisines, particularly the cuisine of Liaoning , the Chinese imperial cuisine and the Chinese aristocrat cuisine .",
+          "rrf_score": 0.016666666666666666,
+          "ce_score": -1.3678152561187744
         }
       ]
     },
     {
       "query_id": "q_014",
       "query": "Who introduced shark's fin soup and edible bird's nest to China in the early Ming dynasty?",
-      "response": "Song Wusao and Wang Eryu",
+      "response": "Zheng He",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Chinese_imperial_cuisine_chunk_6",
@@ -501,7 +501,7 @@
         {
           "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_12",
           "text": "For the first time, many Hong Kong Chinese started to have the economic means to visit many Western restaurants of the domain of mainly wealthy expatriate Westerners such as Gaddi's of the Peninsula Hotel . During these years, there was great wealth growth from stock market investments, and one visible manifestation of the resultant nouveau riche mentality in 1970s Hong Kong were sayings such as \"mixing shark fin soup with rice\" ( Chinese : 魚翅撈飯 ; Cantonese Yale : Yùhchi Lōufaahn ). 1980–1990s: links with mainland China and Taiwan\n\nChina initiated the reform and opening up when Deng Xiaoping came to power after Mao Zedong died.",
-          "rrf_score": 0.028381642512077296,
+          "rrf_score": 0.02819138376017471,
           "ce_score": 0.35517895221710205
         },
         {
@@ -521,18 +521,18 @@
     {
       "query_id": "q_015",
       "query": "When was the Chinese practice of rice cultivation introduced to Southeast Asia and Nepal?",
-      "response": "The Chinese practice of rice cultivation was introduced to Southeast Asia and Nepal in the thirtieth century BC.",
+      "response": "in the thirtieth century BC",
       "retrieved_context": [
-        {
-          "doc_id": "https://en.wikipedia.org/wiki/Indian_Chinese_cuisine_chunk_13",
-          "text": "Similarly, Asia's southeast was historically populated by immigrants from both China and India, namely the Han and Tamil ethnic groups who joined scattered aboriginal societies. The influences of China and India can be detected in the cuisines of Southeast Asia , where the two culinary practices have been combined, adapted, and developed by generations of people. For example, the Chinese practice of rice cultivation was introduced to the regions of Southeast Asia and Nepal in the thirtieth century BC, where it has existed as an irreplaceable and undeniable staple ever since. Furthermore, now completely embedded within Southeast Asian culinary practices, Chinese cooking and eating implements such as spoons, chopsticks, and woks were other products which were introduced to the region.",
-          "rrf_score": 0.03306010928961749,
-          "ce_score": 7.249357223510742
-        },
         {
           "doc_id": "https://en.wikipedia.org/wiki/Indo-Chinese_cuisine_chunk_13",
           "text": "Similarly, Asia's southeast was historically populated by immigrants from both China and India, namely the Han and Tamil ethnic groups who joined scattered aboriginal societies. The influences of China and India can be detected in the cuisines of Southeast Asia , where the two culinary practices have been combined, adapted, and developed by generations of people. For example, the Chinese practice of rice cultivation was introduced to the regions of Southeast Asia and Nepal in the thirtieth century BC, where it has existed as an irreplaceable and undeniable staple ever since. Furthermore, now completely embedded within Southeast Asian culinary practices, Chinese cooking and eating implements such as spoons, chopsticks, and woks were other products which were introduced to the region.",
-          "rrf_score": 0.03306010928961749,
+          "rrf_score": 0.03333333333333333,
+          "ce_score": 7.249357223510742
+        },
+        {
+          "doc_id": "https://en.wikipedia.org/wiki/Indian_Chinese_cuisine_chunk_13",
+          "text": "Similarly, Asia's southeast was historically populated by immigrants from both China and India, namely the Han and Tamil ethnic groups who joined scattered aboriginal societies. The influences of China and India can be detected in the cuisines of Southeast Asia , where the two culinary practices have been combined, adapted, and developed by generations of people. For example, the Chinese practice of rice cultivation was introduced to the regions of Southeast Asia and Nepal in the thirtieth century BC, where it has existed as an irreplaceable and undeniable staple ever since. Furthermore, now completely embedded within Southeast Asian culinary practices, Chinese cooking and eating implements such as spoons, chopsticks, and woks were other products which were introduced to the region.",
+          "rrf_score": 0.03278688524590164,
           "ce_score": 7.249357223510742
         },
         {
@@ -548,9 +548,9 @@
           "ce_score": 0.3345131278038025
         },
         {
-          "doc_id": "https://en.wikipedia.org/wiki/Indo-Chinese_cuisine_chunk_14",
+          "doc_id": "https://en.wikipedia.org/wiki/Indian_Chinese_cuisine_chunk_14",
           "text": "Furthermore, now completely embedded within Southeast Asian culinary practices, Chinese cooking and eating implements such as spoons, chopsticks, and woks were other products which were introduced to the region. Evidence of Indian influence, in addition to religious philosophies and ancient architecture , can be found in the spices and flavours of Southeast Asian cooking. Curries —meat, fish, or vegetables cooked in a spiced sauce accompanied by rice or bread—originated on the Indian subcontinent, but have since diffused throughout Asia. Spices such as turmeric , coriander , pepper , brown mustard , and ginger are present in curries throughout Southeast Asia, though each country has adapted the practice to utilize their own regional ingredients as well.",
-          "rrf_score": 0.029116045245077504,
+          "rrf_score": 0.028949545078577336,
           "ce_score": 0.007731020450592041
         }
       ]
@@ -558,7 +558,7 @@
     {
       "query_id": "q_016",
       "query": "Which Mongol emperor banned Muslims and Jews from slaughtering animals using their own methods?",
-      "response": "Genghis Khan banned Muslims and Jews from slaughtering their animals using their own methods.",
+      "response": "Genghis Khan",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Chinese_Islamic_cuisine_chunk_2",
@@ -595,7 +595,7 @@
     {
       "query_id": "q_017",
       "query": "What perception do some pundits have regarding contemporary Hong Kong's culinary culture?",
-      "response": "Some pundits argue that contemporary Hong Kong's economy is heavily skewed towards real estate development and financial services.",
+      "response": "We need to answer based only on context, extracting exact keywords or short phrases. The question: \"What perception do some pundits have regarding contemporary Hong Kong's culinary culture?\" The context says: \"A common perception of Hong Kong's current culinary culture is one being in decline and resting on past laurels.\" Also earlier: \"many pundits argue that contemporary Hong Kong's economy is heavily skewed...\" but that's economy. The perception about culinary culture: \"one being in decline and resting on past laurels.\" So answer: decline and resting on past laurels. Must be exact keywords or short phrases from exactly",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_19",
@@ -632,13 +632,19 @@
     {
       "query_id": "q_018",
       "query": "Why are noodles more commonly consumed in Northern China according to the \"rice theory\"?",
-      "response": "Because noodles are more consumed in Northern China because they have historically been more cultivated there.",
+      "response": "We need to answer based only on context. The question: \"Why are noodles more commonly consumed in Northern China according to the 'rice theory'?\" The context includes: \"In addition, the 'rice theory' attempts to describe cultural differences between north and south China; in the north, noodles are more consumed due to wheat being widely grown whereas in the south, rice is more preferred as it has historically been more cultivated there.\" So answer: wheat being widely grown. Must extract exact keywords or short phrases. So answer: wheat being widely grown. Or \"wheat being widely grown\". Provide exactly that phrase. No extra.",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Chinese_cuisine_chunk_19",
           "text": "Based on the raw materials and ingredients used, the method of preparation and cultural differences, a variety of foods with different flavors and textures are prepared in different regions of the country. Many traditional regional cuisines rely on basic methods of preservation such as drying , salting , pickling and fermentation . In addition, the \"rice theory\" attempts to describe cultural differences between north and south China; in the north, noodles are more consumed due to wheat being widely grown whereas in the south, rice is more preferred as it has historically been more cultivated there. Chinese ancestors successfully planted millet , rice , and other grains about 8,000 to 9,000 years ago. Wheat , another staple, took another three or four thousand years.",
           "rrf_score": 0.03333333333333333,
           "ce_score": 5.812220573425293
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/#comments_chunk_22",
+          "text": "The dish is thought to have originated with the working classes of Northern China, as the strong taste of fermented soy bean paste meant that you would only need a small amount to make a big bowl of cheap noodles into a rich, filling and flavoursome meal. Noodles have been a staple in China for over 4000 years according to a 2005 report from a team of archaeologists, who found an earthenware bowl containing evidence of hand-pulled noodles. Zhajiangmian is particularly popular in Beijing, where there are entire restaurants exclusively dedicated to the dish. These restaurants are usually very traditional, featuring grey brick walls decorated with the imperial red and gold colours and ancient, simple furniture.",
+          "rrf_score": 0.03177805800756621,
+          "ce_score": 2.143660068511963
         },
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/_chunk_22",
@@ -649,13 +655,7 @@
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/65-northern-china/_chunk_22",
           "text": "The dish is thought to have originated with the working classes of Northern China, as the strong taste of fermented soy bean paste meant that you would only need a small amount to make a big bowl of cheap noodles into a rich, filling and flavoursome meal. Noodles have been a staple in China for over 4000 years according to a 2005 report from a team of archaeologists, who found an earthenware bowl containing evidence of hand-pulled noodles. Zhajiangmian is particularly popular in Beijing, where there are entire restaurants exclusively dedicated to the dish. These restaurants are usually very traditional, featuring grey brick walls decorated with the imperial red and gold colours and ancient, simple furniture.",
-          "rrf_score": 0.031544957774465976,
-          "ce_score": 2.143660068511963
-        },
-        {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/09/06/65-northern-china/#comments_chunk_22",
-          "text": "The dish is thought to have originated with the working classes of Northern China, as the strong taste of fermented soy bean paste meant that you would only need a small amount to make a big bowl of cheap noodles into a rich, filling and flavoursome meal. Noodles have been a staple in China for over 4000 years according to a 2005 report from a team of archaeologists, who found an earthenware bowl containing evidence of hand-pulled noodles. Zhajiangmian is particularly popular in Beijing, where there are entire restaurants exclusively dedicated to the dish. These restaurants are usually very traditional, featuring grey brick walls decorated with the imperial red and gold colours and ancient, simple furniture.",
-          "rrf_score": 0.03125763125763126,
+          "rrf_score": 0.031024531024531024,
           "ce_score": 2.143660068511963
         },
         {
@@ -669,7 +669,7 @@
     {
       "query_id": "q_019",
       "query": "What is the Japanese term used to describe the emphasis on the seasonality of food?",
-      "response": "Seasonality",
+      "response": "shun",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Japanese_cuisine_chunk_21",
@@ -706,7 +706,7 @@
     {
       "query_id": "q_020",
       "query": "Who were the sura sanggung in the Korean royal court and what was their role regarding the king's food?",
-      "response": "The sura sanggung in the Korean royal court were three palace servant women known as sura sanggung (). Their role was to remove bowl covers and offer the foods to the king and queen after ensuring that the dishes were not poisoned.",
+      "response": "We need to answer: \"Who were the sura sanggung in the Korean royal court and what was their role regarding the king's food?\" Must extract exact keywords or short phrases from context. No full sentences. Must be English only, no non-English characters. Provide only exact keywords/short phrases. Likely answer: \"three palace servant women\" and \"remove bowl covers and offer the foods to the king and queen after ensuring that the dishes were not poisoned\". But need to extract exact phrases from context. Let's locate in context: \"Each had their own set of tables and were attended by three palace servant servant",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Korean_royal_court_cuisine_chunk_7",
@@ -743,7 +743,7 @@
     {
       "query_id": "q_021",
       "query": "Which Chinese cooking implements were introduced to Southeast Asia and are now embedded in their culinary practices?",
-      "response": "Spoons, chopsticks, and woks.",
+      "response": "spoons, chopsticks, woks",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Indo-Chinese_cuisine_chunk_14",
@@ -780,7 +780,7 @@
     {
       "query_id": "q_022",
       "query": "In the Joseon period, which board was responsible for attaining rice for the royal family?",
-      "response": "The Board of Personnel (Ijo, ) was responsible for attaining rice for the royal family in the Joseon period.",
+      "response": "Board of Personnel ( I",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_77",
@@ -817,7 +817,7 @@
     {
       "query_id": "q_023",
       "query": "In which city in Northern England did salt and pepper chips originate?",
-      "response": "In Northern England, particularly Liverpool, salt and pepper chips originated.",
+      "response": "Liverpool",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/British_Chinese_cuisine_chunk_6",
@@ -840,7 +840,7 @@
         {
           "doc_id": "https://en.wikipedia.org/wiki/History_of_Chinese_cuisine_chunk_15",
           "text": "Salt was used as a preservative from early times, but in cooking was added in the form of soy sauce, and not at the table. Southern and Northern dynasties\n\nDuring the Northern and Southern dynasties non-Han people like the Xianbei of Northern Wei introduced their cuisine to northern China, and these influences continued up to the Tang dynasty , popularizing meat like mutton and dairy products like goat milk, yogurts, and kumis among even Han people. It was during the Song dynasty that Han Chinese developed an aversion to dairy products and abandoned the dairy foods introduced earlier.",
-          "rrf_score": 0.02900988017658188,
+          "rrf_score": 0.028790389395194696,
           "ce_score": -7.526237487792969
         },
         {
@@ -854,7 +854,7 @@
     {
       "query_id": "q_024",
       "query": "What does the Korean term 'naengmyeon' literally mean?",
-      "response": "The literal translation of \"naengmyeon\" in Korean is \"\" which translates to \"cold noodles.\"",
+      "response": "We need to answer: \"What does the Korean term 'naengmyeon' literally mean?\" According to context: \"Naengmyeon (Korean: ), also known as naeng-myeon, naengmyun, or naeng-myun, meaning 'cold noodles') is a tangy Korean noodle dish...\" So literal meaning: \"cold noodles\". Must extract exact keywords or short phrases from context. The phrase \"meaning 'cold noodles'\" is present. So answer: cold noodles. Must not write full sentences, just the phrase. So answer::",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikibooks.org/wiki/Cookbook:Naengmyeon_chunk_0",
@@ -863,35 +863,35 @@
           "ce_score": 6.613344192504883
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_22",
+          "doc_id": "https://en.wikipedia.org/wiki/Korean_regional_cuisine_chunk_9",
+          "text": "Naengmyeon consists of thin and chewy buckwheat noodles in cold broth mixed with a meat broth, and dongchimi (watery kimchi) topped with a slice of sweet Korean pear . Pyongyang naengmyeon was originally eaten at homes built with ondol (traditional underfloor heating ) during the cold winter, so is also humorously called \"Pyongyang deoldeori\" (shivering in Pyongyang). Pyongyang locals sometimes enjoyed it as a haejangguk which is any type of food eaten as a hangover cure— commonly in the form of a warm soup. Another representative Pyongyang dish is Taedonggang sungeoguk , meaning \"trout soup from the Taedong River \". It is made with trout , which are abundant in the Taedong River, along with black peppercorns and salt. It is served as a courtesy to important guests visiting Pyongyang.",
+          "rrf_score": 0.015625,
+          "ce_score": 3.8718454837799072
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_22",
           "text": "Naengmyeon is thought to have originated in North Korea, but after the Korean War, spread in popularity to the south as well. There are two main varieties of naengmyeon: bibim naengmyeon, served in a spicy chilli broth, and mul naengmyeon, served in a mild meat-based broth. I made mul naengmyeon, originating from Pyongyang, the capital of North Korea, first simmering beef in water and spices for several hours to make the stock, then cooling and adding slices of beef, cucumber, nashi pear, shitake mushrooms and a boiled egg. This delicious dish has recently taken centre stage in acts of diplomacy, as it was given as a gift from Kim Jong-un to Moon Jae-in during the first meeting between the leaders of North and South Korea early in 2018.",
           "rrf_score": 0.01639344262295082,
           "ce_score": 2.433886766433716
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_22",
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_22",
           "text": "Naengmyeon is thought to have originated in North Korea, but after the Korean War, spread in popularity to the south as well. There are two main varieties of naengmyeon: bibim naengmyeon, served in a spicy chilli broth, and mul naengmyeon, served in a mild meat-based broth. I made mul naengmyeon, originating from Pyongyang, the capital of North Korea, first simmering beef in water and spices for several hours to make the stock, then cooling and adding slices of beef, cucumber, nashi pear, shitake mushrooms and a boiled egg. This delicious dish has recently taken centre stage in acts of diplomacy, as it was given as a gift from Kim Jong-un to Moon Jae-in during the first meeting between the leaders of North and South Korea early in 2018.",
           "rrf_score": 0.016129032258064516,
           "ce_score": 2.433886766433716
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_22",
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_22",
           "text": "Naengmyeon is thought to have originated in North Korea, but after the Korean War, spread in popularity to the south as well. There are two main varieties of naengmyeon: bibim naengmyeon, served in a spicy chilli broth, and mul naengmyeon, served in a mild meat-based broth. I made mul naengmyeon, originating from Pyongyang, the capital of North Korea, first simmering beef in water and spices for several hours to make the stock, then cooling and adding slices of beef, cucumber, nashi pear, shitake mushrooms and a boiled egg. This delicious dish has recently taken centre stage in acts of diplomacy, as it was given as a gift from Kim Jong-un to Moon Jae-in during the first meeting between the leaders of North and South Korea early in 2018.",
           "rrf_score": 0.015873015873015872,
           "ce_score": 2.433886766433716
-        },
-        {
-          "doc_id": "https://en.wikipedia.org/wiki/Korean_cuisine_chunk_51",
-          "text": "[ citation needed ]\n\nAll Korean traditional nonalcoholic beverages are referred to as eumcheong or eumcheongnyu (음청류 飮 淸 類 ) which literally means \"clear beverages\". According to historical documents regarding Korean cuisine, 193 items of eumcheongnyu are recorded. Eumcheongnyu can be divided into the following categories: tea , hwachae (fruit punch), sikhye (sweet rice drink), sujeonggwa (persimmon punch), tang (탕, boiled water), jang (장, fermented grain juice with a sour taste), suksu (숙수, beverage made of herbs), galsu (갈수, drink made of fruit extract, and Oriental medicine), honeyed water, juice and milk by their ingredient materials and preparation methods.",
-          "rrf_score": 0.026875901875901876,
-          "ce_score": 0.1407914161682129
         }
       ]
     },
     {
       "query_id": "q_025",
       "query": "What major food crop was introduced to China during the Yuan dynasty through contacts with the West?",
-      "response": "Sorghum was introduced to China during the Yuan dynasty through contacts with the West.",
+      "response": "sorghum",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/History_of_Chinese_cuisine_chunk_40",
@@ -928,7 +928,7 @@
     {
       "query_id": "q_026",
       "query": "What are the most significant ingredients for which Tan family's cuisine is famous?",
-      "response": "The most significant ingredient for which Tan family's cuisine is famous is shark fin.",
+      "response": "We need to extract exact keywords or short phrases from context. The question: \"What are the most significant ingredients for which Tan family's cuisine is famous?\" The context says: \"Tan family's cuisine is famous for shark fin, abalone , and sea cucumbers.\" So answer: shark fin, abalone, sea cucumbers. Must be exact keywords or short phrases, no full sentences. Probably list them separated by commas? The instruction: \"Extract ONLY the exact keywords or short phrases from the Context to answer the Question. Do NOT write full sentences.\" So we can output: shark fin, abalone, sea cucumbers?",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Chinese_aristocrat_cuisine_chunk_14",
@@ -965,16 +965,10 @@
     {
       "query_id": "q_027",
       "query": "Approximately how much kimchi is consumed annually in modern South Korea?",
-      "response": "Approximately 2 million tonnes of kimchi is consumed annually in modern South Korea.",
+      "response": "We need to extract exact keywords or short phrases from context. The question: \"Approximately how much kimchi is consumed annually in modern South Korea?\" The context says: \"over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person)\". So answer: \"over 2 million tonnes\". Must be exact phrase from context. The phrase \"over 2 million tonnes\" appears. Could also be \"over 2 million tonnes of kimchi\". But we need to answer the question: approximate amount. The exact phrase: \"over 2 million tonnes\". That's a the",
       "retrieved_context": [
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_11",
-          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut.",
-          "rrf_score": 0.03131881575727918,
-          "ce_score": 8.48891830444336
-        },
-        {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_11",
           "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut.",
           "rrf_score": 0.03115942028985507,
           "ce_score": 8.48891830444336
@@ -982,19 +976,25 @@
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_11",
           "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut.",
-          "rrf_score": 0.030834914611005692,
+          "rrf_score": 0.031099324975891997,
           "ce_score": 8.48891830444336
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_12",
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/#comments_chunk_11",
+          "text": "One simply cannot discuss Korean cuisine without mentioning the indisputable national food: kimchi. Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut.",
+          "rrf_score": 0.031054405392392875,
+          "ce_score": 8.48891830444336
+        },
+        {
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2018/10/30/71-korea/_chunk_12",
           "text": "Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air.",
-          "rrf_score": 0.031746031746031744,
+          "rrf_score": 0.03149801587301587,
           "ce_score": 8.343779563903809
         },
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/71-korea/_chunk_12",
           "text": "Dating back to the transition between BC and AD, over 2 million tonnes of kimchi is eaten every year in modern South Korea alone (around 18kg per person), and regular consumption of the food was considered so important to Koreans that millions of dollars were spent on the development of a special kimchi, which was designed to better survive the conditions of interplanetary travel, and was indeed eaten in space by a South Korean astronaut. A South Korean president once famously said that on an international trip he was missing kimchi more than his wife, and a national tragedy emerged from a 2010 cabbage crop failure, when kimchi prices rose by 400%, bankrupting families who, of course, couldn’t just stop eating the food in the same way they couldn’t very well stop breathing air.",
-          "rrf_score": 0.03125,
+          "rrf_score": 0.03125763125763126,
           "ce_score": 8.343779563903809
         }
       ]
@@ -1002,7 +1002,7 @@
     {
       "query_id": "q_028",
       "query": "When did air-conditioned supermarkets become standardized in Hong Kong?",
-      "response": "The air-conditioned supermarkets did not become standardized until the 1980s.",
+      "response": "the 1980s",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Hong_Kong_cuisine_chunk_23",
@@ -1076,7 +1076,7 @@
     {
       "query_id": "q_030",
       "query": "Which ingredient is mentioned as providing a \"numbing\" sensation in the mouth when eating spicy food?",
-      "response": "Mapo tofu",
+      "response": "We need to answer based on context, extract exact keywords or short phrases. The question: \"Which ingredient is mentioned as providing a 'numbing' sensation in the mouth when eating spicy food?\" The context mentions Sichuan pepper (Szechuan pepper) causing numbness. So answer: Sichuan pepper (or Szechuan pepper). Must be exact phrase from context. The context includes \"Sichuan (Szechuan) pepper (  ; hujio ; 'flower pepper'), which has an intense, fragrant citruslike taste and produces a notably distinct 'numbingly spicy' ( ?",
       "retrieved_context": [
         {
           "doc_id": "https://en.wikipedia.org/wiki/Sichuan_cuisine_chunk_10",
@@ -1091,19 +1091,19 @@
           "ce_score": 3.2894182205200195
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2017/09/30/32-southern-china/_chunk_14",
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/32-southern-china/_chunk_14",
           "text": "The Sichuan province is located in south western China, and is renowned for its strong, spicy food. One of the most famous flavours from this region is Sichuan pepper, which is a husk from a type of plant that is actually more related to the citrus family than chilli or black pepper, and is famous for causing a tingling, numbing sensation in the mouth, followed by extreme heat. Sichuan chilli chicken, also sometimes called kung pan chicken, is a stir-fry dish where chicken cubes are first coated in Sichuan pepper and five spice, then rolled in corn flour. This process ensures the chicken is tasty, and nicely browned and a little crispy on the outside. These are then flash fried in a wok along with garlic, ginger, dried whole chillies, peanuts, as well as Chinese rice wine and soy sauce.",
-          "rrf_score": 0.02964254577157803,
+          "rrf_score": 0.029827662395050816,
           "ce_score": 2.7883880138397217
         },
         {
           "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2017/09/30/32-southern-china/#respond_chunk_14",
           "text": "The Sichuan province is located in south western China, and is renowned for its strong, spicy food. One of the most famous flavours from this region is Sichuan pepper, which is a husk from a type of plant that is actually more related to the citrus family than chilli or black pepper, and is famous for causing a tingling, numbing sensation in the mouth, followed by extreme heat. Sichuan chilli chicken, also sometimes called kung pan chicken, is a stir-fry dish where chicken cubes are first coated in Sichuan pepper and five spice, then rolled in corn flour. This process ensures the chicken is tasty, and nicely browned and a little crispy on the outside. These are then flash fried in a wok along with garlic, ginger, dried whole chillies, peanuts, as well as Chinese rice wine and soy sauce.",
-          "rrf_score": 0.029571646010002173,
+          "rrf_score": 0.029386529386529386,
           "ce_score": 2.7883880138397217
         },
         {
-          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/category/32-southern-china/_chunk_14",
+          "doc_id": "https://aroundtheworldin80cuisinesblog.wordpress.com/2017/09/30/32-southern-china/_chunk_14",
           "text": "The Sichuan province is located in south western China, and is renowned for its strong, spicy food. One of the most famous flavours from this region is Sichuan pepper, which is a husk from a type of plant that is actually more related to the citrus family than chilli or black pepper, and is famous for causing a tingling, numbing sensation in the mouth, followed by extreme heat. Sichuan chilli chicken, also sometimes called kung pan chicken, is a stir-fry dish where chicken cubes are first coated in Sichuan pepper and five spice, then rolled in corn flour. This process ensures the chicken is tasty, and nicely browned and a little crispy on the outside. These are then flash fried in a wok along with garlic, ginger, dried whole chillies, peanuts, as well as Chinese rice wine and soy sauce.",
           "rrf_score": 0.028958333333333336,
           "ce_score": 2.7883880138397217

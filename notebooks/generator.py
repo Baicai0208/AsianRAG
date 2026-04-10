@@ -65,19 +65,25 @@ def _build_prompt_and_messages(query, retrieved_chunks):
     context = "\n---\n".join([c["text"] for c in filtered])
 
     user_msg = (
-        "You are an expert culinary assistant specialized in East Asian cuisine.\n"
-        "Answer the question based ONLY on the provided context. "
-        "If the answer is not in the context, say 'I do not know'.\n"
-        "You are a strict data extractor. Extract ONLY the exact keywords or short phrases from the Context to answer the Question."
-        "Do NOT write full sentences. Do NOT explain"
-        "Always respond in English only. "
-        "Do not use any Chinese, Korean, Japanese, or other non-English characters.\n\n"
+        "You are an East Asian culinary expert.\n"
+        "Please provide a complete, natural, and helpful answer to the question below.\n\n"
+        "RULES for answering:\n"
+        "1. Base your answer STRICTLY and ONLY on the provided context to prevent hallucinations.\n"
+        "2. Do NOT include any outside knowledge, assumptions, or extra information not found in the context.\n"
+        "3. If the provided context does not contain the answer, you MUST say exactly 'I do not know' and nothing else.\n"
+        "4. Respond directly to the user. Do not include your internal reasoning or say 'Based on the context...' — just give the answer naturally.\n"
+        "5. Respond in English only.\n\n"
         f"{confidence_note}"
         f"Context:\n{context}\n\n"
-        f"Question: {query}\nAnswer:"
+        f"Question: {query}\n"
+        f"Answer:"
     )
 
-    system_msg = "You are a helpful and precise culinary assistant."
+    system_msg = (
+        "You are a knowledgeable East Asian culinary expert. "
+        "Provide complete, natural answers based exclusively on the provided context. "
+        "Never hallucinate or add outside information."
+    )
     return system_msg, user_msg
 
 
@@ -162,7 +168,7 @@ class OpenRouterGenerator:
         self,
         model_id="openai/gpt-4o-mini",
         api_key=None,
-        max_tokens=128,
+        max_tokens=256,
         temperature=0.0,
     ):
         self.model_id = model_id
