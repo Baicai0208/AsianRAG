@@ -182,7 +182,7 @@ if __name__ == "__main__":
 
     # 从模型 ID 中提取短名称用于文件名 (e.g. "openai/gpt-4o-mini" → "gpt-4o-mini")
     if args.api_model:
-        model_short = args.api_model.rsplit("/", 1)[-1]
+        model_short = args.api_model.rsplit("/", 1)[-1].split(":", 1)[0]
     elif args.backend == "local":
         model_short = "qwen2.5-0.5b"
     else:
