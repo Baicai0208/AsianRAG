@@ -3,17 +3,17 @@ pipeline.py — RAG 推理主流程
 
 用法：
   # 评测模式（跑 benchmark）
-  python pipeline.py --strategy sentence
+  python pipeline.py
 
   # 生产模式（跑自定义输入）
-  python pipeline.py --strategy paragraph --mode production \
+  python pipeline.py --mode production \
       --input ../outputs/input_payload.json \
       --output ../outputs/output_payload.json
 
   # 手动指定索引路径（不依赖 strategy 目录结构）
   python pipeline.py \
-      --index_path  ../data/vector_store/sentence/vector_store.index \
-      --metadata_path ../data/vector_store/sentence/chunk_metadata.json
+      --index_path  ../data/vector_store/semantic/vector_store.index \
+      --metadata_path ../data/vector_store/semantic/chunk_metadata.json
 """
 
 import gc
@@ -120,18 +120,12 @@ class RAGInferencePipeline:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="RAG Inference Pipeline")
 
-    parser.add_argument(
-        "--strategy",
-        default="sentence",
-        choices=["fixed_size", "sentence", "paragraph"],
-        help="使用哪种 chunking 策略对应的向量索引",
-    )
     parser.add_argument("--index_path",    default=None, help="手动指定 FAISS 索引路径")
     parser.add_argument("--metadata_path", default=None, help="手动指定 chunk metadata 路径")
     parser.add_argument(
         "--vector_store_base",
         default="../data/vector_store",
-        help="向量索引的父目录（各策略在其子目录下）",
+        help="向量索引的父目录（semantic 子目录下）",
     )
     parser.add_argument(
         "--mode",
@@ -177,8 +171,8 @@ if __name__ == "__main__":
         index_path    = args.index_path
         metadata_path = args.metadata_path
     else:
-        index_path    = f"{args.vector_store_base}/{args.strategy}/vector_store.index"
-        metadata_path = f"{args.vector_store_base}/{args.strategy}/chunk_metadata.json"
+        index_path    = f"{args.vector_store_base}/semantic/vector_store.index"
+        metadata_path = f"{args.vector_store_base}/semantic/chunk_metadata.json"
 
     # 从模型 ID 中提取短名称用于文件名 (e.g. "openai/gpt-4o-mini" → "gpt-4o-mini")
     if args.api_model:
@@ -191,14 +185,14 @@ if __name__ == "__main__":
     if args.output:
         output_path = args.output
     elif args.mode == "benchmark":
-        output_path = f"../outputs/{args.strategy}/benchmark_output_{model_short}.json"
+        output_path = f"../outputs/semantic/benchmark_output_{model_short}.json"
     else:
-        output_path = f"../outputs/{args.strategy}/output_payload_{model_short}.json"
+        output_path = f"../outputs/semantic/output_payload_{model_short}.json"
 
     # 自动创建输出子目录
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    print(f"策略:     {args.strategy}")
+    print(f"策略:     semantic (语义分块)")
     print(f"嵌入模型: {EMBED_MODEL}")
     print(f"生成后端: {args.backend}")
     if args.api_model:

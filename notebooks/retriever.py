@@ -123,12 +123,6 @@ class Retriever:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Test Retriever")
     parser.add_argument(
-        "--strategy",
-        default="sentence",
-        choices=["fixed_size", "sentence", "paragraph", "semantic"],
-        help="使用哪种 chunking 策略对应的向量索引",
-    )
-    parser.add_argument(
         "--vector_store_base",
         default="../data/vector_store",
         help="向量索引的父目录",
@@ -141,8 +135,8 @@ if __name__ == "__main__":
     parser.add_argument("--top_k", type=int, default=5)
     args = parser.parse_args()
 
-    index_path    = f"{args.vector_store_base}/{args.strategy}/vector_store.index"
-    metadata_path = f"{args.vector_store_base}/{args.strategy}/chunk_metadata.json"
+    index_path    = f"{args.vector_store_base}/semantic/vector_store.index"
+    metadata_path = f"{args.vector_store_base}/semantic/chunk_metadata.json"
 
     retriever = Retriever(index_path, metadata_path)
     chunks = retriever.search(args.query, top_k=args.top_k)

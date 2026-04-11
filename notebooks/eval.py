@@ -149,16 +149,64 @@ class RAGEvaluator:
 
 
 if __name__ == "__main__":
+    import argparse
+    import os
+
+    parser = argparse.ArgumentParser(description="RAG Evaluation — 检索 & 生成质量评估")
+    parser.add_argument(
+        "--inference",
+        default=None,
+        help="推理输出文件路径（默认: 自动扫描 ../outputs/semantic/ 下最新的 benchmark_output_*.json）",
+    )
+    parser.add_argument(
+        "--benchmark",
+        default="../data/benchmark/rag_benchmark_dataset.json",
+        help="评测集路径",
+    )
+    parser.add_argument(
+        "--output",
+        default=None,
+        help="指标输出路径（JSON），留空则不保存",
+    )
+    args = parser.parse_args()
+
+    # 自动发现最新的推理输出文件
+    if args.inference:
+        inference_path = args.inference
+    else:
+        output_dir = os.path.join(os.path.dirname(__file__), "..", "outputs", "semantic")
+        output_dir = os.path.normpath(output_dir)
+        if os.path.isdir(output_dir):
+            candidates = [
+                f for f in os.listdir(output_dir)
+                if f.startswith("benchmark_output_") and f.endswith(".json")
+            ]
+            if candidates:
+                # 按修改时间取最新
+                candidates.sort(
+                    key=lambda f: os.path.getmtime(os.path.join(output_dir, f)),
+                    reverse=True,
+                )
+                inference_path = os.path.join(output_dir, candidates[0])
+                print(f"[Eval] 自动发现推理输出: {inference_path}")
+            else:
+                print(f"[Eval] ⚠️  在 {output_dir} 下未找到 benchmark_output_*.json，请用 --inference 指定路径")
+                exit(1)
+        else:
+            print(f"[Eval] ⚠️  目录 {output_dir} 不存在，请先运行 pipeline.py 或用 --inference 指定路径")
+            exit(1)
+
     evaluator = RAGEvaluator()
 
     report = evaluator.evaluate(
-        inference_output_path="../outputs/benchmark_output_sentence.json",
-        benchmark_path="../data/benchmark/rag_benchmark_dataset.json",
+        inference_output_path=inference_path,
+        benchmark_path=args.benchmark,
     )
 
     print("\n" + "=" * 35)
     print("Final Evaluation Report")
     print("-" * 35)
+    print(f"Inference File    : {os.path.basename(inference_path)}")
     print(f"Evaluated Samples : {report['evaluated_samples']}")
     print(f"Missing  Samples  : {report['missing_samples']}")
     print()
@@ -184,3 +232,11 @@ if __name__ == "__main__":
             print(f"Generated  : {r['generated']}")
             print(f"Gold       : {r['gold']}")
             print("-" * 35)
+
+    # 保存指标到 JSON
+    if args.output:
+        os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
+        metrics = {k: v for k, v in report.items() if k != "detailed_results"}
+        with open(args.output, "w", encoding="utf-8") as f:
+            json.dump(metrics, f, ensure_ascii=False, indent=2)
+        print(f"\n📊 指标已保存 → {args.output}")

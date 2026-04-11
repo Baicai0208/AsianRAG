@@ -8,9 +8,8 @@ embedding.py — 向量化 & 构建 FAISS 索引
   - normalize_embeddings=True + IndexFlatIP = 余弦相似度检索
 
 用法：
-  python embedding.py                              # 默认用 sentence 策略
-  python embedding.py --strategy paragraph         # 指定策略
-  python embedding.py --strategy all               # 依次构建全部三种策略的索引
+  python embedding.py                              # 构建 semantic 策略的索引
+  python embedding.py --corpus_base ../data/corpus  # 指定语料目录
 """
 
 import json
@@ -20,26 +19,25 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 
-STRATEGIES  = ["fixed_size", "sentence", "paragraph"]
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
 
-def build_index(strategy: str, corpus_base: str, vector_store_base: str):
-    """对指定策略的 chunked_corpus.json 构建 FAISS 索引。"""
+def build_index(corpus_base: str, vector_store_base: str):
+    """对 semantic chunking 的 chunked_corpus.json 构建 FAISS 索引。"""
 
-    corpus_path = os.path.join(corpus_base, strategy, "chunked_corpus.json")
-    output_dir  = os.path.join(vector_store_base, strategy)
+    corpus_path = os.path.join(corpus_base, "semantic", "chunked_corpus.json")
+    output_dir  = os.path.join(vector_store_base, "semantic")
 
     if not os.path.exists(corpus_path):
-        print(f"[{strategy}] ⚠️  找不到 {corpus_path}，跳过。请先运行 chunking.py --strategy {strategy}")
+        print(f"⚠️  找不到 {corpus_path}，请先运行 chunking.py")
         return
 
-    print(f"\n[{strategy}] 读取语料库: {corpus_path}")
+    print(f"读取语料库: {corpus_path}")
     with open(corpus_path, "r", encoding="utf-8") as f:
         chunks = json.load(f)
 
     texts = [chunk["text"] for chunk in chunks]
-    print(f"[{strategy}] 共 {len(texts)} 个 chunks，开始编码（模型: {EMBED_MODEL}）...")
+    print(f"共 {len(texts)} 个 chunks，开始编码（模型: {EMBED_MODEL}）...")
 
     # BGE passage 编码：不加前缀，normalize_embeddings=True
     model = SentenceTransformer(EMBED_MODEL)
@@ -64,33 +62,24 @@ def build_index(strategy: str, corpus_base: str, vector_store_base: str):
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(chunks, f, ensure_ascii=False)
 
-    print(f"[{strategy}] ✅ 索引已保存 → {output_dir}")
-    print(f"           index:    {index_path}")
-    print(f"           metadata: {metadata_path}")
+    print(f"✅ 索引已保存 → {output_dir}")
+    print(f"   index:    {index_path}")
+    print(f"   metadata: {metadata_path}")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Build FAISS vector store for each chunking strategy")
-    parser.add_argument(
-        "--strategy",
-        default="sentence",
-        choices=STRATEGIES + ["all"],
-        help="指定要向量化的策略，'all' 依次处理全部三种",
-    )
+    parser = argparse.ArgumentParser(description="Build FAISS vector store for semantic chunks")
     parser.add_argument(
         "--corpus_base",
         default="../data/corpus",
-        help="chunked_corpus.json 所在的父目录（各策略在其子目录下）",
+        help="chunked_corpus.json 所在的父目录（semantic 子目录下）",
     )
     parser.add_argument(
         "--vector_store_base",
         default="../data/vector_store",
-        help="FAISS 索引的输出父目录（各策略在其子目录下）",
+        help="FAISS 索引的输出父目录（semantic 子目录下）",
     )
     args = parser.parse_args()
 
-    targets = STRATEGIES if args.strategy == "all" else [args.strategy]
-    for s in targets:
-        build_index(s, args.corpus_base, args.vector_store_base)
-
+    build_index(args.corpus_base, args.vector_store_base)
     print("\n✅ 全部完成。")

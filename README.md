@@ -22,33 +22,23 @@ rag_project/
 ├── data/
 │   ├── corpus/
 │   │   ├── east_asian_corpus.json              # Deliverable 1 – raw scraped corpus
-│   │   ├── fixed_size/chunked_corpus.json      # Chunked with fixed-size strategy
-│   │   ├── sentence/chunked_corpus.json        # Chunked with sentence strategy
-│   │   └── paragraph/chunked_corpus.json       # Chunked with paragraph strategy
+│   │   └── semantic/chunked_corpus.json        # Chunked with semantic strategy
 │   ├── benchmark/
 │   │   └── rag_benchmark_dataset.json          # Deliverable 2 – Q&A benchmark
 │   └── vector_store/
-│       ├── fixed_size/                         # FAISS index for fixed-size chunks
-│       │   ├── vector_store.index
-│       │   └── chunk_metadata.json
-│       ├── sentence/                           # FAISS index for sentence chunks
-│       │   ├── vector_store.index
-│       │   └── chunk_metadata.json
-│       └── paragraph/                          # FAISS index for paragraph chunks
+│       └── semantic/                           # FAISS index for semantic chunks
 │           ├── vector_store.index
 │           └── chunk_metadata.json
 ├── outputs/
 │   ├── input_payload.json                      # Sample input payload
 │   ├── output_payload.json                     # Sample output payload
-│   ├── benchmark_output.json                   # Benchmark results (sentence strategy)
-│   ├── benchmark_output_fixed_size.json        # Benchmark results (fixed-size strategy)
-│   ├── benchmark_output_paragraph.json         # Benchmark results (paragraph strategy)
+│   ├── semantic/benchmark_output_*.json        # Benchmark results
 │   ├── evaluation_metrics.json                 # Aggregated metrics
 │   └── evaluation_detailed.json                # Per-sample evaluation results
 └── notebooks/
     ├── build_corpus.py                         # Phase A – corpus builder
     ├── construct_benchmark.py                  # Phase A – benchmark helper
-    ├── chunking.py                             # Component 1 – Chunking
+    ├── chunking.py                             # Component 1 – Semantic Chunking
     ├── embedding.py                            # Component 2 – Vectorisation
     ├── retriever.py                            # Component 3 – Retrieval
     ├── generator.py                            # Component 4 – Generation (local + OpenRouter)
@@ -103,51 +93,42 @@ Output: `data/benchmark/chunks_for_prompt.txt`
 
 All scripts below should be run from inside the `notebooks/` directory.
 
-### Component 1 – Chunking (`chunking.py`)
+### Component 1 – Semantic Chunking (`chunking.py`)
 
-Implements three text chunking strategies. All strategies preserve `source` and `chunk_id` metadata alongside the chunk text.
+Implements a semantic chunking strategy that splits documents at points where the topic shifts, rather than at fixed character or word boundaries. This produces chunks where each chunk is a semantically coherent unit, improving retrieval quality. The `source` and `chunk_id` metadata are preserved alongside the chunk text.
 
-**Strategy 1 – Fixed Size** (`chunk_fixed_size`): Splits text into overlapping windows of a fixed word count. A configurable overlap between consecutive windows preserves cross-boundary context.
+**Algorithm:**
 
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `chunk_size` | 200 | Number of words per chunk |
-| `overlap` | 30 | Word overlap between consecutive chunks |
-
-**Strategy 2 – Sentence** (`chunk_sentence`): Accumulates sentences until a character limit is reached, then starts a new chunk. A configurable number of trailing sentences are carried over into the next chunk as overlap.
-
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `max_chars` | 800 | Maximum characters per chunk |
-| `overlap_sentences` | 1 | Number of sentences to carry over |
-
-**Strategy 3 – Paragraph** (`chunk_paragraph`): Splits on double newlines. Short paragraphs below a minimum character threshold are merged with subsequent paragraphs. Oversized paragraphs that exceed the character limit fall back to the sentence strategy for further subdivision.
+1. Split each document into sentences using regex-based sentence boundary detection.
+2. Encode every sentence using `BAAI/bge-small-en-v1.5` to obtain a dense embedding.
+3. Compute the cosine similarity between each pair of adjacent sentence embeddings.
+4. Convert similarities to distances (`1 - similarity`) and apply a percentile-based dynamic threshold to identify semantic breakpoints — positions where the topic changes most sharply.
+5. Split the sentence sequence at these breakpoints to form raw chunks.
+6. Post-process: merge chunks shorter than `min_chars` with their neighbours; subdivide chunks longer than `max_chars` at sentence boundaries.
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `max_chars` | 1200 | Maximum characters per chunk |
-| `min_chars` | 100 | Minimum paragraph size before merging |
+| `breakpoint_percentile` | 85 | Semantic distance percentile threshold. Higher = fewer, larger chunks. Lower = more, smaller chunks. |
+| `max_chars` | 1500 | Maximum characters per chunk; oversized chunks are subdivided at sentence boundaries |
+| `min_chars` | 100 | Minimum characters per chunk; undersized chunks are merged with neighbours |
 
 ```bash
-python chunking.py                       # default: sentence strategy
-python chunking.py --strategy fixed_size
-python chunking.py --strategy paragraph
-python chunking.py --strategy all        # builds all three strategies
+python chunking.py                                  # default parameters
+python chunking.py --breakpoint_percentile 80        # more aggressive splitting
+python chunking.py --max_chars 1200 --min_chars 150  # tighter length constraints
 ```
 
-Each strategy outputs its chunks to a subdirectory under `data/corpus/`.
+Output: `data/corpus/semantic/chunked_corpus.json`
 
 ### Component 2 – Vectorisation (`embedding.py`)
 
-Encodes all chunks using `BAAI/bge-small-en-v1.5` with `normalize_embeddings=True`, then builds a FAISS `IndexFlatIP` index. Because embeddings are L2-normalised, inner product is equivalent to cosine similarity, so higher scores indicate closer matches.
+Encodes all semantic chunks using `BAAI/bge-small-en-v1.5` with `normalize_embeddings=True`, then builds a FAISS `IndexFlatIP` index. Because embeddings are L2-normalised, inner product is equivalent to cosine similarity, so higher scores indicate closer matches.
 
 ```bash
-python embedding.py                       # default: sentence strategy
-python embedding.py --strategy paragraph
-python embedding.py --strategy all        # builds indexes for all three strategies
+python embedding.py
 ```
 
-Output per strategy: `data/vector_store/{strategy}/vector_store.index` and `chunk_metadata.json`.
+Output: `data/vector_store/semantic/vector_store.index` and `chunk_metadata.json`.
 
 ### Component 3 – Retrieval (`retriever.py`)
 
@@ -163,8 +144,8 @@ Both the embedding model and cross-encoder run on CPU, reserving GPU memory for 
 
 ```python
 retriever = Retriever(
-    "../data/vector_store/sentence/vector_store.index",
-    "../data/vector_store/sentence/chunk_metadata.json",
+    "../data/vector_store/semantic/vector_store.index",
+    "../data/vector_store/semantic/chunk_metadata.json",
 )
 chunks = retriever.search("What is wok hei?", top_k=5)
 # Each result: {"doc_id": ..., "text": ..., "rrf_score": ..., "ce_score": ...}
@@ -213,14 +194,53 @@ Hit detection uses a dual strategy: it first checks for an exact `chunk_id` matc
 | BERTScore F1 | Semantic similarity using contextual embeddings (`lang="en"`) |
 
 ```bash
-python eval.py
+python eval.py                                                # 自动扫描 outputs/semantic/ 下最新的推理输出
+python eval.py --inference ../outputs/semantic/benchmark_output_gpt-4o-mini.json  # 指定文件
+python eval.py --output ../outputs/evaluation_metrics.json    # 保存指标为 JSON
 ```
 
-The script reads from `outputs/benchmark_output_fixed_size.json` and `data/benchmark/rag_benchmark_dataset.json` by default. Edit the `__main__` block to point at a different output file. Missing queries (present in the benchmark but absent from the output) are flagged individually.
+By default, the script automatically discovers the most recent `benchmark_output_*.json` file under `outputs/semantic/`. A specific file can be passed via the `--inference` flag. Missing queries (present in the benchmark but absent from the output) are flagged individually.
+
+| Argument | Default | Description |
+|----------|---------|-------------|
+| `--inference` | auto-discover | Path to inference output JSON |
+| `--benchmark` | `../data/benchmark/rag_benchmark_dataset.json` | Path to benchmark file |
+| `--output` | none | If set, saves aggregated metrics to this JSON path |
 
 ---
 
-## Running the Inference Pipeline
+## Running the Pipeline
+
+### One-click script (`inference.sh`)
+
+`inference.sh` is the recommended way to run the pipeline. It executes inference followed by automatic evaluation in a single command.
+
+```bash
+./inference.sh                            # 推理 + 自动评估
+./inference.sh --no_eval                  # 只推理，不评估
+./inference.sh --eval_only                # 只评估（跳过推理，使用最新输出）
+./inference.sh --eval_output metrics.json # 评估结果保存为 JSON
+```
+
+#### `inference.sh` CLI reference
+
+| Argument | Default | Description |
+|----------|---------|-------------|
+| `--top_k` | `5` | Number of chunks passed to the generator |
+| `--backend` | `openrouter` | Generator backend: `local` or `openrouter` |
+| `--api_model` | from `.env` | OpenRouter model ID |
+| `--api_key` | from `.env` | OpenRouter API key |
+| `--mode` | `benchmark` | `benchmark` or `production` |
+| `--benchmark` | `../data/benchmark/rag_benchmark_dataset.json` | Path to benchmark file |
+| `--input` | `../outputs/input_payload.json` | Path to production input file |
+| `--output` | auto-derived | Path to write inference results |
+| `--no_eval` | — | Skip evaluation after inference |
+| `--eval_only` | — | Skip inference, run evaluation on latest output |
+| `--eval_output` | — | Save evaluation metrics to this JSON path |
+
+---
+
+### Running `pipeline.py` directly
 
 `pipeline.py` wires all five components into a single end-to-end pipeline. It supports two modes and two generator backends.
 
@@ -230,26 +250,24 @@ The script reads from `outputs/benchmark_output_fixed_size.json` and `data/bench
 cd rag_project/notebooks
 
 # Using local model (default)
-python pipeline.py --strategy sentence
-python pipeline.py --strategy fixed_size
-python pipeline.py --strategy paragraph
+python pipeline.py
 
 # Using OpenRouter API
-python pipeline.py --strategy sentence --backend openrouter --api_model openai/gpt-4o-mini
+python pipeline.py --backend openrouter --api_model openai/gpt-4o-mini
 ```
 
-Reads the benchmark dataset, runs inference without exposing gold answers to the model, and writes results to `outputs/benchmark_output_{strategy}.json`.
+Reads the benchmark dataset, runs inference without exposing gold answers to the model, and writes results to `outputs/semantic/benchmark_output_{model}.json`.
 
 ### Production mode (arbitrary queries)
 
 ```bash
 # Local model
-python pipeline.py --strategy sentence --mode production \
+python pipeline.py --mode production \
     --input ../outputs/input_payload.json \
     --output ../outputs/output_payload.json
 
 # OpenRouter API
-python pipeline.py --strategy sentence --mode production \
+python pipeline.py --mode production \
     --backend openrouter --api_model google/gemini-2.0-flash-001 \
     --input ../outputs/input_payload.json \
     --output ../outputs/output_payload.json
@@ -290,17 +308,16 @@ python pipeline.py --strategy sentence --mode production \
 
 ```bash
 python pipeline.py \
-    --index_path  ../data/vector_store/sentence/vector_store.index \
-    --metadata_path ../data/vector_store/sentence/chunk_metadata.json
+    --index_path  ../data/vector_store/semantic/vector_store.index \
+    --metadata_path ../data/vector_store/semantic/chunk_metadata.json
 ```
 
-When `--index_path` and `--metadata_path` are both provided, the `--strategy` argument is ignored.
+When `--index_path` and `--metadata_path` are both provided, the default index path is overridden.
 
 ### CLI reference
 
 | Argument | Default | Description |
 |----------|---------|-------------|
-| `--strategy` | `sentence` | Chunking strategy index to use (`fixed_size`, `sentence`, `paragraph`) |
 | `--mode` | `benchmark` | `benchmark` or `production` |
 | `--top_k` | `5` | Number of chunks passed to the generator (course requirement: at most 5) |
 | `--backend` | `local` | Generator backend: `local` (HuggingFace) or `openrouter` (API) |
@@ -342,8 +359,21 @@ Priority: CLI flag > `.env` file / environment variable.
 
 ## Evaluating Results
 
+Evaluation runs automatically when using `inference.sh` in benchmark mode. To run manually:
+
 ```bash
+cd rag_project/notebooks
+
+# Auto-discover latest output
 python eval.py
+
+# Specify a file and save metrics
+python eval.py --inference ../outputs/semantic/benchmark_output_gpt-4o-mini.json \
+               --output ../outputs/evaluation_metrics.json
+
+# Or use the shell script
+./inference.sh --eval_only
+./inference.sh --eval_only --eval_output ../outputs/evaluation_metrics.json
 ```
 
 Sample output:
@@ -351,6 +381,7 @@ Sample output:
 ===================================
 Final Evaluation Report
 -----------------------------------
+Inference File    : benchmark_output_gpt-4o-mini.json
 Evaluated Samples : 30
 Missing  Samples  : 0
 
